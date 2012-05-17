@@ -1,0 +1,13 @@
+.bwa-label {
+  margin-right: 5px;
+}
+
+.badge-important {
+  background-color: #b94a48;
+}
+
+.bwa-neat, .bwa-count {
+  font-size: 32px;
+  line-height: 55px;
+  text-transform: uppercase;
+}

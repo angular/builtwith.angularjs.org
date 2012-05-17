@@ -1,0 +1,24 @@
+{
+  "featured": "SnarkHunter",
+  "projects": [
+    {
+      "name": "SnarkHunter",
+      "thumb": "img/content/snarkhunter/thumb.png",
+      "desc": "Real-time location-based updates from hunters of the elusive creature, powered by angular and firebase. Developed by @elmerfudd and designed by @tex.avery.",
+      "tags": [
+        "CRUD",
+        "Business",
+        "Ice Cream"
+      ]
+    },
+    {
+      "name": "pouch.sg",
+      "thumb": "img/content/pouchsg/thumb.png",
+      "desc": "Real-time location-based updates from hunters of the elusive creature, powered by angular and firebase. Developed by @elmerfudd and designed by @tex.avery.",
+      "tags": [
+        "CRUD",
+        "Business"
+      ]
+    }
+  ]
+}
