@@ -202,10 +202,32 @@
 
     <div class="spacer"></div>
 
+    <!-- Search -->
     <div class="row">
-      <div class="span12">
-        <form class="well form-search">
-          <input type="text" class="input-medium search-query" ng-model="query" ng-change="search()">
+      <div class="span12 well">
+        <form class="form-inline">
+          <input type="text" class="input-medium search-query" placeholder="Search" ng-model="query" ng-change="search()">
+          <div class="btn-group" style="display: inline-block;">
+            <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+              Tags
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <!-- dropdown menu links -->
+              <li ng-show="tags.length == 0">
+                <a href="#tag">No tags left!</a>
+              </li>
+              <li ng-repeat="tag in tags">
+                <a href="#tag" ng-click="addTag()">{{tag}}</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- active tags -->
+          <span class="label label-important bwa-label" ng-repeat="tag in activeTags" ng-click="removeTag()">
+            {{tag}} <i class="icon-remove-sign"></i>
+          </span>
+
         </form>
       </div>
     </div>
