@@ -187,7 +187,7 @@
           <img class="AngularJS-large" src="img/AngularJS-large.png" style="width: 270px; height: 70px;">
           <hr>
           
-          <p class="bwa-neat"><span class="badge badge-important bwa-count">{{numberOfProjects}}</span> Neat things made with Angular</p>
+          <p class="bwa-neat"><span class="badge badge-important bwa-count">{{projects.length}}</span> Neat things made with Angular</p>
         </div>
         <hr>
         <p>
@@ -202,8 +202,18 @@
 
     <div class="spacer"></div>
 
+    <div class="row">
+      <div class="span12">
+        <form class="well form-search">
+          <input type="text" class="input-medium search-query" ng-model="query" ng-change="search()">
+        </form>
+      </div>
+    </div>
+
+    <div class="spacer"></div>
+
     <!-- repeat on rows -->
-    <div class="row" ng-repeat="projectCol in projects">
+    <div class="row" ng-repeat="projectCol in groupedProjects">
       <div class="span6" ng-repeat="project in projectCol">
         <div class= "well">
           <img alt="{{project.name}} screenshot" src="{{project.thumb}}">
@@ -273,7 +283,7 @@
     <style type="text/css" id="todo.css">
       .done-true {
         text-decoration: line-through;
-        color: grey;
+        color: gray;
       }
     </style>
     <script id="todo.js">
