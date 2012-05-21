@@ -73,20 +73,20 @@ function BWAController ($scope, $http, $filter) {
       }
     });
     return ret;
-  }
+  };
 
   $scope.search = function () {
     $scope.filteredProjects = $filter('orderBy')($filter('filter')($scope.projects, function (project) {
       return (searchMatch(project.desc, $scope.query) || searchMatch(project.name, $scope.query)) &&
         hasAllTags(project.tags, $scope.activeTags);
     }), $scope.sortPrep);
+
+    $scope.currentPage = 0;
     $scope.group();
   };
 
   // re-calculate groupedProjects in place 
   $scope.group = function () {
-
-    // TODO: malicious edge cases (?)
 
     $scope.groupedProjects.length = Math.ceil($scope.filteredProjects.length / num);
 
@@ -100,6 +100,25 @@ function BWAController ($scope, $http, $filter) {
 
     if ($scope.filteredProjects.length % num !== 0) {
       $scope.groupedProjects[$scope.groupedProjects.length - 1].length = num - ($scope.filteredProjects.length % num);
+    }
+
+    $scope.groupToPages();
+  };
+
+  var itemsPerPage = 5;
+  $scope.pagedProjects = [];
+  $scope.currentPage = 0;
+
+  // calc pages in place
+  $scope.groupToPages = function () {
+    $scope.pagedProjects = [];
+
+    for (var i = 0; i < $scope.groupedProjects.length; i++) {
+      if (i % itemsPerPage === 0) {
+        $scope.pagedProjects[Math.floor(i / itemsPerPage)] = [ $scope.groupedProjects[i] ];
+      } else {
+        $scope.pagedProjects[Math.floor(i / itemsPerPage)].push($scope.groupedProjects[i]);
+      }
     }
   };
 
@@ -141,5 +160,29 @@ function BWAController ($scope, $http, $filter) {
     $scope.tags.sort();
     $scope.search();
   };
-  console.log($scope);
+
+  // like python's range fn
+  $scope.range = function (start, end) {
+    var ret = [];
+    if (!end) {
+      end = start;
+      start = 0;
+    }
+    for (var i = start; i < end; i++) {
+      ret.push(i);
+    }
+    return ret;
+  };
+
+  $scope.prev = function () {
+    if ($scope.currentPage > 0) {
+      $scope.currentPage--;
+    }
+  };
+
+  $scope.next = function () {
+    if ($scope.currentPage < $scope.pagedProjects.length - 1) {
+      $scope.currentPage++;
+    }
+  };
 };
