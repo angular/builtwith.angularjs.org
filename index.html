@@ -168,13 +168,11 @@
       <div class="span8">
         <div class="well">
 
-          <img alt="SnarkHunter screenshot" src="img/content/snarkhunter/thumb.png">
+          <img alt="{{featured.name}} screenshot" src="{{featured.thumb}}">
           <h1>Featured</h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
-          </p>
+          <p>{{featured.desc}}</p>
+          <p>Submitted by {{featured.submitter}} {{featured.submissionDate}}</p>
+          <span class="label label-important bwa-label" ng-repeat="tag in featured.tags" ng-click="addTag()">{{tag}}</span>
         </div>
       </div>
       <div class="span4">
