@@ -254,15 +254,15 @@
       <div class="pagination">
         <ul>
           <li ng-class="{disabled: currentPage == 0}">
-            <a href="#prev" ng-click="prev()">« Prev</a>
+            <a href="#prev" ng-click="prevPage()">« Prev</a>
           </li>
           <li ng-repeat="n in range(pagedProjects.length)"
             ng-class="{active: n == currentPage}"
-            ng-click="$parent.currentPage = n">
+            ng-click="setPage()">
             <a href="#{{n}}">{{n + 1}}</a>
           </li>
           <li ng-class="{disabled: currentPage == pagedProjects.length - 1}">
-            <a href="#next" ng-click="next()">Next »</a>
+            <a href="#next" ng-click="nextPage()">Next »</a>
           </li>
         </ul>
       </div>

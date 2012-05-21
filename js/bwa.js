@@ -174,15 +174,19 @@ function BWAController ($scope, $http, $filter) {
     return ret;
   };
 
-  $scope.prev = function () {
+  $scope.prevPage = function () {
     if ($scope.currentPage > 0) {
       $scope.currentPage--;
     }
   };
 
-  $scope.next = function () {
+  $scope.nextPage = function () {
     if ($scope.currentPage < $scope.pagedProjects.length - 1) {
       $scope.currentPage++;
     }
+  };
+
+  $scope.setPage = function () {
+    $scope.currentPage = this.n;
   };
 };
