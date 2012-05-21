@@ -213,7 +213,6 @@
               <span class="caret"></span>
             </a>
             <ul class="dropdown-menu">
-              <!-- dropdown menu links -->
               <li ng-show="tags.length == 0">
                 <a href="#tag">No tags left!</a>
               </li>
@@ -228,6 +227,8 @@
             {{tag}} <i class="icon-remove-sign"></i>
           </span>
 
+          Sort
+          <select ng-options="p.val as p.label for p in sortables" class="input-medium" ng-model="sortPrep" ng-change="search()"></select>
         </form>
       </div>
     </div>
@@ -241,8 +242,8 @@
           <img alt="{{project.name}} screenshot" src="{{project.thumb}}">
           <h3>{{project.name}}</h3>
           <p>{{project.desc}}</p>
-          <p>Submitted by j.atwood 18 days ago</p>
-          <span class="label label-important bwa-label" ng-repeat="tag in project.tags">{{tag}}</span>
+          <p>Submitted by {{project.submitter}} {{project.submissionDate}}</p>
+          <span class="label label-important bwa-label" ng-repeat="tag in project.tags" ng-click="addTag()">{{tag}}</span>
         </div>
       </div>
     </div>

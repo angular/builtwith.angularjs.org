@@ -1,10 +1,12 @@
 {
-  "featured": "SnarkHunter",
+  "featured": "pouch.sg",
   "projects": [
     {
       "name": "SnarkHunter",
       "thumb": "img/content/snarkhunter/thumb.png",
-      "desc": "Real-time location-based updates from hunters of the elusive creature, powered by angular and firebase. Developed by @elmerfudd and designed by @tex.avery.",
+      "desc": "A Real-time location-based updates from hunters of the elusive creature, powered by angular and firebase. Developed by @elmerfudd and designed by @tex.avery.",
+      "submitter": "j.atwood",
+      "submissionDate": "5/15/2012",
       "tags": [
         "CRUD",
         "Business",
@@ -14,7 +16,9 @@
     {
       "name": "pouch.sg",
       "thumb": "img/content/pouchsg/thumb.png",
-      "desc": "Real-time location-based updates from hunters of the elusive creature, powered by angular and firebase. Developed by @elmerfudd and designed by @tex.avery.",
+      "desc": "The Real-time location-based updates from hunters of the elusive creature, powered by angular and firebase. Developed by @elmerfudd and designed by @tex.avery.",
+      "submitter": "j.atwood",
+      "submissionDate": "12/20/2011",
       "tags": [
         "CRUD",
         "Business"

@@ -1,5 +1,21 @@
 
 function BWAController ($scope, $http, $filter) {
+  $scope.sortables = [
+    {
+      label: 'Name',
+      val: 'name'
+    },
+    {
+      label: 'Description',
+      val: 'desc'
+    },
+    {
+      label: 'Submitter',
+      val: 'submitter'
+    }
+  ];
+  $scope.sortPrep = 'name';
+
   $http({method: 'GET', url: 'projects.json'}).
     success(function (data, status, headers, config) {
 
@@ -30,7 +46,6 @@ function BWAController ($scope, $http, $filter) {
       });
 
       $scope.tags.sort();
-
       $scope.search();
     }).
     error(function (data, status, headers, config) {
@@ -61,10 +76,10 @@ function BWAController ($scope, $http, $filter) {
   }
 
   $scope.search = function () {
-    $scope.filteredProjects = $filter('filter')($scope.projects, function (project) {
+    $scope.filteredProjects = $filter('orderBy')($filter('filter')($scope.projects, function (project) {
       return (searchMatch(project.desc, $scope.query) || searchMatch(project.name, $scope.query)) &&
         hasAllTags(project.tags, $scope.activeTags);
-    });
+    }), $scope.sortPrep);
     $scope.group();
   };
 
@@ -90,6 +105,11 @@ function BWAController ($scope, $http, $filter) {
 
   $scope.addTag = function () {
     var tagName = this.tag;
+
+    // only allow tags to be added uniquely
+    if ($scope.activeTags.indexOf(tagName) !== -1) {
+      return;
+    }
 
     angular.forEach($scope.tags, function (tag, i) {
       if (i === 0 && tag === tagName) {
@@ -121,4 +141,5 @@ function BWAController ($scope, $http, $filter) {
     $scope.tags.sort();
     $scope.search();
   };
+  console.log($scope);
 };
