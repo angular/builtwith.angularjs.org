@@ -18,6 +18,15 @@
   vertical-align: bottom;
 }
 
+.bwa-btn-tags {
+  padding-top: 10px;
+}
+
+.bwa-select-sort {
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
 .bwa-img {
   width: 420px;
 }

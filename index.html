@@ -199,41 +199,42 @@
         <div class="center">
           <button class="btn-large btn-info">Submit an AngularJS app</button>
         </div>
-      </div>
-    </div>
 
-    <div class="spacer"></div>
+        <div class="spacer"></div>
 
-    <!-- Search -->
-    <div class="row">
-      <div class="span12 well">
-        <form class="form-inline">
-          <input type="text" class="input-medium search-query" placeholder="Search" ng-model="query" ng-change="search()">
-          <div class="btn-group bwa-btn-group">
-            <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
-              Tags
-              <span class="caret"></span>
-            </a>
-            <ul class="dropdown-menu">
-              <li ng-show="tags.length == 0">
-                <a href="#tag">No tags left!</a>
-              </li>
-              <li ng-repeat="tag in tags">
-                <a href="#tag" ng-click="addTag()">{{tag}}</a>
-              </li>
-            </ul>
+        <!-- Search -->
+        <form class="well">
+          <input type="text" class="input-large search-query" placeholder="Search" ng-model="query" ng-change="search()">
+
+          <div class="bwa-btn-tags">
+            <div class="btn-group bwa-btn-group">
+              <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+                Tags
+                <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li ng-show="tags.length == 0">
+                  <a href="#tag">No tags left!</a>
+                </li>
+                <li ng-repeat="tag in tags">
+                  <a href="#tag" ng-click="addTag()">{{tag}}</a>
+                </li>
+              </ul>
+            </div>
+
+            <!-- active tags -->
+            <span class="label label-important bwa-label" ng-repeat="tag in activeTags" ng-click="removeTag()">
+              {{tag}} <i class="icon-remove-sign"></i>
+            </span>
           </div>
 
-          <!-- active tags -->
-          <span class="label label-important bwa-label" ng-repeat="tag in activeTags" ng-click="removeTag()">
-            {{tag}} <i class="icon-remove-sign"></i>
-          </span>
-
-          Sort
-          <select ng-options="p.val as p.label for p in sortables" class="input-medium" ng-model="sortPrep" ng-change="search()"></select>
+          <select ng-options="p.val as p.label for p in sortables" class="input-medium bwa-select-sort" ng-model="sortPrep" ng-change="search()"></select>
         </form>
+
       </div>
     </div>
+
+
 
     <div class="spacer"></div>
 
