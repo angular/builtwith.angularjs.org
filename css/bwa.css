@@ -29,8 +29,14 @@
 
 .bwa-img {
   width: 420px;
+  height: 290px;
 }
 
 .bwa-featured-img {
   width: 580px;
+  height: 400px;
+}
+
+.bwa-project-well {
+  height: 460px;
 }

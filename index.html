@@ -167,7 +167,6 @@
     <div class="row first" style="padding-top: 60px;">
       <div class="span8">
         <div class="well">
-          <!-- TODO: images must be 580px wide here -->
           <a href="{{featured.link}}">
             <img alt="{{featured.name}} screenshot" class="bwa-featured-img" ng-src="{{featured.thumb}}">
           </a>
@@ -178,17 +177,11 @@
         </div>
       </div>
       <div class="span4">
-        <!-- TODO: is there a text-align:right class in Bootstrap? -->
-        <div style="text-align: right;">
-          <h1>built with</h1>
-        </div>
         <div class="center">
           <!-- TODO: make a properly sized image, remove style= hacks -->
-          <img class="AngularJS-large" src="img/AngularJS-large.png" style="width: 270px; height: 70px;">
-          <hr>
-          
           <p class="bwa-neat">
-            <span class="badge badge-important bwa-count">{{projects.length}}</span> Neat things made with Angular
+            <span class="badge badge-important bwa-count">{{projects.length}}</span> Neat things built with
+          <img class="AngularJS-large" src="img/AngularJS-large.png" style="width: 270px; height: 70px;">
           </p>
         </div>
         <hr>
@@ -197,7 +190,9 @@
           Inspect, learn, and make your own!
         </p>
         <div class="center">
-          <button class="btn-large btn-info">Submit an AngularJS app</button>
+          <a href="https://github.com/angular/built-with-angularjs">
+            <button class="btn-large btn-info">Submit an AngularJS app</button>
+          </a>
         </div>
 
         <div class="spacer"></div>
@@ -235,14 +230,11 @@
     </div>
 
 
-
     <div class="spacer"></div>
 
-    <!-- repeat on rows -->
     <div class="row" ng-repeat="projectCol in pagedProjects[currentPage]">
       <div class="span6" ng-repeat="project in projectCol">
-        <div class= "well">
-          <!-- TODO: images must be 420px wide here -->
+        <div class= "well bwa-project-well">
           <a href="{{project.link}}">
             <img alt="{{project.name}} screenshot"  class="bwa-img" ng-src="{{project.thumb}}">
           </a>
