@@ -168,7 +168,9 @@
       <div class="span8">
         <div class="well">
           <!-- TODO: images must be 580px wide here -->
-          <img alt="{{featured.name}} screenshot" class="bwa-featured-img" ng-src="{{featured.thumb}}">
+          <a href="{{featured.link}}">
+            <img alt="{{featured.name}} screenshot" class="bwa-featured-img" ng-src="{{featured.thumb}}">
+          </a>
           <h1>Featured</h1>
           <p>{{featured.desc}}</p>
           <p>Submitted by {{featured.submitter}} {{featured.submissionDate}}</p>
@@ -240,7 +242,9 @@
       <div class="span6" ng-repeat="project in projectCol">
         <div class= "well">
           <!-- TODO: images must be 420px wide here -->
-          <img alt="{{project.name}} screenshot"  class="bwa-img" ng-src="{{project.thumb}}">
+          <a href="{{project.link}}">
+            <img alt="{{project.name}} screenshot"  class="bwa-img" ng-src="{{project.thumb}}">
+          </a>
           <h3>{{project.name}}</h3>
           <p>{{project.desc}}</p>
           <p>Submitted by {{project.submitter}} {{project.submissionDate}}</p>

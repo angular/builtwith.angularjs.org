@@ -5,6 +5,7 @@
       "name": "SnarkHunter",
       "thumb": "img/content/snarkhunter/thumb.png",
       "desc": "A Real-time location-based updates from hunters of the elusive creature, powered by angular and firebase. Developed by @elmerfudd and designed by @tex.avery.",
+      "link": "http://www.dairyqueen.com/",
       "submitter": "j.atwood",
       "submissionDate": "5/15/2012",
       "tags": [
@@ -17,6 +18,7 @@
       "name": "pouch.sg",
       "thumb": "img/content/pouchsg/thumb.png",
       "desc": "The Real-time location-based updates from hunters of the elusive creature, powered by angular and firebase. Developed by @elmerfudd and designed by @tex.avery.",
+      "link": "http://pouch.sg",
       "submitter": "j.atwood",
       "submissionDate": "12/20/2011",
       "tags": [
