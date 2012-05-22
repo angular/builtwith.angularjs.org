@@ -158,7 +158,6 @@ function BWAController ($scope, $http, $filter) {
   // TODO: code duplicated here
   $scope.removeTag = function () {
     var tagName = this.tag;
-    console.log(tagName);
 
     angular.forEach($scope.activeTags, function (tag, i) {
       if (i === 0 && tag === tagName) {

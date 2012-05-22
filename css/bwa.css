@@ -14,5 +14,14 @@
 }
 
 .bwa-btn-group {
+  display: inline-block;
   vertical-align: bottom;
+}
+
+.bwa-img {
+  width: 420px;
+}
+
+.bwa-featured-img {
+  width: 580px;
 }
