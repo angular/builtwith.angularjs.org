@@ -168,7 +168,7 @@
       <div class="span8">
         <div class="well">
 
-          <img alt="{{featured.name}} screenshot" src="{{featured.thumb}}">
+          <img alt="{{featured.name}} screenshot" ng-src="{{featured.thumb}}">
           <h1>Featured</h1>
           <p>{{featured.desc}}</p>
           <p>Submitted by {{featured.submitter}} {{featured.submissionDate}}</p>
@@ -207,7 +207,7 @@
       <div class="span12 well">
         <form class="form-inline">
           <input type="text" class="input-medium search-query" placeholder="Search" ng-model="query" ng-change="search()">
-          <div class="btn-group" style="display: inline-block;">
+          <div class="btn-group bwa-btn-group" style="display: inline-block;">
             <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
               Tags
               <span class="caret"></span>
@@ -239,7 +239,7 @@
     <div class="row" ng-repeat="projectCol in pagedProjects[currentPage]">
       <div class="span6" ng-repeat="project in projectCol">
         <div class= "well">
-          <img alt="{{project.name}} screenshot" src="{{project.thumb}}">
+          <img alt="{{project.name}} screenshot" ng-src="{{project.thumb}}">
           <h3>{{project.name}}</h3>
           <p>{{project.desc}}</p>
           <p>Submitted by {{project.submitter}} {{project.submissionDate}}</p>

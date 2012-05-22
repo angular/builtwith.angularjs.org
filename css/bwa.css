@@ -12,3 +12,7 @@
   line-height: 55px;
   text-transform: uppercase;
 }
+
+.bwa-btn-group {
+  vertical-align: bottom;
+}

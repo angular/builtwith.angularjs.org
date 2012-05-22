@@ -2,6 +2,10 @@
 function BWAController ($scope, $http, $filter) {
   $scope.sortables = [
     {
+      label: 'Unsorted',
+      val: 'none'
+    },
+    {
       label: 'Name',
       val: 'name'
     },
@@ -14,7 +18,7 @@ function BWAController ($scope, $http, $filter) {
       val: 'submitter'
     }
   ];
-  $scope.sortPrep = 'name';
+  $scope.sortPrep = 'none';
 
   $http({method: 'GET', url: 'projects.json'}).
     success(function (data, status, headers, config) {
@@ -30,6 +34,10 @@ function BWAController ($scope, $http, $filter) {
           break;
         }
       }
+
+      $scope.projects.sort(function () {
+        return Math.random() - 0.5;
+      });
 
       $scope.tags = [];
       $scope.activeTags = [];
@@ -76,10 +84,14 @@ function BWAController ($scope, $http, $filter) {
   };
 
   $scope.search = function () {
-    $scope.filteredProjects = $filter('orderBy')($filter('filter')($scope.projects, function (project) {
+    $scope.filteredProjects = $filter('filter')($scope.projects, function (project) {
       return (searchMatch(project.desc, $scope.query) || searchMatch(project.name, $scope.query)) &&
         hasAllTags(project.tags, $scope.activeTags);
-    }), $scope.sortPrep);
+    });
+
+    if ($scope.sortPrep !== 'none') {
+      $scope.filteredProjects = $filter('orderBy')($scope.filteredProjects, $scope.sortPrep);
+    }
 
     $scope.currentPage = 0;
     $scope.group();
