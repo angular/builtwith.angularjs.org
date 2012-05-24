@@ -32,7 +32,7 @@ app.controller('BWAController', function ($scope, $http, $filter) {
   ];
   $scope.sortPrep = 'none';
 
-  $http({method: 'GET', url: 'projects.json'}).
+  $http.get('projects.json').
     success(function (data, status, headers, config) {
 
       $scope.projects = data.projects;
