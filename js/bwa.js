@@ -1,5 +1,17 @@
+var app = angular.module('bwaApp', []);
 
-function BWAController ($scope, $http, $filter) {
+app.directive('bwaProject', function() {
+  return {
+    restrict: 'E',
+    templateUrl: '/bwa-project.html',
+    scope: {
+      project: 'accessor',
+      addTag: 'accessor'
+    }
+  }
+});
+
+app.controller('BWAController', function ($scope, $http, $filter) {
   $scope.sortables = [
     {
       label: 'Unsorted',
@@ -134,8 +146,8 @@ function BWAController ($scope, $http, $filter) {
     }
   };
 
-  $scope.addTag = function () {
-    var tagName = this.tag;
+  $scope.addTag = function (tagName) {
+    tagName = tagName || this.tag;
 
     // only allow tags to be added uniquely
     if ($scope.activeTags.indexOf(tagName) !== -1) {
@@ -200,4 +212,4 @@ function BWAController ($scope, $http, $filter) {
   $scope.setPage = function () {
     $scope.currentPage = this.n;
   };
-};
+});

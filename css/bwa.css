@@ -1,3 +1,7 @@
+[ng-cloak] {
+  display: none;
+}
+
 .bwa-label {
   margin-right: 5px;
   cursor: pointer;
@@ -27,16 +31,43 @@
   margin-bottom: 0px;
 }
 
-.bwa-img {
-  width: 420px;
-  height: 290px;
-}
-
-.bwa-featured-img {
+.bwa-featured img {
   width: 580px;
   height: 400px;
 }
 
-.bwa-project-well {
+.bwa-main-container {
+  min-height: 1400px;
+}
+
+.bwa-featured .bwa-project-well {
+  height: 562px;
+}
+
+.bwa-projects .bwa-project-well {
   height: 460px;
+}
+
+.bwa-projects h2,
+.bwa-featured h2 {
+  margin-top: .5em;
+}
+
+.bwa-featured h2 {
+  font-size: 36px;
+}
+
+.bwa-projects img {
+  width: 420px;
+  height: 290px;
+}
+
+.bwa-spacer {
+  display: inline-block;
+  width: 6em;
+  height: 1.45em;
+}
+
+bwa-project {
+  display: block;
 }

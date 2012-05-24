@@ -27,6 +27,9 @@
     </script>
   <![endif]-->
   <script>
+
+    document.createElement('bwa-project');
+
     /*!
       * $script.js Async loader & dependency manager
       * https://github.com/ded/script.js
@@ -47,40 +50,11 @@
     $script("//platform.twitter.com/widgets.js");
 
     $script('http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js', function() {
-      $script('js/bootstrap.min.js', function() {
+      $script(['js/bootstrap.min.js', 'http://code.angularjs.org/angular-1.0.0rc10.js', 'js/bwa.js'], function() {
         $().dropdown();
-        bootstrap();
-      });
-      $script('google-code-prettify/prettify.min.js', bootstrap);
-      $script('js/homepage.js', bootstrap);
-      $script('http://code.angularjs.org/angular-1.0.0rc8.js', bootstrap);
-      $script('http://code.angularjs.org/angular-resource-1.0.0rc8.js', bootstrap);
-      $script('http://code.angularjs.org/1.0.0rc8/i18n-1.0.0rc8/angular-locale_sk.js', function() {
-        angular.module('ngLocal.sk', [])._invokeQueue.push(angular.module('ngLocale')._invokeQueue[0]);
-        bootstrap();
-      });
-      $script('http://code.angularjs.org/1.0.0rc8/i18n-1.0.0rc8/angular-locale_en-us.js', function() {
-        angular.module('ngLocal.us', [])._invokeQueue.push(angular.module('ngLocale')._invokeQueue[0]);
-        bootstrap();
+        angular.bootstrap(document, ['bwaApp']);
       });
     });
-
-    function bootstrap() {
-      if (window.prettyPrint && window.$ && $.fn.popover && angular.bootstrap &&
-          hasModule('ngLocal.sk') && hasModule('ngLocal.us') && hasModule('homepage') && hasModule('ngResource')) {
-            $(function(){
-              angular.bootstrap(document, ['homepage', 'ngLocal.us']);
-            });
-      }
-    }
-
-    function hasModule(moduleName) {
-      try {
-        return angular.module(moduleName);
-      } catch (e) {
-        return false;
-      }
-    }
   </script>
   <script>
     /*
@@ -91,8 +65,6 @@
     (function(i){'use strict';function d(c,b,e){return c[b]||(c[b]=e())}return d(d(i,"angular",Object),"module",function(){var c={};return function(b,e,f){e&&c.hasOwnProperty(b)&&(c[b]=null);return d(c,b,function(){function a(a,b,d){return function(){c[d||"push"]([a,b,arguments]);return g}}if(!e)throw Error("No module: "+b);var c=[],d=[],h=a("$injector","invoke"),g={_invokeQueue:c,_runBlocks:d,requires:e,name:b,provider:a("$provide","provider"),factory:a("$provide","factory"),service:a("$provide","service"),
       value:a("$provide","value"),constant:a("$provide","constant","unshift"),filter:a("$filterProvider","register"),controller:a("$controllerProvider","register"),directive:a("$compileProvider","directive"),config:h,run:function(a){d.push(a);return this}};f&&h(f);return g})}})})(window);
   </script>
-
-  <script src="js/bwa.js"></script>
 </head>
 <body>
   <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
@@ -162,29 +134,35 @@
     </div>
   </header>
 
-  <div role="main" class="container" ng-app ng-controller="BWAController" ng-cloak>
+  <div role="main" class="container bwa-main-container" ng-controller="BWAController">
 
-    <div class="row first" style="padding-top: 60px;">
+    <script type="text/ng-template" id="/bwa-project.html">
+      <div>
+        <a href="{{project().link}}">
+          <img alt="{{project().name}} screenshot"  class="bwa-img" ng-src="{{project().thumb}}">
+        </a>
+        <h2>{{project().name}}</h2>
+        <p>{{project().desc}}</p>
+        <p>Submitted by {{project().submitter}} {{project().submissionDate}}</p>
+        <span class="label label-important bwa-label" ng-repeat="tag in project().tags" ng-click="addTag()(tag)">{{tag}}</span>
+      </div>
+    </script>
+
+    <div class="row first bwa-featured" style="padding-top: 60px;">
       <div class="span8">
-        <div class="well">
-          <a href="{{featured.link}}">
-            <img alt="{{featured.name}} screenshot" class="bwa-featured-img" ng-src="{{featured.thumb}}">
-          </a>
-          <h1>Featured</h1>
-          <p>{{featured.desc}}</p>
-          <p>Submitted by {{featured.submitter}} {{featured.submissionDate}}</p>
-          <span class="label label-important bwa-label" ng-repeat="tag in featured.tags" ng-click="addTag()">{{tag}}</span>
-        </div>
+        <bwa-project project="featured" class= "well bwa-project-well" add-tag="addTag"></bwa-project>
       </div>
       <div class="span4">
         <div class="center">
           <!-- TODO: make a properly sized image, remove style= hacks -->
           <p class="bwa-neat">
-            <span class="badge badge-important bwa-count">{{projects.length}}</span> Neat things built with
+            <span class="badge badge-important bwa-count" ng-bind="projects.length">?</span> Neat things built with
           <img class="AngularJS-large" src="img/AngularJS-large.png" style="width: 270px; height: 70px;">
           </p>
         </div>
+        <div class="bwa-spacer"></div>
         <hr>
+        <div class="bwa-spacer"></div>
         <p>
           Here we feature good examples of Angular apps and experiments.
           Inspect, learn, and make your own!
@@ -195,7 +173,9 @@
           </a>
         </div>
 
-        <div class="spacer"></div>
+        <div class="bwa-spacer"></div>
+        <hr>
+        <div class="bwa-spacer"></div>
 
         <!-- Search -->
         <form class="well">
@@ -218,31 +198,22 @@
             </div>
 
             <!-- active tags -->
-            <span class="label label-important bwa-label" ng-repeat="tag in activeTags" ng-click="removeTag()">
-              {{tag}} <i class="icon-remove-sign"></i>
+            <span class="label label-important bwa-label" ng-repeat="tag in activeTags" ng-click="removeTag()" ng-cloak>
+              <span ng-bind="tag"></span> <i class="icon-remove-sign"></i>
             </span>
           </div>
 
           <select ng-options="p.val as p.label for p in sortables" class="input-medium bwa-select-sort" ng-model="sortPrep" ng-change="search()"></select>
         </form>
-
       </div>
     </div>
 
 
     <div class="spacer"></div>
 
-    <div class="row" ng-repeat="projectCol in pagedProjects[currentPage]">
+    <div class="row bwa-projects" ng-repeat="projectCol in pagedProjects[currentPage]">
       <div class="span6" ng-repeat="project in projectCol">
-        <div class= "well bwa-project-well">
-          <a href="{{project.link}}">
-            <img alt="{{project.name}} screenshot"  class="bwa-img" ng-src="{{project.thumb}}">
-          </a>
-          <h3>{{project.name}}</h3>
-          <p>{{project.desc}}</p>
-          <p>Submitted by {{project.submitter}} {{project.submissionDate}}</p>
-          <span class="label label-important bwa-label" ng-repeat="tag in project.tags" ng-click="addTag()">{{tag}}</span>
-        </div>
+        <bwa-project project="project" add-tag="addTag" class= "well bwa-project-well"></bwa-project>
       </div>
     </div>
 
@@ -255,7 +226,7 @@
           <li ng-repeat="n in range(pagedProjects.length)"
             ng-class="{active: n == currentPage}"
             ng-click="setPage()">
-            <a href="#{{n}}">{{n + 1}}</a>
+            <a href="#{{n}}" ng-bind="n + 1">1</a>
           </li>
           <li ng-class="{disabled: currentPage == pagedProjects.length - 1}">
             <a href="#next" ng-click="nextPage()">Next »</a>
