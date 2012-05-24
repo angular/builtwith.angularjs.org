@@ -137,12 +137,10 @@
 
     <script type="text/ng-template" id="/bwa-project.html">
       <div>
-        <a href="{{project().link}}">
           <img alt="{{project().name}} screenshot"  class="bwa-img" ng-src="{{project().thumb}}">
-        </a>
         <h2>{{project().name}}</h2>
         <p>{{project().desc}}</p>
-        <p>Submitted by {{project().submitter}} {{project().submissionDate}}</p>
+        <p>URL: <a href="{{project().link}}" ng-bind="project().link"></a></p>
         <span class="label label-important bwa-label" ng-repeat="tag in project().tags" ng-click="addTag()(tag)">{{tag}}</span>
       </div>
     </script>
