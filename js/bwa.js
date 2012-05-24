@@ -109,7 +109,7 @@ app.controller('BWAController', function ($scope, $http, $filter) {
     $scope.group();
   };
 
-  // re-calculate groupedProjects in place 
+  // re-calculate groupedProjects in place
   $scope.group = function () {
 
     $scope.groupedProjects.length = Math.ceil($scope.filteredProjects.length / num);
