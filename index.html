@@ -7,9 +7,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="Description"
-        content="AngularJS is what HTML would have been, had it been designed for building web-apps.
-                 Declarative templates with data-binding, MVC, dependency injection and great
-                 testability story all implemented with pure client-side JavaScript!">
+        content="Gallery of applications built with AngularJS">
   <title>Built with AngularJS</title>
   <link rel="icon" href="favicon.ico" type="image/x-icon">
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
@@ -20,15 +18,10 @@
 
   ﻿<!--[if lte IE 8]>
     <script>
-      document.createElement('tabs');
-      document.createElement('pane');
-      document.createElement('ng-pluralize');
+      document.createElement('bwa-project');
     </script>
   <![endif]-->
   <script>
-
-    document.createElement('bwa-project');
-
     /*!
       * $script.js Async loader & dependency manager
       * https://github.com/ded/script.js
@@ -137,15 +130,20 @@
 
     <script type="text/ng-template" id="/bwa-project.html">
       <div>
-          <img alt="{{project().name}} screenshot"  class="bwa-img" ng-src="{{project().thumb}}">
+        <img alt="{{project().name}} screenshot"  class="bwa-img" ng-src="{{project() && 'img/content/' + project().thumb}}">
         <h2>{{project().name}}</h2>
         <p>{{project().desc}}</p>
-        <p>URL: <a href="{{project().link}}" ng-bind="project().link"></a></p>
+        <p>URL: <a href="{{project().url}}" ng-bind="project().url"></a>
+          <span ng-show="project().src">
+            <br>
+            Sources:  <a href="{{project().src}}" ng-bind="project().src"></a>
+          </span>
+        </p>
         <span class="label label-important bwa-label" ng-repeat="tag in project().tags" ng-click="addTag()(tag)">{{tag}}</span>
       </div>
     </script>
 
-    <div class="row first bwa-featured" style="padding-top: 60px;">
+    <div class="row first bwa-featured">
       <div class="span8">
         <bwa-project project="featured" class= "well bwa-project-well" add-tag="addTag"></bwa-project>
       </div>
@@ -154,7 +152,7 @@
           <!-- TODO: make a properly sized image, remove style= hacks -->
           <p class="bwa-neat">
             <span class="badge badge-important bwa-count" ng-bind="projects.length || '?'">?</span> Neat things built with
-          <img class="AngularJS-large" src="img/AngularJS-large.png" style="width: 270px; height: 70px;">
+          <img class="AngularJS-large" src="img/AngularJS-large.png">
           </p>
         </div>
         <div class="bwa-spacer"></div>
@@ -165,7 +163,7 @@
           Inspect, learn, and make your own!
         </p>
         <div class="center">
-          <a href="https://github.com/angular/built-with-angularjs">
+          <a href="https://github.com/angular/built-with-angularjs#submit">
             <button class="btn-large btn-info">Submit an AngularJS app</button>
           </a>
         </div>

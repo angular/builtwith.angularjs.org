@@ -31,6 +31,10 @@
   margin-bottom: 0px;
 }
 
+.bwa-featured {
+  padding-top: 60px;
+}
+
 .bwa-featured img {
   width: 580px;
   height: 400px;
@@ -70,4 +74,9 @@
 
 bwa-project {
   display: block;
+}
+
+img.AngularJS-large {
+  width: 270px;
+  height: 70px;
 }
