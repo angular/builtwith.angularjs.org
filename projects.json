@@ -1,29 +1,86 @@
 {
-  "featured": "pouch.sg",
+  "featured": "wReader",
   "projects": [
     {
-      "name": "SnarkHunter",
-      "thumb": "img/content/snarkhunter/thumb.png",
-      "desc": "A Real-time location-based updates from hunters of the elusive creature, powered by angular and firebase. Developed by @elmerfudd and designed by @tex.avery.",
-      "link": "http://www.dairyqueen.com/",
-      "submitter": "j.atwood",
-      "submissionDate": "5/15/2012",
+      "name": "Memory Game",
+      "thumb": "memory-game/thumb.png",
+      "desc": "Simple implementation of the memory game using AngularJS and CSS transitions.",
+      "url": "http://igorminar.github.com/Memory-Game/app/",
+      "src": "https://github.com/IgorMinar/Memory-Game",
+      "submitter": "IgorMinar",
+      "submissionDate": "2012-05-24",
       "tags": [
-        "CRUD",
-        "Business",
-        "Ice Cream"
+        "Demo",
+        "Game",
+        "Animations",
+        "No jQuery",
+        "Open Source",
+        "Tests Included"
       ]
     },
     {
-      "name": "pouch.sg",
-      "thumb": "img/content/pouchsg/thumb.png",
-      "desc": "The Real-time location-based updates from hunters of the elusive creature, powered by angular and firebase. Developed by @elmerfudd and designed by @tex.avery.",
-      "link": "http://pouch.sg",
-      "submitter": "j.atwood",
-      "submissionDate": "12/20/2011",
+      "name": "PhoneCat",
+      "thumb": "phonecat/thumb.png",
+      "desc": "Android phone and tablet gallery — the AngularJS tutorial app. Learn how to build apps with AngularJS from scratch by following this tutorial!",
+      "url": "http://angular.github.com/angular-phonecat/step-11/app/",
+      "src": "http://docs.angularjs.org/tutorial",
+      "submitter": "IgorMinar",
+      "submissionDate": "2012-05-24",
       "tags": [
+        "Demo",
         "CRUD",
-        "Business"
+        "Bootstrap",
+        "No jQuery",
+        "Open Source",
+        "Tests Included"
+      ]
+    },
+    {
+      "name": "wReader",
+      "thumb": "wreader/thumb.png",
+      "desc": "Fancy HTML5 RSS Reader.",
+      "url": "http://vojtajina.github.com/WebApp-CodeLab/FinalProject/",
+      "src": "https://github.com/vojtajina/WebApp-CodeLab/tree/angularjs",
+      "submitter": "IgorMinar",
+      "submissionDate": "2012-05-24",
+      "tags": [
+        "Demo",
+        "Animations",
+        "Bootstrap",
+        "jQuery",
+        "Open Source",
+        "Tests Included"
+      ]
+    },
+    {
+      "name": "PeepCode Tunes",
+      "thumb": "peepcode-tunes/thumb.png",
+      "desc": "Simple HTML5 music player. Ported from Backbone.js to AngularJS.",
+      "url": "http://angular.github.com/peepcode-tunes/public/",
+      "src": "https://github.com/angular/peepcode-tunes",
+      "submitter": "IgorMinar",
+      "submissionDate": "2012-05-24",
+      "tags": [
+        "Demo",
+        "No jQuery",
+        "Open Source",
+        "Tests Included"
+      ]
+    },
+    {
+      "name": "docs.angularjs.org",
+      "thumb": "angularjs-docs/thumb.png",
+      "desc": "Docs viewer app for AngularJS apis.",
+      "url": "http://docs.angularjs.org/",
+      "src": "https://github.com/angular/angular.js/tree/master/docs",
+      "submitter": "IgorMinar",
+      "submissionDate": "2012-05-24",
+      "tags": [
+        "Production",
+        "Bootstrap",
+        "No jQuery",
+        "Open Source",
+        "Tests Included"
       ]
     }
   ]
