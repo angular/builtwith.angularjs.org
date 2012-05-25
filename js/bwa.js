@@ -3,7 +3,7 @@ var app = angular.module('bwaApp', []);
 app.directive('bwaProject', function() {
   return {
     restrict: 'E',
-    templateUrl: '/bwa-project.html',
+    templateUrl: 'bwa-project.html',
     scope: {
       project: 'accessor',
       addTag: 'accessor'
@@ -32,7 +32,7 @@ app.controller('BWAController', function ($scope, $http, $filter) {
   ];
   $scope.sortPrep = 'none';
 
-  $http.get('projects.json').
+  $http.get('projects/projects.json').
     success(function (data, status, headers, config) {
 
       $scope.projects = data.projects;
