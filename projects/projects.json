@@ -82,6 +82,20 @@
         "Open Source",
         "Tests Included"
       ]
+    },
+    {
+      "name": "www.jobs.cz",
+      "thumb": "jobs-cz/thumb.png",
+      "desc": "Standardized college admission testing site for Universities in Czech Republic.",
+      "url": "http://www.jobs.cz/vysoke-skoly/testy/",
+      "submitter": "abtris",
+      "submissionDate": "2012-06-01",
+      "tags": [
+        "Production",
+		"CRUD",
+        "jQuery",
+        "Tests Included"
+      ]
     }
   ]
 }
