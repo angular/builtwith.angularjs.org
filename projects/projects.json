@@ -98,6 +98,22 @@
       ]
     },
     {
+      "name": "PubNub Chat",
+      "thumb": "pubnub-chat/thumb.png",
+      "desc": "Blazing fast real-time messaging using PubNub and AngularJS.",
+      "url": "http://jsfiddle.net/nolandubeau/4AWFF/3/",
+      "src": "https://github.com/nolandubeau/angularjs",
+      "submitter": "Nolan Dubeau",
+      "submissionDate": "2012-06-12",
+      "tags": [
+        "Demo",
+        "Open Source",
+        "Web Sockets",
+        "Bootstrap",
+        "jQuery"
+      ]
+    },
+    {
       "name": "DoubleClick",
       "thumb": "doubleclick/thumb.png",
       "desc": "DoubleClick Digital Marketing Manager and other DoubleClick Digital Marketing Platform applications are used by thousands of marketers and agencies worldwide.",
