@@ -143,6 +143,38 @@
           "Open Source",
           "Tests Included"
       ]
+    },
+    {
+      "name": "Balance Projector",
+      "thumb": "balance-projector/thumb.png",
+      "desc": "Balance Projector can provide quick insights into your immediate financial future. The real time interface updates on every change and makes somewhat abstract numbers very tangible.",
+      "url": "http://simplydo.com/projector",
+      "src": "https://github.com/SimplyDo/projector",
+      "submitter": "kohlhofer",
+      "submissionDate": "2012-06-14",
+      "tags": [
+        "Production",
+        "Tool",
+        "Local Storage",
+        "No jQuery",
+        "Open Source"
+      ]
+    },
+    {
+      "name": "Cryptography Project",
+      "thumb": "cryptography-project/thumb.png",
+      "desc": "Encrypt and decrypt any text right in your browser. You can also generate random key phrases from the list of 39,000 English words.",
+      "url": "http://simplydo.com/cryptography",
+      "src": "https://github.com/SimplyDo/cryptography",
+      "submitter": "kohlhofer",
+      "submissionDate": "2012-06-14",
+      "tags": [
+        "Production",
+        "Tool",
+        "Cryptography",
+        "No jQuery",
+        "Open Source"
+      ]
     }
   ]
 }
