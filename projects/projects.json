@@ -127,6 +127,22 @@
         "jQuery",
         "Tests Included"
       ]
+    },
+    {
+      "name": "Sliding puzzle",
+      "thumb": "sliding-puzzle/thumb.png",
+      "desc": "Simple sliding puzzle game",
+      "url": "http://pdanis.github.com/angular-puzzle/",
+      "src": "https://github.com/pdanis/angular-puzzle",
+      "submitter": "pdanis",
+      "submissionDate": "2012-06-14",
+      "tags": [
+          "Demo",
+          "Game",
+          "No jQuery",
+          "Open Source",
+          "Tests Included"
+      ]
     }
   ]
 }
