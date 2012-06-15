@@ -158,7 +158,7 @@ app.controller('BWAController', function ($scope, $http, $filter) {
       if (i === 0 && tag === tagName) {
         $scope.activeTags.push($scope.tags.shift());
       } else if (tag === tagName) {
-        $scope.tags.splice(i, i);
+        $scope.tags.splice(i, 1);
         $scope.activeTags.push(tag);
       }
     });
@@ -175,7 +175,7 @@ app.controller('BWAController', function ($scope, $http, $filter) {
       if (i === 0 && tag === tagName) {
         $scope.tags.push($scope.activeTags.shift());
       } else if (tag === tagName) {
-        $scope.activeTags.splice(i, i);
+        $scope.activeTags.splice(i, 1);
         $scope.tags.push(tag);
       }
     });
