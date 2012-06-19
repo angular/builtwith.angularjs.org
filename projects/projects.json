@@ -239,6 +239,20 @@
         "jQuery",
         "Open Source"
       ]
+    },
+    {
+      "name": "Posse",  
+      "thumb": "posse/thumb.png",
+      "desc": "Posse lets you build a magical street, filled with all your favorite, real-world places, and share it with your friends to create a town. Not only will you be sharing your super amazing taste but you’ll also be discovering new awesome places and supporting a community of great retailers at the same time.",
+      "url": "http://posse.com", 
+      "submitter": "hbarney",
+      "submissionDate": "2012-06-19",
+      "tags": [
+        "Production",
+        "Entertainment", "Social-Commerce", 
+        "Play Framework",
+        "jQuery" 
+      ]
     }
   ]
 }
