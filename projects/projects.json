@@ -2,6 +2,22 @@
   "featured": "DoubleClick",
   "projects": [
     {
+      "name": "Shortkeys for Chrome",
+      "thumb": "shortkeys-chrome/thumb.png",
+      "desc": "A Chrome extension for custom keyboard shortcuts. Angular powers the admin/options UI",
+      "url": "https://chrome.google.com/webstore/detail/logpjaacgmcbpdkdchjiaagddngobkck",
+      "src": "https://github.com/mikecrittenden/chrome-shortkeys",
+      "submitter": "mikecrittenden",
+      "submissionDate": "2012-06-21",
+      "tags": [
+        "Chrome",
+        "Extension",
+        "Open Source",
+        "Local Storage",
+        "JSON"
+      ]
+    },
+    {
       "name": "Memory Game",
       "thumb": "memory-game/thumb.png",
       "desc": "Simple implementation of the memory game using AngularJS and CSS transitions.",
