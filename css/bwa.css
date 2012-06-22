@@ -7,6 +7,10 @@
   cursor: pointer;
 }
 
+.bwa-tag {
+  margin-right: 5px;
+}
+
 .badge-important {
   background-color: #b94a48;
 }
@@ -49,7 +53,12 @@
 }
 
 .bwa-projects .bwa-project-well {
-  height: 460px;
+  height: 400px;
+}
+.bwa-projects .bwa-project-desc {
+  overflow: hidden;
+  height: 19px;
+  position: relative;
 }
 
 .bwa-projects h2,
@@ -79,4 +88,31 @@ bwa-project {
 img.AngularJS-large {
   width: 270px;
   height: 70px;
+}
+
+.bwa-lightbox {
+  position: fixed;
+  left: 0;
+  top: 40px;
+  bottom: 0;
+  right: 0;
+  padding: 50px;
+  text-align: center;
+  background: rgba(255, 255, 255, .85);
+  z-index: 2000;
+}
+.modal {
+  width: 900px;
+  margin-left: -450px;
+}
+.modal-body img {
+  width: 580px;
+  height: 400px;
+}
+.modal-body {
+  text-align: center;
+  max-height: 100%;
+}
+.modal.fade.in {
+  top: 40%;
 }

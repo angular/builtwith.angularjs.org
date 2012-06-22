@@ -12,6 +12,7 @@ app.directive('bwaProject', function() {
 });
 
 app.controller('BWAController', function ($scope, $http, $filter) {
+
   $scope.sortables = [
     {
       label: 'Unsorted',

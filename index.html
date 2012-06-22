@@ -58,7 +58,7 @@
       value:a("$provide","value"),constant:a("$provide","constant","unshift"),filter:a("$filterProvider","register"),controller:a("$controllerProvider","register"),directive:a("$compileProvider","directive"),config:h,run:function(a){d.push(a);return this}};f&&h(f);return g})}})})(window);
   </script>
 </head>
-<body>
+<body ng-controller="BWAController" ng-class="{'modal-open': settings.modal}">
   <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
        chromium.org/developers/how-tos/chrome-frame-getting-started -->
   <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
@@ -126,26 +126,38 @@
     </div>
   </header>
 
-  <div role="main" class="container bwa-main-container" ng-controller="BWAController">
+  <div role="main" class="container bwa-main-container">
 
     <script type="text/ng-template" id="bwa-project.html">
-      <div>
-        <img alt="{{project() && project().name + ' screenshot'}}"  class="bwa-img" ng-src="{{project() && 'projects/' + project().thumb}}">
+      <div class="modal fade in" ng-class="{hide: !lightbox}">
+        <div class="modal-header">
+          <button type="button" class="close" ng-click="lightbox=false;">×</button>
+          <h2>{{project().name}}</h2>
+        </div>
+        <div class="modal-body">
+          <img alt="{{project() && project().name + ' screenshot'}}" ng-src="{{project() && 'projects/' + project().thumb}}">
+          <p>{{project().desc}}</p>
+          <p>
+            <span class="label label-info bwa-tag" ng-repeat="tag in project().tags">{{tag}}</span>
+          </p>
+        </div>
+        <div class="modal-footer">
+          <a ng-show="project().src" href="{{project().src}}" class="btn">View the Source</a>
+          <a href="{{project().url}}" class="btn btn-primary">Visit the site</a>
+        </div>
+      </div>
+      <div class="fade" ng-class="{'modal-backdrop': lightbox, in: lightbox}" ng-click='lightbox=false'></div>
+      <div ng-click="lightbox=true">
+        <img alt="{{project() && project().name + ' screenshot'}}" class="bwa-img" ng-src="{{project() && 'projects/' + project().thumb}}">
         <h2>{{project().name}}</h2>
-        <p>{{project().desc}}</p>
-        <p>URL: <a href="{{project().url}}" ng-bind="project().url"></a>
-          <span ng-show="project().src">
-            <br>
-            Sources:  <a href="{{project().src}}" ng-bind="project().src"></a>
-          </span>
-        </p>
+        <p class='bwa-project-desc'>{{project().desc}}</p>
         <span class="label label-important bwa-label" ng-repeat="tag in project().tags" ng-click="addTag()(tag)">{{tag}}</span>
       </div>
     </script>
 
     <div class="row first bwa-featured">
       <div class="span8">
-        <bwa-project project="featured" class= "well bwa-project-well" add-tag="addTag"></bwa-project>
+        <bwa-project project="featured" class= "well bwa-project-well" add-tag="addTag" settings="settings"></bwa-project>
       </div>
       <div class="span4">
         <div class="center">
@@ -208,7 +220,7 @@
 
     <div class="row bwa-projects" ng-repeat="projectCol in pagedProjects[currentPage]">
       <div class="span6" ng-repeat="project in projectCol">
-        <bwa-project project="project" add-tag="addTag" class= "well bwa-project-well"></bwa-project>
+        <bwa-project project="project" add-tag="addTag" settings="settings" class= "well bwa-project-well"></bwa-project>
       </div>
     </div>
 
