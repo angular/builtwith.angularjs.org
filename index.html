@@ -58,7 +58,7 @@
       value:a("$provide","value"),constant:a("$provide","constant","unshift"),filter:a("$filterProvider","register"),controller:a("$controllerProvider","register"),directive:a("$compileProvider","directive"),config:h,run:function(a){d.push(a);return this}};f&&h(f);return g})}})})(window);
   </script>
 </head>
-<body ng-controller="BWAController" ng-class="{'modal-open': settings.modal}">
+<body ng-controller="BWAController">
   <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
        chromium.org/developers/how-tos/chrome-frame-getting-started -->
   <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
@@ -157,7 +157,7 @@
 
     <div class="row first bwa-featured">
       <div class="span8">
-        <bwa-project project="featured" class= "well bwa-project-well" add-tag="addTag" settings="settings"></bwa-project>
+        <bwa-project project="featured" class= "well bwa-project-well" add-tag="addTag"></bwa-project>
       </div>
       <div class="span4">
         <div class="center">
@@ -220,7 +220,7 @@
 
     <div class="row bwa-projects" ng-repeat="projectCol in pagedProjects[currentPage]">
       <div class="span6" ng-repeat="project in projectCol">
-        <bwa-project project="project" add-tag="addTag" settings="settings" class= "well bwa-project-well"></bwa-project>
+        <bwa-project project="project" add-tag="addTag" class= "well bwa-project-well"></bwa-project>
       </div>
     </div>
 
