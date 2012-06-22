@@ -191,6 +191,38 @@
         "jQuery",
         "Tests Included"
       ]
+    },
+    {
+      "name": "Twitter Search",
+      "thumb": "twitter-search/thumb.png",
+      "desc": "Search Twitter for recent tweets for any topic. Filter results by tweet, author, etc.",
+      "url": "http://jsfiddle.net/ThomasBurleson/8Gzj9/",
+      "src": "https://github.com/ThomasBurleson/angularJS-TwitterSearch",
+      "submitter": "ThomasBurleson",
+      "submissionDate": "2012-06-21",
+      "tags": [
+        "Demo",
+        "Productivity",
+        "Bootstrap",
+        "jQuery",
+        "Open Source"
+      ]
+    },
+    {
+      "name": "CafeTownsend",
+      "thumb": "cafetownsend/thumb.png",
+      "desc": "CafeTownsend with AngularJS IoC",
+      "url": "http://thomasburleson.github.com/cafetownsend/index.html#/login",
+      "src": "https://github.com/ThomasBurleson/angularJS-CafeTownsend",
+      "submitter": "ThomasBurleson",
+      "submissionDate": "2012-06-21",
+      "tags": [
+        "Demo",
+        "CRUD",
+        "Coffeescript",
+        "jQuery",
+        "Open Source"
+      ]
     }
   ]
 }
