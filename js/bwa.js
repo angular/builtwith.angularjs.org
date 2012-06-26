@@ -5,6 +5,7 @@ app.directive('bwaProject', function() {
     restrict: 'E',
     templateUrl: 'bwa-project.html',
     scope: {
+      lightbox: 'accessor',
       project: 'accessor',
       addTag: 'accessor'
     }
@@ -32,6 +33,24 @@ app.controller('BWAController', function ($scope, $http, $filter) {
     }
   ];
   $scope.sortPrep = 'none';
+
+  var lightbox = false;
+  window.onpopstate = function (ev) {
+    lightbox = ev.state;
+    $scope.$apply();
+  };
+  $scope.lightbox = function (arg) {
+    if (typeof arg !== 'undefined') {
+      if (arg !== false) {
+        history.pushState(arg, null, 'project/' + arg.name);
+      } else {
+        history.pushState(false, null, '/');
+      }
+      lightbox = arg;
+      console.log(arg);
+    }
+    return lightbox;
+  };
 
   $http.get('projects/projects.json').
     success(function (data, status, headers, config) {
@@ -68,6 +87,16 @@ app.controller('BWAController', function ($scope, $http, $filter) {
 
       $scope.tags.sort();
       $scope.search();
+
+      if (document.location.pathname.substr(0, 9) === '/project/') {
+        var projectName = document.location.pathname.substr(9).replace('%20', ' ');
+        data.projects.forEach(function (project) {
+          if (project.name === projectName) {
+            lightbox = project;
+          }
+        });
+      }
+
     }).
     error(function (data, status, headers, config) {
       // TODO: display a nice error message?
@@ -213,4 +242,5 @@ app.controller('BWAController', function ($scope, $http, $filter) {
   $scope.setPage = function () {
     $scope.currentPage = this.n;
   };
+
 });

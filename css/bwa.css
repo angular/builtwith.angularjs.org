@@ -116,3 +116,9 @@ img.AngularJS-large {
 .modal.fade.in {
   top: 40%;
 }
+.modal-backdrop {
+  display: none;
+}
+.modal-backdrop.fade.in {
+  display: block;
+}
