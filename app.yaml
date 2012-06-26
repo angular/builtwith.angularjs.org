@@ -28,6 +28,10 @@ handlers:
 - url: /js
   static_dir: js
 
+- url: /.*
+  static_files: index.html
+  upload: index.html
+
 libraries:
 - name: webapp2
   version: "2.5.1"
