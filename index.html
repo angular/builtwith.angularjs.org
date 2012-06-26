@@ -245,15 +245,18 @@
       <h2>{{lightbox().name}}</h2>
     </div>
     <div class="modal-body">
-      <img alt="{{lightbox() && lightbox().name + ' screenshot'}}" ng-src="{{lightbox() && 'projects/' + lightbox().thumb}}">
+      <a href="{{lightbox().url}}">
+        <img alt="{{lightbox() && lightbox().name + ' screenshot'}}" class="well" ng-src="{{lightbox() && 'projects/' + lightbox().thumb}}">
+      </a>
       <p>{{lightbox().desc}}</p>
       <p>
         <span class="label label-info bwa-tag" ng-repeat="tag in lightbox().tags">{{tag}}</span>
       </p>
     </div>
     <div class="modal-footer">
+      <a href="{{lightbox().url}}" class="btn btn-primary">Check out the App</a>
       <a ng-show="lightbox().src" href="{{lightbox().src}}" class="btn">View the Source</a>
-      <a href="{{lightbox().url}}" class="btn btn-primary">Visit the site</a>
+      <a ng-show="lightbox().info" href="{{lightbox().info}}" class="btn">Read More</a>
     </div>
   </div>
   <div class="modal-backdrop fade" ng-class="{in: lightbox()}" ng-click='lightbox(false)'></div>

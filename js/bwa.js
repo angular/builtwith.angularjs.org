@@ -39,15 +39,20 @@ app.controller('BWAController', function ($scope, $http, $filter) {
     lightbox = ev.state;
     $scope.$apply();
   };
+  window.onkeydown = function (ev) {
+    if (ev.keyCode === 27 && lightbox) {
+      $scope.lightbox(false);
+      $scope.$apply();
+    }
+  }
   $scope.lightbox = function (arg) {
     if (typeof arg !== 'undefined') {
       if (arg !== false) {
-        history.pushState(arg, null, 'project/' + arg.name);
+        history.pushState(arg, null, 'project/' + arg.id);
       } else {
         history.pushState(false, null, '/');
       }
       lightbox = arg;
-      console.log(arg);
     }
     return lightbox;
   };
@@ -61,8 +66,6 @@ app.controller('BWAController', function ($scope, $http, $filter) {
       for (var i = $scope.projects.length - 1; i >= 0; i--) {
         if (data.projects[i].name === data.featured) {
           $scope.featured = data.projects[i];
-          // TODO: remove featured project from search?
-          // $scope.projects.slice ...
           break;
         }
       }
@@ -76,6 +79,7 @@ app.controller('BWAController', function ($scope, $http, $filter) {
 
       // add tags
       angular.forEach(data.projects, function (project) {
+        project.id = project.name.replace(' ', '-');
         angular.forEach(project.tags, function (tag) {
 
           // ensure tags are unique
@@ -89,9 +93,9 @@ app.controller('BWAController', function ($scope, $http, $filter) {
       $scope.search();
 
       if (document.location.pathname.substr(0, 9) === '/project/') {
-        var projectName = document.location.pathname.substr(9).replace('%20', ' ');
+        var projectName = document.location.pathname.substr(9);
         data.projects.forEach(function (project) {
-          if (project.name === projectName) {
+          if (project.id === projectName) {
             lightbox = project;
           }
         });

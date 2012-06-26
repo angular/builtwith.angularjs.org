@@ -108,10 +108,14 @@ img.AngularJS-large {
 .modal-body img {
   width: 580px;
   height: 400px;
+  padding: 20px;
 }
 .modal-body {
   text-align: center;
   max-height: 100%;
+}
+.modal-body p {
+  padding: 20px;
 }
 .modal.fade.in {
   top: 40%;
