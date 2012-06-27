@@ -79,7 +79,7 @@ app.controller('BWAController', function ($scope, $http, $filter) {
 
       // add tags
       angular.forEach(data.projects, function (project) {
-        project.id = project.name.replace(' ', '-');
+        project.id = project.name.replace(/ /g, '-');
         angular.forEach(project.tags, function (tag) {
 
           // ensure tags are unique
