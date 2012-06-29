@@ -75,6 +75,10 @@
   height: 290px;
 }
 
+.bwa-img {
+  cursor: pointer;
+}
+
 .bwa-spacer {
   display: inline-block;
   width: 6em;
@@ -116,6 +120,9 @@ img.AngularJS-large {
 }
 .modal-body p {
   padding: 20px;
+}
+.modal.fade {
+  top: -150%;
 }
 .modal.fade.in {
   top: 40%;
