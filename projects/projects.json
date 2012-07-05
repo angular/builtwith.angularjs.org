@@ -446,6 +446,21 @@
         "jQuery"
 
       ]
+    },
+    {
+   	  "name": "angular-google-maps",
+   	  "thumb": "angular-google-maps/thumb.png",
+   	  "desc": "Google Maps inside your angular.js application",
+   	  "url": "http://nlaplante.github.com/angular-google-maps",
+   	  "src": "https://github.com/nlaplante/angular-google-maps",
+   	  "submitter": "nlaplante",
+   	  "submissionDate": "2012-08-30",
+   	  "tags": [
+   	      "Production",
+   	      "Component",
+   	      "Google Maps API v3",
+   	      "Open Source"
+   	      ]
     }
   ]
 }
