@@ -253,6 +253,21 @@
         "Play Framework",
         "jQuery" 
       ]
+    },
+    {
+      "name": "dustr",
+      "thumb": "dustr/thumb.png",
+      "desc": "Compile dust.js templates right in your browser. Uses linkedin's dustjs.",
+      "url": "http://dustr.org/",
+      "src": "https://github.com/nlaplante/dustr",
+      "submitter": "nlaplante",
+      "submissionDate": "2012-07-04",
+      "tags": [
+        "Production",
+        "Angular", "Bootstrap",
+        "jQuery",
+        "Open Source"
+      ]
     }
   ]
 }
