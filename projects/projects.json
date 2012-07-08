@@ -251,7 +251,22 @@
         "Production",
         "Entertainment", "Social-Commerce", 
         "Play Framework",
-        "jQuery" 
+        "jQuery"
+      ]
+    },
+    {
+      "name": "GitHub Contributors",
+      "thumb": "github-contributors/thumb.png",
+      "desc": "An application to browse through the contributors of GitHub projects. Ported from YUI 3.5 to AngularJS.",
+      "url": "http://daha.github.com/angularJS-github-contributors",
+      "src": "https://github.com/daha/angularJS-github-contributors",
+      "submitter": "daha",
+      "submissionDate": "2012-07-08",
+      "tags": [
+        "Demo",
+        "No jQuery",
+        "Open Source",
+        "Tests Included"
       ]
     },
     {
