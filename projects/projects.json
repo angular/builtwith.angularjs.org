@@ -338,6 +338,22 @@
         "jQuery",
         "Open Source"
       ]
+    },
+    {
+      "name": "Awesome New Tab Page",
+      "thumb": "awesome-new-tab-page/thumb.png",
+      "desc": "An extensible new tab page for Google Chrome. Awesome, like you.",
+      "url": "https://chrome.google.com/webstore/detail/mgmiemnjjchgkmgbeljfocdjjnpjnmcg",
+      "src": "https://github.com/NewTabPage/Awesome-New-Tab-Page",
+      "submitter": "michaelhart",
+      "submissionDate": "2012-07-20",
+      "tags": [
+        "Production",
+        "Productivity", "Extension",
+        "Local Storage", "FileSystem API",
+        "jQuery",
+        "Open Source"
+      ]
     }
   ]
 }
