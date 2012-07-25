@@ -308,6 +308,20 @@
         "Entertainment",
         "No jQuery"
       ]
+    },
+    {
+      "name": "Fluid",
+      "thumb": "fluid/thumb.png",
+      "desc": "Portfolio interface with combined visualization and navigation. If you want a look at the source, just contact me.",
+      "url": "http://fluid.ie/",
+      "submitter": "rur",
+      "submissionDate": "2012-07-25",
+      "tags": [
+        "Portfolio",
+        "Data Vis",
+        "jQuery",
+        "Rails"
+      ]
     }
   ]
 }
