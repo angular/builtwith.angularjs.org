@@ -295,7 +295,19 @@
         "Production",
         "jQuery" 
       ]
+    },
+    {
+      "name": "ERMAHGERD Translator",
+      "thumb": "ermahgerd/thumb.png",
+      "desc": "Translate text to ERMAHGERD",
+      "url": "http://ermahgerd.jmillerdesign.com/",
+      "submitter": "jmillerdesign",
+      "submissionDate": "2012-07-25",
+      "tags": [
+        "Toy",
+        "Entertainment",
+        "No jQuery"
+      ]
     }
-    
   ]
 }
