@@ -322,6 +322,22 @@
         "jQuery",
         "Rails"
       ]
+    },
+    {
+      "name": "SCAmp",
+      "thumb": "scamp/thumb.png",
+      "desc": "SoundCloud Playlist Manager",
+      "url": "http://beshr.com/demos/scamp/",
+      "src": "http://github.com/beshrkayali/scamp/",
+      "submitter": "beshrkayali",
+      "submissionDate": "2012-07-28",
+      "tags": [
+        "Toy",
+        "Entertainment",
+        "Local Storage",
+        "jQuery",
+        "Open Source"
+      ]
     }
   ]
 }
