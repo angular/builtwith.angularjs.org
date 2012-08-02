@@ -283,6 +283,19 @@
         "jQuery",
         "Open Source"
       ]
+    },
+    {
+      "name": "tetractis-olympics",
+      "thumb": "tetractis-olympics/thumb.png",
+      "desc": "Olympics 2012 real time live data",
+      "url": "http://www.tetractis.it/speciali/olimpiadi_estive/2012/index.shtml",
+      "submitter": "Tetractis",
+      "submissionDate": "2012-08-02",
+      "tags": [
+        "Production",
+        "jQuery" 
+      ]
     }
+    
   ]
 }
