@@ -14,7 +14,7 @@ Adding your neat thing
           "thumb": "my-app/thumb.png", // path to the image (omit the projects/ prefix)
           "desc": "Description of your app", // One or two sentences
           "url": "http://myapp.com", // url to your app
-          "info": "http://myapp.com/blog", // url to explanation of app
+          "info": "http://myapp.com/blog", // url to app announcement or background
           "src": "https://github.com/me/myapp", // (optional) Url to your source repository
           "submitter": "IgorMinar", // your github username
           "submissionDate": "2012-05-24", // current date in ISO format
