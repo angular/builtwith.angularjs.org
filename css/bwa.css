@@ -3,8 +3,9 @@
 }
 
 .bwa-label {
-  margin-right: 5px;
+  margin: 0 5px 5px;
   cursor: pointer;
+  display: inline-block;
 }
 
 .bwa-tag {
@@ -53,7 +54,7 @@
 }
 
 .bwa-projects .bwa-project-well {
-  height: 400px;
+  height: 410px;
 }
 .bwa-projects .bwa-project-desc {
   overflow: hidden;
