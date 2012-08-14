@@ -241,15 +241,15 @@
       ]
     },
     {
-      "name": "Posse",  
+      "name": "Posse",
       "thumb": "posse/thumb.png",
       "desc": "Posse lets you build a magical street, filled with all your favorite, real-world places, and share it with your friends to create a town. Not only will you be sharing your super amazing taste but you’ll also be discovering new awesome places and supporting a community of great retailers at the same time.",
-      "url": "http://posse.com", 
+      "url": "http://posse.com",
       "submitter": "hbarney",
       "submissionDate": "2012-06-19",
       "tags": [
         "Production",
-        "Entertainment", "Social-Commerce", 
+        "Entertainment", "Social-Commerce",
         "Play Framework",
         "jQuery"
       ]
@@ -293,7 +293,7 @@
       "submissionDate": "2012-08-02",
       "tags": [
         "Production",
-        "jQuery" 
+        "jQuery"
       ]
     },
     {
@@ -353,6 +353,22 @@
         "Local Storage", "FileSystem API",
         "jQuery",
         "Open Source"
+      ]
+    },
+    {
+      "name": "YouTube on PS3",
+      "thumb": "yt-ps3/thumb.png",
+      "desc": "The YouTube application for Sony's PlayStation 3.",
+      "url": "http://us.playstation.com/youtube/",
+      "info": "http://youtube-global.blogspot.com/2012/08/game-on-get-new-youtube-app-for.html",
+      "submitter": "alimills",
+      "submissionDate": "2012-08-14",
+      "tags": [
+        "Production",
+        "Entertainment",
+        "Animations", "Local Storage", "Video Api",
+        "Google Closure",
+        "No jQuery"
       ]
     }
   ]
