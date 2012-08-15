@@ -131,11 +131,11 @@
   <div role="main" class="container bwa-main-container">
 
     <script type="text/ng-template" id="bwa-project.html">
-      <div ng-click="lightbox()(project())">
-        <img alt="{{project() && project().name + ' screenshot'}}" class="bwa-img" ng-src="{{project() && 'projects/' + project().thumb}}">
-        <h2>{{project().name}}</h2>
-        <p class='bwa-project-desc'>{{project().desc}}</p>
-        <span class="label label-important bwa-label" ng-repeat="tag in project().tags" ng-click="addTag()(tag)">{{tag}}</span>
+      <div ng-click="lightbox(project)">
+        <img alt="{{project && project.name + ' screenshot'}}" class="bwa-img" ng-src="{{project && 'projects/' + project.thumb}}">
+        <h2>{{project.name}}</h2>
+        <p class='bwa-project-desc'>{{project.desc}}</p>
+        <span class="label label-important bwa-label" ng-repeat="tag in project.tags" ng-click="addTag(tag)">{{tag}}</span>
       </div>
     </script>
 

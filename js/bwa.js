@@ -5,9 +5,9 @@ app.directive('bwaProject', function() {
     restrict: 'E',
     templateUrl: 'bwa-project.html',
     scope: {
-      lightbox: 'accessor',
-      project: 'accessor',
-      addTag: 'accessor'
+      lightbox: '=',
+      project: '=',
+      addTag: '='
     }
   }
 });
