@@ -366,9 +366,23 @@
       "tags": [
         "Production",
         "Entertainment",
-        "Animations", "Local Storage", "Video Api",
+        "Animations", "Local Storage", "Video API",
         "Google Closure",
         "No jQuery"
+      ]
+    },
+    {
+      "name": "ONS FloorPlan",
+      "thumb": "ons-floorplan/thumb.png",
+      "desc": "The official app for ONS 2012, one of the world's leading meeting places for the global energy industry.",
+      "url": "http://floorplan.ons.no/",
+      "info": "http://www.ons.no/index.cfm?event=doLink&famId=301803",
+      "submitter": "fkalseth",
+      "submissionDate": "2012-08-16",
+      "tags": [
+        "Production",
+        "Business", 
+        "jQuery"
       ]
     }
   ]
