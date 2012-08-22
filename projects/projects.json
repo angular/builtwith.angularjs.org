@@ -400,6 +400,21 @@
         "No jQuery",
         "Mobile"
       ]
+    },
+    {
+      "name": "Lokaligo",
+      "thumb": "lokaligo/thumb.png",
+      "desc": "Online localization and translation management platform.",
+      "url": "http://www.lokaligo.com",
+      "submitter": "armatys",
+      "submissionDate": "2012-08-22",
+      "tags": [
+        "Production",
+        "Productivity",
+        "FileAPI",
+        "No jQuery",
+        "Localization"
+      ]
     }
   ]
 }
