@@ -54,11 +54,11 @@
 }
 
 .bwa-projects .bwa-project-well {
-  height: 410px;
+  height: 430px;
 }
 .bwa-projects .bwa-project-desc {
   overflow: hidden;
-  height: 19px;
+  height: 38px;
   position: relative;
 }
 
