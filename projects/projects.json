@@ -384,6 +384,22 @@
         "Business",
         "jQuery"
       ]
+    },
+    {
+      "name": "Goodfilms Mobile Site",
+      "thumb": "goodfilms-mobile/thumb.png",
+      "desc": "The mobile-optimised interface for Goodfilms - a new, social movie review site",
+      "url": "http://goodfil.ms",
+      "info": "http://goodfil.ms/blog/posts/2012/08/09/goodfilms-goes-mobile/",
+      "submitter": "goodfilms",
+      "submissionDate": "2012-24-8",
+      "tags": [
+        "Production",
+        "Entertainment",
+        "Animations", "Zepto", "Flickable.js",
+        "No jQuery",
+        "Mobile"
+      ]
     }
   ]
 }
