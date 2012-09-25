@@ -430,6 +430,22 @@
         "Animations", "Bootstrap",
         "No jQuery"
       ]
+    },
+    {
+      "name": "STOIC",
+      "thumb": "stoic/thumb.png",
+      "desc": "STOIC turns your Google Spreadsheets into complete applications, with a cloud-class database in the back-end, and a user interface for mobile devices.",
+      "url": "http://stoic.com",
+      "info": "http://sutoiku.com",
+      "submitter": "ghalimi",
+      "submissionDate": "2012-09-25",
+      "tags": [
+        "Production",
+        "Productivity",
+        "Node.js", "Twitter Bootstrap", "Google Apps",
+        "jQuery"
+
+      ]
     }
   ]
 }
