@@ -461,6 +461,17 @@
    	      "Google Maps API v3",
    	      "Open Source"
    	      ]
+    },
+    {
+        "name": "CPresent",
+        "thumb": "cpresent/thumb.png",
+        "desc": "A simplified, web-based Church presentation system",
+        "url": "https://github.com/jaitaiwan/CPresent/",
+        "submitter": "jaitaiwan",
+        "submissionDate": "2012-10-01",
+        "tags": [
+            "jQuery","socket.io","Production","Open Source","HTML5","CSS3","bootstrap-js"
+        ]
     }
   ]
 }
