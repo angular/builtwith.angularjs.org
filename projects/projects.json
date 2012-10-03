@@ -461,6 +461,23 @@
    	      "Google Maps API v3",
    	      "Open Source"
    	      ]
+    },
+    {
+      "name": "Bingo Card Club",
+      "thumb": "bingo-card-club/printable-bingo-card-creator.png",
+      "desc": "The best printable bingo card creator. Generate randomized bingo cards! Try the Make and Print dashboard, created using AngularJS.",
+      "info": "http://vlad.github.com",
+      "url": "http://www.bingocardclub.com",
+      "submitter": "vlad",
+      "submissionDate": "2012-10-03",
+      "tags": [
+        "Production",
+        "Game",
+        "Productivity",
+        "jQuery",
+        "Rails",
+        "Component"
+      ]
     }
   ]
 }
