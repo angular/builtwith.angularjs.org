@@ -484,8 +484,7 @@
    	  "tags": [
    	      "Production",
    	      "Abc Notation",
-   	      "abcjs", "Twitter Bootstrap", "FileReader", "Local Storage", "AppCache", 
-		  "jQuery",
+   	      "abcjs", "Twitter Bootstrap", "FileReader", "Local Storage", "AppCache", "jQuery",
    	      "Open Source"
    	      ]
     }
