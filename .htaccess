@@ -1,5 +1,8 @@
 RewriteEngine on
 
+## HTML5 URL Support ##
+RewriteRule ^(project)(/.*)?$    index.html
+
 # content-type mappings
 AddType application/javascript .js
 AddType text/cache-manifest .manifest
