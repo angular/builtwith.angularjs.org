@@ -506,6 +506,21 @@
         "No jQuery",
         "Open Source"
       ]
+    },
+    {
+      "name": "eTuneBook",
+      "thumb": "etunebook/thumb.png",
+      "desc": "Abc Tunebook Manager",
+      "url": "http://www.etunebook.ch",
+      "src": "https://github.com/boxplayer/eTuneBook.git",
+      "submitter": "boxplayer",
+      "submissionDate": "2012-10-12",
+      "tags": [
+        "Production",
+        "Abc Notation",
+        "abcjs", "Twitter Bootstrap", "FileReader", "Local Storage", "AppCache", "jQuery",
+        "Open Source"
+      ]
     }
   ]
 }
