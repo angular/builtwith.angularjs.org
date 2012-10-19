@@ -521,6 +521,19 @@
         "abcjs", "Twitter Bootstrap", "FileReader", "Local Storage", "AppCache", "jQuery",
         "Open Source"
       ]
+    },
+    {
+      "name": "FolderChute",
+      "thumb": "folderchute/FolderChute.png",
+      "desc": "My cloud to your... in seconds",
+      "url": "http://folderchute.com",
+      "submitter": "MarkBennett",
+      "submissionDate": "2012-10-15",
+      "tags": [
+        "jQuery","Production","Open Source","HTML5",
+        "CSS3","bootstrap-js",
+        "Ruby on Rails","Ruby","Mover.io","Productivity"
+      ]
     }
   ]
 }
