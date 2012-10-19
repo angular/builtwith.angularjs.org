@@ -463,16 +463,16 @@
    	      ]
     },
     {
-        "name": "CPresent",
-        "thumb": "cpresent/thumb.png",
-        "desc": "A simplified, web-based Church presentation system",
-        "url": "https://github.com/jaitaiwan/CPresent/",
-        "src": "https://github.com/jaitaiwan/CPresent/",
-        "submitter": "jaitaiwan",
-        "submissionDate": "2012-10-01",
-        "tags": [
-            "jQuery","socket.io","Production","Open Source","HTML5","CSS3","bootstrap-js"
-        ]
+      "name": "CPresent",
+      "thumb": "cpresent/thumb.png",
+      "desc": "A simplified, web-based Church presentation system",
+      "url": "https://github.com/jaitaiwan/CPresent/",
+      "src": "https://github.com/jaitaiwan/CPresent/",
+      "submitter": "jaitaiwan",
+      "submissionDate": "2012-10-01",
+      "tags": [
+          "jQuery","socket.io","Production","Open Source","HTML5","CSS3","bootstrap-js"
+      ]
     },
     {
       "name": "Bingo Card Club",
@@ -489,6 +489,22 @@
         "jQuery",
         "Rails",
         "Component"
+      ]
+    },
+    {
+      "name": "Kodigon",
+      "thumb": "kodigon/thumb.png",
+      "desc": "Kodigon is a web application which encode and decode (if possible) string in many algorithm formats lke Base64, MD5, SHA1, etc. It's an example of AngularJS use.",
+      "url": "http://yrezgui.github.com/kodigon/",
+      "src": "https://github.com/yrezgui/kodigon",
+      "submitter": "yrezgui",
+      "submissionDate": "2012-10-06",
+      "tags": [
+        "Demo",
+        "Productivity",
+        "Zurb Foundation", "Encoding", "Decoding", "Hashing",
+        "No jQuery",
+        "Open Source"
       ]
     }
   ]
