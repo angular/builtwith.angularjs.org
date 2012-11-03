@@ -621,6 +621,21 @@
         "jQuery", "Production", "Consumer", "Dining", "CSS3", "bootstrap-js",
         "Node.js", "Twitter Bootstrap", "MongoDB"
       ]
+    },
+    {
+      "name": "everymote",
+      "thumb": "everymote/EM_angular.png",
+      "desc": "A remote for internet of things (IoT) and web of things.",
+      "url": "http://m.everymote.com",
+      "info": "http://everymote.com",
+      "submitter": "evilmachina",
+      "submissionDate": "2012-11-03",
+      "tags": [
+        "Production", "Mobile",
+        "Realtime conntrol", "Internet of things", "Location",
+        "Web Socket", "Geolocation API", "socket.io",
+        "No jQuery"
+      ]
     }
   ]
 }
