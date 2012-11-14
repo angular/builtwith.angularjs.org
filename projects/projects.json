@@ -597,6 +597,17 @@
         "Production", "Entertainment", "Video", "Bootstrap", "jQuery", "Entertainment",
         "Movies", "Trailers", "Netflix", "Trailers for Netflix"
       ]
+    },
+    {
+      "name": "yap.TV Facebook Application",
+      "thumb": "yapTV-facebook/thumb.png",
+      "desc": "Social TV Guide for Facebook",
+      "url": "https://apps.facebook.com/yaptvguide",
+      "submitter": "gregweber",
+      "submissionDate": "2012-10-16",
+      "tags": [
+        "Production","Facebook","Entertainment","Local Storage"
+      ]
     }
   ]
 }
