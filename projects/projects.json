@@ -584,6 +584,19 @@
       "tags": [
         "Production", "Productivity", "Open Source"
       ]
+    },
+    {
+      "name": "Trailers for Netflix",
+      "thumb": "trailers-for-netflix/thumb.png",
+      "desc": "Trailers for Movies in Netflix Instant Streaming",
+      "url": "http://www.trailersfornetflix.com/",
+      "info": "http://willowbend.cx/2012/11/17/announcing-trailers-for-netflix/",
+      "submitter": "darrint",
+      "submissionDate": "2012-11-17",
+      "tags": [
+        "Production", "Entertainment", "Video", "Bootstrap", "jQuery", "Entertainment",
+        "Movies", "Trailers", "Netflix", "Trailers for Netflix"
+      ]
     }
   ]
 }
