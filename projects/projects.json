@@ -813,6 +813,18 @@
         "Production", "No jQuery", "Twitter Bootstrap", "Dictionary",
         "AngularJS", "Ajax", "Education", "HTML5"
       ]
+    },
+    {
+      "name": "eShell",
+      "thumb": "eshell/thumb.png",
+      "desc": "An eLearning player - a building block for eLearning courses created with authoring tools",
+      "url": "http://amitgharat.000space.com/eShell/index.html",
+      "submitter": "codef0rmer",
+      "submissionDate": "2012-11-18",
+      "tags": [
+        "jQuery","Production","Open Source","AngularJS",
+        "CSS3","Twitter BootStrap", "underscore.js", "jQueryUI", "jPlayer"
+      ]
     }
   ]
 }
