@@ -571,6 +571,19 @@
         "Production", "Research", "Ontology", "Medicine", "Biology", "Anatomy", "Raphael", "Vector Graphics",
         "Local Storage", "jQuery", "Open Source"
       ]
+    },
+    {
+      "name": "Plunker",
+      "thumb": "plunker/thumb.png",
+      "desc": "The next generation of lightweight collaborative online editing.",
+      "url": "http://plnkr.co",
+      "info": "https://groups.google.com/forum/?fromgroups#!forum/plunker",
+      "src": "https://github.com/filearts/plunker",
+      "submitter": "ggoodman",
+      "submissionDate": "2012-11-21",
+      "tags": [
+        "Production", "Productivity", "Open Source"
+      ]
     }
   ]
 }
