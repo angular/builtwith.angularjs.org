@@ -558,6 +558,19 @@
       "tags": [
         "Production", "Productivity", "Twitter Bootstrap", "CSS3", "HTML5", "Ruby","Rails", "jQuery"
       ]
+    },
+    {
+      "name": "Semantic Body Browser",
+      "thumb": "semantic-body-browser/thumb.png",
+      "desc": "A tool for graphically exploring an organism's body. The app allows a user to browse through the human and murine kidney and trace the developmental stages of the nephron. The vector graphics are generated with Raphael.",
+      "url": "http://sbb.cellfinder.org",
+      "info": "http://sbb.cellfinder.org/about",
+      "submitter": "flekschas",
+      "submissionDate": "2012-11-23",
+      "tags": [
+        "Production", "Research", "Ontology", "Medicine", "Biology", "Anatomy", "Raphael", "Vector Graphics",
+        "Local Storage", "jQuery", "Open Source"
+      ]
     }
   ]
 }
