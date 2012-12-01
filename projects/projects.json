@@ -534,6 +534,19 @@
         "CSS3","bootstrap-js",
         "Ruby on Rails","Ruby","Mover.io","Productivity"
       ]
+    },
+    {
+      "name": "Employee Training Tracker",
+      "thumb": "employee-training-tracker/thumb.png",
+      "desc": "Tracking employee training records",
+      "url": "https://github.com/FineLinePrototyping/employee-training-tracker",
+      "src": "https://github.com/FineLinePrototyping/employee-training-tracker",
+      "submitter": "tpodom",
+      "submissionDate": "2012-12-01",
+      "tags": [
+        "Production", "CRUD", "jQuery", "Open Source", "Tests Included",
+        "Ruby on Rails","Ruby"
+      ]
     }
   ]
 }
