@@ -549,12 +549,12 @@
       ]
     },
     {
-      "name": "NameOkay",  
-      "thumb": "nameokay/thumb.png", 
-      "desc": "Domain Name Generator", 
-      "url": "http://nameokay.com", 
-      "submitter": "pcerioli", 
-      "submissionDate": "2012-11-28", 
+      "name": "NameOkay",
+      "thumb": "nameokay/thumb.png",
+      "desc": "Domain Name Generator",
+      "url": "http://nameokay.com",
+      "submitter": "pcerioli",
+      "submissionDate": "2012-11-28",
       "tags": [
         "Production", "Productivity", "Twitter Bootstrap", "CSS3", "HTML5", "Ruby","Rails", "jQuery"
       ]
