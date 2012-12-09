@@ -676,6 +676,20 @@
         "jQuery",
         "Twitter Bootstrap"
       ]
+    },
+    {
+      "name": "MS Word Character to ASCII Tool",
+      "thumb": "mswordcharconvertor/thumb.png",
+      "desc": "Paste your MS Word text and the word character converter will replace word characters with ASCII characters.",
+      "url": "http://http://wordcharconvertor.rogtopia.com/",
+      "info": "http://wordcharconvertor.rogtopia.com/#/about",
+      "submitter": "rriche",
+      "submissionDate": "2012-12-09",
+      "tags": [
+        "Production",
+        "Productivity",
+        "Utility"
+      ]
     }
   ]
 }
