@@ -690,6 +690,18 @@
         "Productivity",
         "Utility"
       ]
+    },
+    {
+      "name": "Kontaktkarte",
+      "thumb": "kontaktkarte/thumb.png",
+      "desc": "Kontaktkarte is your central repository for contacts from social networks and real life.",
+      "url": "http://www.kontaktkarte.de",
+      "info": "http://blog.kontaktkarte.de",
+      "submissionDate": "2012-12-12",
+      "tags": [
+        "Production", "Productivity",
+        "jQuery", "Bootstrap", "lawnchair", "HTML5", "CSS3", "LESS"
+      ]
     }
   ]
 }
