@@ -702,6 +702,24 @@
         "Production", "Productivity",
         "jQuery", "Bootstrap", "lawnchair", "HTML5", "CSS3", "LESS"
       ]
+    },
+    {
+      "name": "socialblood.org",
+      "thumb": "socialblood/thumb.png",
+      "desc": "A simple and powerful way to connect with blood donors in your community.",
+      "url": "http://www.socialblood.org/",
+      "info": "http://www.socialblood.org/about/",
+      "submitter": "PavelGavlik",
+      "submissionDate": "2012-12-12",
+      "tags": [
+        "Production",
+        "Facebook",
+        "Medicine",
+        "CSS3",
+        "Geolocation API",
+        "Google Maps",
+        "Django"
+      ]
     }
   ]
 }
