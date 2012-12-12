@@ -720,6 +720,21 @@
         "Google Maps",
         "Django"
       ]
+    },
+    {
+      "name": "Jobvite Hire",
+      "thumb": "jobvite/thumb.png",
+      "desc": "Social recruiting and applicant tracking tool.",
+      "url": "http://recruiting.jobvite.com/products/jobvite-hire/",
+      "info": "http://blog.jobvite.com/2012/09/today-we-announce-the-new-jobvite-hire/",
+      "submitter": "ProLoser",
+      "submissionDate": "2012-09-25",
+      "tags": [
+        "Production",
+        "Productivity",
+        "Animations", "FullCalendar",
+        "jQuery", "jQueryUI", "AngularUI"
+      ]
     }
   ]
 }
