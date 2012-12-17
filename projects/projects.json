@@ -1016,6 +1016,21 @@
         "Jade",
         "WebAPI"
       ]
+    },
+    {
+      "name": "Registre Foncier",
+      "thumb": "registre-foncier/thumb.png",
+      "desc": "Ultra fast search of the public data from the Land Registry of the Canton of Geneva",
+      "url": "http://registre-foncier.com",
+      "info": "http://registre-foncier.com",
+      "submitter": "registre-foncier",
+      "submissionDate": "2012-12-17",
+      "tags": [
+        "Production",
+        "Productivity",
+        "jQuery",
+        "Ruby on Rails"
+      ]
     }
   ]
 }
