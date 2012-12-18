@@ -749,6 +749,26 @@
         "Flight Search Engine", "Free Service",
         "Animations", "jQuery", "CSS3", "HTML5"
       ]
+    },
+    {
+      "name": "goutec",
+      "thumb": "goutec/thumb.png",
+      "desc": "e-shop site (Demo version) ",
+      "url": "http://goutec.net",
+      "info": "http://goutec.net",
+      "submitter": "erikwco",
+      "submissionDate": "2012-12-18",
+      "tags": [
+        "Demo",
+        "Shopping",
+        "Bootstrap",
+        "Local Storage",
+        "bootstrap-js",
+        "jQuery",
+        "Twitter-bootstrap",
+        "PHP",
+        "Rest"
+      ]
     }
   ]
 }
