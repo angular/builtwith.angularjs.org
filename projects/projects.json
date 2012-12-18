@@ -735,6 +735,21 @@
         "Animations", "FullCalendar",
         "jQuery", "jQueryUI", "AngularUI"
       ]
+    },
+    {
+      "name": "WhichAirline",
+      "thumb": "whichairline/thumb.png",
+      "desc": "WhichAirline.com searches more than 100.000 routes to present the best available low-cost alternatives. The website helps user visualise flight duration and stopovers, and find the flights that best suit their time and budget. WhichAirline.com is a free service.",
+      "url": "http://www.whichairline.com",
+      "info": "http://www.whichairline.com/news",
+      "submitter": "twobits-cz",
+      "submissionDate": "2012-12-18",
+      "tags": [
+        "Production", "Travel",
+        "Flight Search Engine", "Free Service",
+        "Animations", "jQuery", "CSS3", "HTML5"
+      ]
     }
   ]
 }
+
