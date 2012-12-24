@@ -769,6 +769,20 @@
         "PHP",
         "Rest"
       ]
+    },
+    {
+      "name": "roadrat",
+      "thumb": "roadrat/thumb.png",
+      "desc": "Road Rash Driving Incidence Recording",
+      "url": "http://roadrat.in",
+      "info": "http://roadrat.in/#/about",
+      "submitter": "deveshnahata",
+      "submissionDate": "2012-12-24",
+      "tags": [
+        "Production", "Research", "Web Sockets",
+        "jQuery", "Mobile", "Geolocation API", "socket.io",
+        "Node.js", "Twitter Bootstrap", "MongoDB"
+      ]
     }
   ]
 }
