@@ -842,6 +842,20 @@
         "No jQuery",
         "Open Source"
       ]
+    },
+    {
+      "name": "Tuft & Needle",
+      "thumb": "tuftandneedle/thumb.jpg",
+      "desc": "Tuft & Needle is a bed company with the mission of making a good night's sleep available to everyone.",
+      "url": "https://www.tuftandneedle.com/",
+      "info": "https://www.tuftandneedle.com/about",
+      "submitter": "daehee",
+      "submissionDate": "2013-01-04",
+      "tags": [
+        "Production",
+        "Ecommerce",
+        "jQuery"
+      ]
     }
   ]
 }
