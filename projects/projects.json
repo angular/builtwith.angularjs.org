@@ -783,7 +783,23 @@
         "jQuery", "Mobile", "Geolocation API", "socket.io",
         "Node.js", "Twitter Bootstrap", "MongoDB"
       ]
+    },
+    {
+      "name": "nbawowy",
+      "thumb": "nba-wowy/thumb.png",
+      "desc": "Find statistics of your favorite team with any arbitrary combination of players on or off the court.",
+      "url": "http://nbawowy.com",
+      "info":"http://www.d3coder.com/thecity/2013/01/04/introducing-nba-wowy/",
+      "submitter":"EvanZ",
+      "submissionDate":"2013-01-05",
+      "tags": [
+        "Production",
+        "Entertainment",
+        "Statistics",
+        "No jQuery",
+        "Node",
+        "Bootstrap"
+      ]
     }
   ]
 }
-
