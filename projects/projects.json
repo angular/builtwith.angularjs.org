@@ -655,6 +655,27 @@
         "jQuery",
         "Mobile"
       ]
+    },
+    {
+      "name": "TakeTracker",
+      "thumb": "taketracker/thumb.png",
+      "desc": "Manage and share all your media-oriented projects.",
+      "url": "http://www.taketracker.com",
+      "info": "http://www.taketracker.com",
+      "submitter": "Alexis Ohayon",
+      "submissionDate": "2013-01-07",
+      "tags": [
+        "audiovisual",
+        "production",
+        "take tracking",
+        "video",
+        "annotation",
+        "compare",
+        "media projects",
+        "cloud",
+        "jQuery",
+        "Twitter Bootstrap"
+      ]
     }
   ]
 }
