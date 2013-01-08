@@ -800,6 +800,19 @@
         "Node",
         "Bootstrap"
       ]
+    },
+    {
+      "name": "Slovari",
+      "thumb": "slovari/thumb.png",
+      "desc": "Explanatory Dictionary of the Russian Language.",
+      "url": "http://slovari.web-road.net/",
+      "info": "http://notepad.web-road.net/",
+      "submitter": "andrey",
+      "submissionDate": "2013-01-08",
+      "tags": [
+        "Production", "No jQuery", "Twitter Bootstrap", "Dictionary",
+        "AngularJS", "Ajax", "Education", "HTML5"
+      ]
     }
   ]
 }
