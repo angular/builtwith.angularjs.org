@@ -825,6 +825,23 @@
         "jQuery","Production","Open Source","AngularJS",
         "CSS3","Twitter BootStrap", "underscore.js", "jQueryUI", "jPlayer"
       ]
+    },
+    {
+      "name":"Contact Path",
+      "thumb":"contact-path/thumb.png",
+      "desc":"A simple contact management application build using AngularJS",
+      "url":"http://contactpath.liberlabs.com",
+      "info":"https://bitbucket.org/adhilnv/contact-path",
+      "src":"https://bitbucket.org/adhilnv/contact-path/src",
+      "submitter":"adhilnv",
+      "submissionDate":"2013-01-12",
+      "tags":[
+        "Demo",
+        "CRUD",
+        "Animations", "Local Storage",
+        "No jQuery",
+        "Open Source"
+      ]
     }
   ]
 }
