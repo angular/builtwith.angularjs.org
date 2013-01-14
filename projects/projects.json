@@ -856,21 +856,18 @@
         "Ecommerce",
         "jQuery"
       ]
-    }
+    },
     {
-      "name": "SCAmp",
-      "thumb": "scamp/thumb.png",
-      "desc": "SoundCloud Playlist Manager",
-      "url": "http://github.com/beshrkayali/scamp/",
-      "src": "http://github.com/beshrkayali/scamp/",
+      "name": "HyperStage (هايبرستيج)",
+      "thumb": "hyperstage/thumb.png",
+      "desc": "HyperStage: Arabic Podcasting Network",
+      "url": "http://hyperstage.net/",
       "submitter": "beshrkayali",
-      "submissionDate": "2012-07-28",
+      "submissionDate": "2013-01-14",
       "tags": [
-        "Toy",
-        "Entertainment",
-        "Local Storage", "SoundCloud HTML5 Widget",
-        "jQuery",
-        "Open Source"
+        "Production",
+        "CMS", "CRUD",
+        "Django", "Yeoman"
       ]
     }
   ]
