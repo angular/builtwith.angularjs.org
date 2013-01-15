@@ -869,6 +869,24 @@
         "CMS", "CRUD",
         "Django", "Yeoman"
       ]
+    },
+    {
+      "name": "Tag Cloud Search + Translate",
+      "thumb": "tagcloud/thumb.png",
+      "desc": "Tag Cloud is an extension for Chrome that creates, for any web page displayed in your Chrome browser, a Tag Cloud with the 100 most often used words, providing a quick synthesis of every page you browse, in less than a second, and with only one click.",
+      "url": "http://goo.gl/pQHts",
+      "info": "http://mlarocca.github.com/01-14-2013/tagcloud.html",
+      "src": "http://goo.gl/Lrqiq",
+      "submitter": "mlarocca",
+      "submissionDate": "2013-01-15",
+      "tags": [
+        "Production",
+        "Browser Extension", "Search",
+        "AngularJS", "D3js", "SVG", "Chrome Extension",
+        "jQuery", 
+        "Open Source",
+        "Tests Included"
+      ]
     }
   ]
 }
