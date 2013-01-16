@@ -1031,6 +1031,23 @@
         "jQuery",
         "Ruby on Rails"
       ]
+    },
+    {
+      "name": "Hatjitsu",
+      "thumb": "hatjitsu/thumb.png",
+      "desc": "Distributed scrum planning poker for estimating agile projects.",
+      "url": "http://hat.jit.su",
+      "submitter": "joergd",
+      "submissionDate": "2013-01-16",
+      "tags": [
+        "CSS3",
+        "HTML5",
+        "Node.js",
+        "Responsive",
+        "Realtime",
+        "Web Sockets",
+        "Agile"
+      ]
     }
   ]
 }
