@@ -1048,6 +1048,23 @@
         "Web Sockets",
         "Agile"
       ]
+    },
+    {
+      "name": "Whitetruffle Candidate Profile",
+      "thumb": "whitetruffle/thumb.png",
+      "desc": "Whitetruffle matches talent with startups. The redesigned candidate profile uses AngularJS to make the code as clean as the design.",
+      "url": "http://www.whitetruffle.com/",
+      "submitter": "rajunov",
+      "submissionDate": "2013-01-16",
+      "tags": [
+        "Production",
+        "Responsive",
+        "Jobs",
+        "Startups",
+        "CSS3",
+        "Bootstrap",
+        "jQuery"
+      ]
     }
   ]
 }
