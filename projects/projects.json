@@ -1081,6 +1081,21 @@
         "Open Source",
         "Bootstrap"
       ]
+    },
+    {
+      "name": "angular_sudoku",
+      "thumb": "angular_sudoku/thumb.png",
+      "desc": "Sudoku game built with angular.js",
+      "url": "http://mourafiq.com/sudoku/",
+      "submitter": "mouradmourafiq",
+      "submissionDate": "2013-01-22",
+      "tags": [
+        "jQuery",
+        "Game",
+        "Open Source",
+        "CSS3",
+        "Bootstrap"
+      ]
     }
   ]
 }
