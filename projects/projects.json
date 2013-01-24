@@ -1096,6 +1096,28 @@
         "CSS3",
         "Bootstrap"
       ]
+    },
+    {
+      "name": "hawtio",
+      "thumb": "hawtio/thumb.png",
+      "desc": "An open source plugin based console for managing your Java stuff (e.g. Apache Camel, Apache ActiveMQ, JMX, OSGi and Fuse Fabric). Its a hawt console to help you stay cool!",
+      "url": "http://hawt.io/",
+      "submitter": "jstrachan",
+      "submissionDate": "2013-01-24",
+      "tags": [
+        "Production",
+        "Open Source",
+        "Productivity",
+        "HTML5",
+        "AngularUI",
+        "jQuery",
+        "Bootstrap",
+        "ng-grid",
+        "TypeScript",
+        "D3js",
+        "jolokia",
+        "JMX"
+      ]
     }
   ]
 }
