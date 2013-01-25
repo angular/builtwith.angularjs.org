@@ -1117,6 +1117,20 @@
         "jQuery",
         "HTML5"
       ]
+    },
+    {
+      "name": "Washington DC Metro NextBus",
+      "thumb": "nextbus/thumb.png",
+      "desc": "NextBus allows when the next bus will arrive at their stop. This application is mobile and desktop friendly",
+      "url": "www.swannsoftware.com/nextbus",
+      "submitter": "jswann",
+      "submissionDate": "2013-01-25",
+      "tags": [
+        "Production",
+        "Travel",
+        "Productivity",
+        "BootStrap"
+      ]
     }
   ]
 }
