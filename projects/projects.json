@@ -1118,6 +1118,24 @@
         "jolokia",
         "JMX"
       ]
+    },
+    {
+      "name": "Fusteeno",
+      "thumb": "fusteeno/thumb.png",
+      "desc": "Send documents, images and any files online by your favorite cloud service.",
+      "url": "http://www.fusteeno.com",
+      "info": "https://twitter.com/Fusteeno",
+      "submitter": "tavolate",
+      "submissionDate": "2013-01-28",
+      "tags": [
+        "Production",
+        "Productivity",
+        "Cloud",
+        "CSS3",
+        "Bootstrap",
+        "jQuery",
+        "HTML5"
+      ]
     }
   ]
 }
