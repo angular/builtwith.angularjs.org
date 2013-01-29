@@ -209,9 +209,9 @@
       ]
     },
     {
-      "name": "Twitter Search",
+      "name": "Search",
       "thumb": "twitter-search/thumb.png",
-      "desc": "Search Twitter for recent tweets for any topic. Filter results by tweet, author, etc.",
+      "desc": "Search for recent tweets for any topic. Filter results by tweet, author, etc.",
       "url": "http://jsfiddle.net/ThomasBurleson/8Gzj9/",
       "src": "https://github.com/ThomasBurleson/angularJS-TwitterSearch",
       "submitter": "ThomasBurleson",
@@ -249,7 +249,8 @@
       "submissionDate": "2012-06-19",
       "tags": [
         "Production",
-        "Entertainment", "Social-Commerce",
+        "Entertainment",
+        "Social-Commerce",
         "Play Framework",
         "jQuery"
       ]
@@ -349,8 +350,10 @@
       "submissionDate": "2012-07-20",
       "tags": [
         "Production",
-        "Productivity", "Extension",
-        "Local Storage", "FileSystem API",
+        "Productivity",
+        "Extension",
+        "Local Storage",
+        "FileSystem API",
         "jQuery",
         "Open Source"
       ]
@@ -366,7 +369,9 @@
       "tags": [
         "Production",
         "Entertainment",
-        "Animations", "Local Storage", "Video API",
+        "Animations",
+        "Local Storage",
+        "Video API",
         "Google Closure",
         "No jQuery"
       ]
@@ -396,7 +401,9 @@
       "tags": [
         "Production",
         "Entertainment",
-        "Animations", "Zepto", "Flickable.js",
+        "Animations",
+        "Zepto",
+        "Flickable.js",
         "No jQuery",
         "Mobile"
       ]
@@ -427,7 +434,8 @@
       "tags": [
         "Production",
         "Entertainment",
-        "Animations", "Bootstrap",
+        "Animations",
+        "Bootstrap",
         "No jQuery"
       ]
     },
@@ -442,9 +450,10 @@
       "tags": [
         "Production",
         "Productivity",
-        "Node.js", "Twitter Bootstrap", "Google Apps",
+        "Node.js",
+        "Bootstrap",
+        "Google Apps",
         "jQuery"
-
       ]
     },
     {
@@ -456,11 +465,11 @@
       "submitter": "nlaplante",
       "submissionDate": "2012-08-30",
       "tags": [
-          "Production",
-          "Component",
-          "Google Maps API v3",
-          "Open Source"
-          ]
+        "Production",
+        "Component",
+        "Google Maps",
+        "Open Source"
+      ]
     },
     {
       "name": "CPresent",
@@ -471,7 +480,13 @@
       "submitter": "jaitaiwan",
       "submissionDate": "2012-10-01",
       "tags": [
-          "jQuery","socket.io","Production","Open Source","HTML5","CSS3","bootstrap-js"
+        "jQuery",
+        "Socket.io",
+        "Production",
+        "Open Source",
+        "HTML5",
+        "CSS3",
+        "bootstrap-js"
       ]
     },
     {
@@ -502,7 +517,10 @@
       "tags": [
         "Demo",
         "Productivity",
-        "Zurb Foundation", "Encoding", "Decoding", "Hashing",
+        "Zurb Foundation",
+        "Encoding",
+        "Decoding",
+        "Hashing",
         "No jQuery",
         "Open Source"
       ]
@@ -518,7 +536,12 @@
       "tags": [
         "Production",
         "Abc Notation",
-        "abcjs", "Twitter Bootstrap", "FileReader", "Local Storage", "AppCache", "jQuery",
+        "abcjs",
+        "Bootstrap",
+        "FileReader",
+        "Local Storage",
+        "AppCache",
+        "jQuery",
         "Open Source"
       ]
     },
@@ -530,9 +553,16 @@
       "submitter": "MarkBennett",
       "submissionDate": "2012-10-15",
       "tags": [
-        "jQuery","Production","Open Source","HTML5",
-        "CSS3","bootstrap-js",
-        "Ruby on Rails","Ruby","Mover.io","Productivity"
+        "jQuery",
+        "Production",
+        "Open Source",
+        "HTML5",
+        "CSS3",
+        "bootstrap-js",
+        "Ruby on Rails",
+        "Ruby",
+        "Mover.io",
+        "Productivity"
       ]
     },
     {
@@ -544,8 +574,13 @@
       "submitter": "tpodom",
       "submissionDate": "2012-12-01",
       "tags": [
-        "Production", "CRUD", "jQuery", "Open Source", "Tests Included",
-        "Ruby on Rails","Ruby"
+        "Production",
+        "CRUD",
+        "jQuery",
+        "Open Source",
+        "Tests Included",
+        "Ruby on Rails",
+        "Ruby"
       ]
     },
     {
@@ -556,7 +591,14 @@
       "submitter": "pcerioli",
       "submissionDate": "2012-11-28",
       "tags": [
-        "Production", "Productivity", "Twitter Bootstrap", "CSS3", "HTML5", "Ruby","Rails", "jQuery"
+        "Production",
+        "Productivity",
+        "Bootstrap",
+        "CSS3",
+        "HTML5",
+        "Ruby",
+        "Rails",
+        "jQuery"
       ]
     },
     {
@@ -568,8 +610,17 @@
       "submitter": "flekschas",
       "submissionDate": "2012-11-23",
       "tags": [
-        "Production", "Research", "Ontology", "Medicine", "Biology", "Anatomy", "Raphael", "Vector Graphics",
-        "Local Storage", "jQuery", "Open Source"
+        "Production",
+        "Research",
+        "Ontology",
+        "Medicine",
+        "Biology",
+        "Anatomy",
+        "Raphael",
+        "Vector Graphics",
+        "Local Storage",
+        "jQuery",
+        "Open Source"
       ]
     },
     {
@@ -582,7 +633,9 @@
       "submitter": "ggoodman",
       "submissionDate": "2012-11-21",
       "tags": [
-        "Production", "Productivity", "Open Source"
+        "Production",
+        "Productivity",
+        "Open Source"
       ]
     },
     {
@@ -594,8 +647,15 @@
       "submitter": "darrint",
       "submissionDate": "2012-11-17",
       "tags": [
-        "Production", "Entertainment", "Video", "Bootstrap", "jQuery", "Entertainment",
-        "Movies", "Trailers", "Netflix", "Trailers for Netflix"
+        "Production",
+        "Entertainment",
+        "Video",
+        "Bootstrap",
+        "jQuery",
+        "Entertainment",
+        "Movies",
+        "Trailers",
+        "Netflix"
       ]
     },
     {
@@ -606,7 +666,10 @@
       "submitter": "gregweber",
       "submissionDate": "2012-10-16",
       "tags": [
-        "Production","Facebook","Entertainment","Local Storage"
+        "Production",
+        "Facebook",
+        "Entertainment",
+        "Local Storage"
       ]
     },
     {
@@ -618,8 +681,15 @@
       "submitter": "Mo Bhasin",
       "submissionDate": "2012-11-09",
       "tags": [
-        "jQuery", "Production", "Consumer", "Dining", "CSS3", "bootstrap-js",
-        "Node.js", "Twitter Bootstrap", "MongoDB"
+        "jQuery",
+        "Production",
+        "Consumer",
+        "Dining",
+        "CSS3",
+        "bootstrap-js",
+        "Node.js",
+        "Bootstrap",
+        "MongoDB"
       ]
     },
     {
@@ -631,9 +701,14 @@
       "submitter": "evilmachina",
       "submissionDate": "2012-11-03",
       "tags": [
-        "Production", "Mobile",
-        "Realtime conntrol", "Internet of things", "Location",
-        "Web Socket", "Geolocation API", "socket.io",
+        "Production",
+        "Mobile",
+        "Realtime conntrol",
+        "Internet of things",
+        "Location",
+        "Web Socket",
+        "Geolocation API",
+        "Socket.io",
         "No jQuery"
       ]
     },
@@ -665,16 +740,14 @@
       "submitter": "Alexis Ohayon",
       "submissionDate": "2013-01-07",
       "tags": [
-        "audiovisual",
-        "production",
-        "take tracking",
-        "video",
-        "annotation",
-        "compare",
-        "media projects",
-        "cloud",
+        "Audiovisual",
+        "Production",
+        "Video",
+        "Annotation",
+        "Compare",
+        "Cloud",
         "jQuery",
-        "Twitter Bootstrap"
+        "Bootstrap"
       ]
     },
     {
@@ -699,8 +772,14 @@
       "info": "http://blog.kontaktkarte.de",
       "submissionDate": "2012-12-12",
       "tags": [
-        "Production", "Productivity",
-        "jQuery", "Bootstrap", "lawnchair", "HTML5", "CSS3", "LESS"
+        "Production",
+        "Productivity",
+        "jQuery",
+        "Bootstrap",
+        "lawnchair",
+        "HTML5",
+        "CSS3",
+        "LESS"
       ]
     },
     {
@@ -732,8 +811,11 @@
       "tags": [
         "Production",
         "Productivity",
-        "Animations", "FullCalendar",
-        "jQuery", "jQueryUI", "AngularUI"
+        "Animations",
+        "FullCalendar",
+        "jQuery",
+        "jQueryUI",
+        "AngularUI"
       ]
     },
     {
@@ -745,9 +827,12 @@
       "submitter": "twobits-cz",
       "submissionDate": "2012-12-18",
       "tags": [
-        "Production", "Travel",
-        "Flight Search Engine", "Free Service",
-        "Animations", "jQuery", "CSS3", "HTML5"
+        "Production",
+        "Travel",
+        "Animations",
+        "jQuery",
+        "CSS3",
+        "HTML5"
       ]
     },
     {
@@ -765,7 +850,7 @@
         "Local Storage",
         "bootstrap-js",
         "jQuery",
-        "Twitter-bootstrap",
+        "Bootstrap",
         "PHP",
         "Rest"
       ]
@@ -779,9 +864,16 @@
       "submitter": "deveshnahata",
       "submissionDate": "2012-12-24",
       "tags": [
-        "Production", "Research", "Web Sockets",
-        "jQuery", "Mobile", "Geolocation API", "socket.io",
-        "Node.js", "Twitter Bootstrap", "MongoDB"
+        "Production",
+        "Research",
+        "Web Sockets",
+        "jQuery",
+        "Mobile",
+        "Geolocation API",
+        "Socket.io",
+        "Node.js",
+        "Bootstrap",
+        "MongoDB"
       ]
     },
     {
@@ -810,8 +902,12 @@
       "submitter": "andrey",
       "submissionDate": "2013-01-08",
       "tags": [
-        "Production", "No jQuery", "Twitter Bootstrap", "Dictionary",
-        "AngularJS", "Ajax", "Education", "HTML5"
+        "Production",
+        "No jQuery",
+        "Bootstrap",
+        "Dictionary",
+        "Education",
+        "HTML5"
       ]
     },
     {
@@ -822,8 +918,14 @@
       "submitter": "codef0rmer",
       "submissionDate": "2012-11-18",
       "tags": [
-        "jQuery","Production","Open Source","AngularJS",
-        "CSS3","Twitter BootStrap", "underscore.js", "jQueryUI", "jPlayer"
+        "jQuery",
+        "Production",
+        "Open Source",
+        "CSS3",
+        "BootStrap",
+        "underscore.js",
+        "jQueryUI",
+        "jPlayer"
       ]
     },
     {
@@ -838,7 +940,8 @@
       "tags":[
         "Demo",
         "CRUD",
-        "Animations", "Local Storage",
+        "Animations",
+        "Local Storage",
         "No jQuery",
         "Open Source"
       ]
@@ -866,8 +969,10 @@
       "submissionDate": "2013-01-14",
       "tags": [
         "Production",
-        "CMS", "CRUD",
-        "Django", "Yeoman"
+        "CMS",
+        "CRUD",
+        "Django",
+        "Yeoman"
       ]
     },
     {
@@ -881,8 +986,10 @@
       "submissionDate": "2013-01-15",
       "tags": [
         "Production",
-        "Browser Extension", "Search",
-        "AngularJS", "D3js", "SVG", "Chrome Extension",
+        "Search",
+        "D3js",
+        "SVG",
+        "Extension",
         "jQuery", 
         "Open Source",
         "Tests Included"
@@ -897,9 +1004,17 @@
       "submitter": "dvonlehman", 
       "submissionDate": "2013-01-12",
       "tags": [
-        "Production", "CSS3", "HTML5", "AngularJS", "ZeptoJS", "AppCache", 
-        "Web Sockets", "Web Workers", "Ajax", "Education", "HTML5",
-        "Twitter Bootstrap", "No jQuery", "DropBox", "NodeJS", "ExpressJS", "Stylus", "Jade", "WebAPI"
+        "Production",
+        "AppCache", 
+        "Web Sockets",
+        "Web Workers",
+        "Education",
+        "Bootstrap",
+        "No jQuery",
+        "Node.js",
+        "ExpressJS",
+        "Jade",
+        "WebAPI"
       ]
     }
   ]
