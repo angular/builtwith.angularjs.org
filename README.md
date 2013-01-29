@@ -29,4 +29,5 @@ Adding your neat thing
           ]
         }
 
-4.  Send a pull request
+4.  Make sure that it looks alright by running `./web-server.js` (requires Node.js)
+5.  Send a pull request
