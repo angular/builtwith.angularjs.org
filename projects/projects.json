@@ -1131,6 +1131,22 @@
         "Productivity",
         "BootStrap"
       ]
+    },
+    {
+      "name": "Toogles",
+      "thumb": "toogles/thumb.png",
+      "desc": "A super fast, minimal alternative YouTube interface.",
+      "url": "http://toogl.es",
+      "src": "https://github.com/mikecrittenden/toogles",
+      "submitter": "mikecrittenden",
+      "submissionDate": "2013-01-30",
+      "tags": [
+        "Open Source",
+        "Entertainment",
+        "Video API",
+        "YouTube",
+        "No jQuery"
+      ]
     }
   ]
 }
