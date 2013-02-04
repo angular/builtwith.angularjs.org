@@ -1147,6 +1147,24 @@
         "YouTube",
         "No jQuery"
       ]
+    },
+    {
+      "name": "Metawidget",
+      "thumb": "metawidget/thumb.png",
+      "desc": "A smart User Interface widget that populates itself, at runtime, with UI components to match the properties of your business objects.",
+      "url": "http://metawidget.org",
+      "submitter": "kennardconsulting",
+      "submissionDate": "2013-02-04",
+      "tags": [
+      	"Production",
+        "Open Source",
+        "Productivity",
+        "HTML5",
+        "AngularUI",
+        "jQuery",
+        "User Interface",
+        "Tests Included"
+      ]
     }
   ]
 }
