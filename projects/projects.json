@@ -1165,6 +1165,25 @@
         "User Interface",
         "Tests Included"
       ]
+    },
+    {
+      "name": "Antique Metronome",
+      "thumb": "metronome/thumb.png",
+      "desc": "Functional antique metronome skeuomorph, responsive design, AngularJS, CSS transitions.",
+      "url": "http://victorblog.com/metronome/",
+      "info": "http://victorblog.com/2012/12/31/old-fashioned-metronome-in-angularjs-html5-and-css3/",
+      "submitter": "evictor",
+      "submissionDate": "2013-02-09",
+      "tags": [
+        "Demo",
+        "Entertainment",
+        "CSS transitions",
+        "CSS Transforms",
+        "Audio API",
+        "Responsive",
+        "jQuery",
+        "Open Source"
+      ]
     }
   ]
 }
