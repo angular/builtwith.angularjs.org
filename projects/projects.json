@@ -971,7 +971,7 @@
         "D3js",
         "SVG",
         "Extension",
-        "jQuery", 
+        "jQuery",
         "Open Source",
         "Tests Included"
       ]
@@ -982,11 +982,11 @@
       "desc": "Helping early childhood education work smarter through better parent communication and streamlined operations. Powered by moibile and the cloud.",
       "url": "http://www.wundergram.com",
       "info": "http://www.wundergram.com",
-      "submitter": "dvonlehman", 
+      "submitter": "dvonlehman",
       "submissionDate": "2013-01-12",
       "tags": [
         "Production",
-        "AppCache", 
+        "AppCache",
         "Web Sockets",
         "Web Workers",
         "Education",
@@ -1199,6 +1199,22 @@
         "No jQuery",
         "RESTful",
         "UI Bootstrap"
+      ]
+    },
+    {
+      "name": "Reddit Reader",
+      "thumb": "reddit-reader/thumb.png",
+      "desc": "Just A Better Reddit Client",
+      "url": "https://chrome.google.com/webstore/detail/reddit-reader/hjeeiboadmdglchgjlimiojgdjoadpol",
+      "src": "https://github.com/dotjosh/RedditReader",
+      "info": "https://twitter.com/dotjosh",
+      "submitter": "dotjosh",
+      "submissionDate": "2013-02-10",
+      "tags": [
+        "Reddit",
+        "jQuery",
+        "Open Source",
+        "Entertainment"
       ]
     }
   ]
