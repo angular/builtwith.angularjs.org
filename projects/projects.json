@@ -1184,6 +1184,22 @@
         "jQuery",
         "Open Source"
       ]
+    },
+    {
+      "name": "Topoi",
+      "thumb": "topoi/thumb.png",
+      "desc": "An AngularJS, Bootstrap and Kinvey sandbox",
+      "url": "http://gdriv.es/topoi",
+      "src": "https://github.com/quimarche/topoi",
+      "submitter": "quimarche",
+      "submissionDate": "2013-02-15",
+      "tags": [
+        "Demo",
+        "Kinvey",
+        "No jQuery",
+        "RESTful",
+        "UI Bootstrap"
+      ]
     }
   ]
 }
