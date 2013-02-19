@@ -713,25 +713,6 @@
       ]
     },
     {
-      "name": "doooble",
-      "thumb": "doooble/thumb.png",
-      "desc": "Do what you need to get done with Doooble. Stay in sync. Work offline. Your life in the cloud.",
-      "url": "http://doooble.com",
-      "info": "http://doooble.com/blog",
-      "submitter": "gregorypratt",
-      "submissionDate": "2012-11-03",
-      "tags": [
-        "Production",
-        "Productivity",
-        "Animations",
-        "Local Storage",
-        "AppCache",
-        "Web Sockets",
-        "jQuery",
-        "Mobile"
-      ]
-    },
-    {
       "name": "TakeTracker",
       "thumb": "taketracker/thumb.png",
       "desc": "Manage and share all your media-oriented projects.",
