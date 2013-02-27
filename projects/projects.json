@@ -1216,6 +1216,23 @@
         "Open Source",
         "Entertainment"
       ]
+    },
+    {
+      "name": "HackyNote",
+      "thumb": "HackyNote/thumb.png",
+      "desc": "A presentation editor and preview based on markdown. Made for hackers",
+      "url": "http://thiagofelix.github.com/hackynote/app",
+      "info": "https://github.com/thiagofelix/hackynote",
+      "src": "https://github.com/thiagofelix/hackynote",
+      "submitter": "thiagofelix",
+      "submissionDate": "2013-02-26",
+      "tags": [
+        "Production",
+        "Productivity",
+        "3rd Party Plugins Integration",
+        "Open Source",
+        "Tests Included"
+      ]
     }
   ]
 }
