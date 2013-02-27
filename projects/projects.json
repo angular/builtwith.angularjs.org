@@ -2803,6 +2803,27 @@
         "jQuery",
         "Videotron"
       ]
+    },
+    {
+      "name": "PAC2 Statistics",
+      "thumb": "pac2/thumb.png",
+      "desc": "Dashboard about the biggest brazilian program of investiment in infrastructure.  ( pt-only )",
+      "url": "http://pac-info.herokuapp.com",
+      "info": "https://github.com/thiagofelix/pac-info",
+      "src": "https://github.com/thiagofelix/pac-info",
+      "submitter": "thiagofelix",
+      "submissionDate": "2013-11-28",
+      "tags": [
+        "Production",
+        "Dashboard",
+        "OpenData",
+        "Government",
+        "Animations",
+        "Charts",
+        "Open Source",
+        "D3js",
+        "Mobile"
+      ]
     }
 
   ]
