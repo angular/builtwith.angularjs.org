@@ -1249,6 +1249,21 @@
         "SVG",
         "jQuery"
       ]
+    },
+    {
+      "name": "Search for drugs",
+      "thumb": "drugsearch-android/thumb.jpg",
+      "desc": "This mobile app helps to check quickly the availability and price of drugs in pharmacies of Ekaterinburg and others cities of Sverdlovsk Region (Russia)",
+      "url": "http://play.google.com/store/apps/details?id=com.mgrach.drugsearch",
+      "submitter": "Maxim Grach",
+      "submissionDate": "2013-03-01",
+      "tags": [
+        "Medicine",
+        "Mobile",
+        "Android",
+        "Phonegap",
+        "no jQuery"
+      ]
     }
   ]
 }
