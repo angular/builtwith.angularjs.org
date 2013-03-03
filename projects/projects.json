@@ -1264,6 +1264,22 @@
         "Phonegap",
         "no jQuery"
       ]
+    },
+    {
+      "name": "Super Muni",
+      "thumb": "supermuni/supermuni.png",
+      "desc": "Real time view of sf-muni vehicles using AngularJS",
+      "url": "http://supermuni.com",
+      "info": "http://news.ycombinator.com/item?id=5300310",
+      "src": "https://github.com/Sate/supermuni",
+      "submitter": "Sate",
+      "submissionDate": "2013-03-2",
+      "tags": [
+        "Production",
+        "Productivity",
+        "Animations", "Heavy 3rd party API Integration",
+        "jQuery"
+      ]
     }
   ]
 }
