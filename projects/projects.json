@@ -1233,6 +1233,22 @@
         "Open Source",
         "Tests Included"
       ]
+    },
+    {
+      "name": "Debuggex",
+      "thumb": "debuggex/thumb.png",
+      "desc": "A visual regular expression tester",
+      "url": "http://www.debuggex.com",
+      "info": "http://www.debuggex.com/blog",
+      "submitter": "stoarca",
+      "submissionDate": "2013-02-28",
+      "tags": [
+        "Production",
+        "Productivity",
+        "Tool",
+        "SVG",
+        "jQuery",
+      ]
     }
   ]
 }
