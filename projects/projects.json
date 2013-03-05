@@ -1280,6 +1280,19 @@
         "Animations", "Heavy 3rd party API Integration",
         "jQuery"
       ]
+    },
+    {
+      "name": "#Untamed.",
+      "thumb": "untamed-a-digital-photo-installation/thumb.png",
+      "desc": "#Untamed. A digital photo installation. Inspired by the new Mercedes-Benz CLA. April 2013 live in Paris.",
+      "url": "http://www.untamed-installation.com",
+      "submitter": "nextjvm",
+      "submissionDate": "2013-03-05",
+      "tags": [
+        "Production",
+        "Entertainment",
+        "jQuery"
+      ]
     }
   ]
 }
