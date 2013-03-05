@@ -1293,6 +1293,25 @@
         "Entertainment",
         "jQuery"
       ]
+    },
+    {
+      "name": "HTML5 Canvas Gradient Creator",
+      "thumb": "html5-canvas-gradient-creator/thumb.png",
+      "desc": "GUI for point-and-click creation of HTML5 canvas gradients that generates the gradient HTML and JS for you.",
+      "url": "http://victorblog.com/html5-canvas-gradient-creator/",
+      "info": "http://victorblog.com/2013/03/05/html5-canvas-gradient-creator/",
+      "src": "https://github.com/evictor/html5-canvas-gradient-creator",
+      "submitter": "evictor",
+      "submissionDate": "2013-03-05",
+      "tags": [
+        "Production",
+        "Developer Tool",
+        "Local Storage",
+        "Responsive",
+        "Canvas",
+        "jQuery",
+        "Open Source"
+      ]
     }
   ]
 }
