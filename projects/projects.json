@@ -1312,6 +1312,22 @@
         "jQuery",
         "Open Source"
       ]
+    },
+    {
+      "name": "CropUp",
+      "thumb": "cropup/thumb.png",
+      "desc": "CropUp is the simpler way to sell what you make. The social commerce platform removes the headache of configuring complicated, expensive storefronts and eliminates the noise and competition of marketplaces.",
+      "url": "http://cropup.com",
+      "info": "http://blog.cropup.com",
+      "submitter": "kamui",
+      "submissionDate": "2013-03-07",
+      "tags": [
+        "Production",
+        "Social-Commerce",
+        "JSON",
+        "Local Storage",
+        "Coffeescript"
+      ]
     }
   ]
 }
