@@ -1328,6 +1328,27 @@
         "Local Storage",
         "Coffeescript"
       ]
+    },
+    {
+      "name": "24me",
+      "thumb": "24me/thumb.png",
+      "desc": "24me is the personal assistant that helps you automatically take care of things - pay your bills, greet your friends and outsource errands for you!",
+      "url": "http://www.twentyfour.me",
+      "info": "http://www.twentyfour.me/features",
+      "submitter": "avivlander",
+      "submissionDate": "2013-03-13",
+      "tags": [
+        "Production",
+        "Productivity",
+        "Mobile",
+        "Angular-Seed",
+        "Local Storage", 
+        "Bootstrap",
+        "Node.js",
+        "BigCouch",
+        "Redis",
+        "Startups"
+      ]
     }
   ]
 }
