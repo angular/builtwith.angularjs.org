@@ -1519,6 +1519,22 @@
         "Mobile",
         "jQuery"
       ]
+    },
+    {
+      "name": "LicensingJS", 
+      "thumb": "licensingjs/thumb.png", 
+      "desc": "Tracks Licenses using Angular, Breeze, toast, q and WebApi, deployed on Azure", 
+      "url": "http://licensingjs.azurewebsites.net/", 
+      "info": "http://plus.google.com/u/0/102437918402681897261/", 
+      "submitter": "mgbee8", 
+      "submissionDate": "2013-03-19", 
+      "tags": [ "Demo",
+        "CRUD",
+        "BreezeJS", 
+        "Web Api",
+        "Angular UI",
+        "jQuery" 
+      ]
     }
   ]
 }
