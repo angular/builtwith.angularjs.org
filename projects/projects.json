@@ -1349,6 +1349,20 @@
         "Redis",
         "Startups"
       ]
+    },
+    {
+      "name": "Louis Cruises",
+      "thumb": "louis-cruises/thumb.png",
+      "desc": "Company website for Louis Cruises",
+      "url": "http://www.louiscruises.com/",
+      "submitter": "mbouclas",
+      "submissionDate": "2013-03-20",
+      "tags": [
+        "Booking",
+        "jQuery",
+        "Production",
+        "JSON"
+      ]
     }
   ]
 }
