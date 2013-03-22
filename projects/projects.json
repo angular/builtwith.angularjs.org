@@ -1277,6 +1277,7 @@
         "no jQuery"
       ]
     },
+<<<<<<< HEAD
     {
       "name": "Super Muni",
       "thumb": "supermuni/supermuni.png",
@@ -1531,6 +1532,23 @@
       "tags": [ "Demo",
         "CRUD",
         "BreezeJS", 
+        "Web Api",
+        "Angular UI",
+        "jQuery" 
+      ]
+    },
+    {
+      "name": "LicensingJS", 
+      "thumb": "licensingjs/thumb.png", 
+      "desc": "Full crud app that tracks Contractor and Business Licenses using Angular, Breeze, toastr and WebApi, deployed on Azure", 
+      "url": "http://licensingjs.azurewebsites.net/", 
+      "info": "http://plus.google.com/u/0/102437918402681897261/", 
+      "submitter": "mgbee8", 
+      "submissionDate": "2013-03-22", 
+      "tags": [
+        "Demo",
+        "CRUD",
+        "Breeze", 
         "Web Api",
         "Angular UI",
         "jQuery" 
