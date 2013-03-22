@@ -1595,6 +1595,20 @@
         "Web Sockets",
         "Mobile"
       ]
+    },
+    {
+      "name": "Musik365",
+      "thumb": "musik365/thumb.jpg",
+      "desc": "Musik365 is free, one click radio that plays music you'll love. Discover new music and enjoy old favorites. Professional DJs created the playlists so you just relax and enjoy the music.",
+      "url": "http://musik365.stop4art.com",
+      "submitter": "Julian",
+      "submissionDate": "2013-03-22",
+      "tags": [
+        "radio",
+        "free music",
+        "online radio",
+        "internet radio"
+      ]
     }
   ]
 }
