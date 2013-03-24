@@ -1381,6 +1381,25 @@
         "MongoDB",
         "API"
       ]
+    },
+    {
+      "name": "font dragr",
+      "thumb": "fontdragr/thumb.jpg",
+      "desc": "A revolutionary way to test custom fonts in the browser. No coding, no uploading, just drag and drop.",
+      "url": "http://fontdragr.com",
+      "info": "https://github.com/ryanseddon/font-dragr",
+      "src": "https://github.com/ryanseddon/font-dragr",
+      "submitter": "ryanseddon",
+      "submissionDate": "2013-03-24",
+      "tags": [
+        "Tool",
+        "Font Face",
+        "Fonts",
+        "Drag and Drop",
+        "Open Source",
+        "Tests Included",
+        "No jQuery"
+      ]
     }
   ]
 }
