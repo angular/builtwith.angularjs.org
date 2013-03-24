@@ -1363,6 +1363,24 @@
         "Production",
         "JSON"
       ]
+    },
+    {
+      "name": "Opentaste",
+      "thumb": "opentaste/thumb.png",
+      "desc": "The social network to find and share cooking recipes",
+      "url": "http://opentaste.eu",
+      "submitter": "zizzamia",
+      "submissionDate": "2013-03-24",
+      "tags": [
+        "Food",
+        "Cook",
+        "Recipe",
+        "Social Network",
+        "Flask",
+        "Python",
+        "MongoDB",
+        "API"
+      ]
     }
   ]
 }
