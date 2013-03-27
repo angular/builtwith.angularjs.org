@@ -1400,6 +1400,24 @@
         "Tests Included",
         "No jQuery"
       ]
+    },
+    {
+      "name": "5by Video Concierge",
+      "thumb": "5by/thumb.png",
+      "desc": "5by helps you decide on what to watch by recommending you videos based on mood, time of day, location and what you like.",
+      "url": "http://www.5by.com/",
+      "submitter": "davecap",
+      "submissionDate": "2013-03-27",
+      "tags": [
+        "Production",
+        "Entertainment",
+        "jQuery",
+        "CSS3",
+        "Bootstrap",
+        "jQuery",
+        "HTML5",
+        "Django"
+      ]
     }
   ]
 }
