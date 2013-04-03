@@ -1418,6 +1418,26 @@
         "HTML5",
         "Django"
       ]
+    },
+    {
+      "name": "SongPane Setlist Manager",
+      "thumb": "SongPane/thumb.png",
+      "desc": "Combine songs from your repertoire to form set lists for worship services, concerts or practice sessions.",
+      "url": "http://demo.songpane.com/",
+      "submitter": "iclanzan",
+      "submissionDate": "2013-04-03",
+      "tags": [
+        "Entertainment",
+        "Productivity",
+        "Music",
+        "Animations",
+        "Local Storage",
+        "AppCache",
+        "Icon Font",
+        "No jQuery",
+        "Demo",
+        "CRUD"
+      ]
     }
   ]
 }
