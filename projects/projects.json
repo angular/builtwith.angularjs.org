@@ -1463,5 +1463,17 @@
         "Tests Included"
       ]
     },
+    {
+      "name": "Paragrabbr",
+      "thumb": "paragrabbr/thumb.jpg",
+      "desc": "A lorem ipsum tool for coders. Helps you prototype paragraph content with contols and randomization for various inline (phrasing) elements and punctuation.",
+      "url": "http://paragrabbr.heydonworks.com",
+      "submitter": "Heydon Pickering",
+      "submissionDate": "2013-04-05",
+      "tags": [
+        "Design",
+        "Prototyping"
+      ]
+    }
   ]
 }
