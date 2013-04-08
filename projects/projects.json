@@ -1489,6 +1489,24 @@
         "Local service",
         "jQuery"
       ]
+    },
+    {
+      "name": "Kangaroom",
+      "thumb": "kangaroom/thumb.png",
+      "desc": "Kangaroom is a search engine for flatshares and rooms to rent in the UK providing an easy-to-use interface that works across phones, tablets and computers.",
+      "url": "http://kangaroom.co.uk/",
+      "submitter": "jinder",
+      "submissionDate": "2013-04-08",
+      "tags": [
+        "Google Maps",
+        "Search",
+        "Responsive",
+        "Animations",
+        "Local Storage",
+        "CSS3",
+        "Mobile",
+        "jQuery"
+      ]
     }
   ]
 }
