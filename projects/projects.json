@@ -1557,6 +1557,27 @@
         "Responsive",
         "HTML5"
       ]
+    },
+    {
+      "name": "App Catalog",
+      "thumb": "appcatalog/thumb.png",
+      "desc": "App Catalog is a self service Cloud based Mobile App and Device Management service for iOS and Android. Manage your iPhone, iPad, iPad mini, Nexus, Galaxy, Xoom, HTC and other android devices.",
+      "url": "http://mobiweave.com/#!/appcatalog",
+      "submitter": "ashd",
+      "submissionDate": "2013-04-12",
+      "tags": [
+        "Google Apps",
+        "MDM",
+        "Mobile Device Management",
+        "Apps",
+        "Azure",
+        "Office 365",
+        "Mobile",
+        "jQuery",
+        "Bootstrap",
+        "AngularJS",
+        ".NET"
+      ]
     }
   ]
 }
