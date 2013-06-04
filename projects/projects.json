@@ -2,6 +2,18 @@
   "featured": "YouTube on PS3",
   "projects": [
     {
+      "name": "Fitblok",
+      "thumb": "fitblok/thumb.png",
+      "desc": "Fitblok is a One-Page Web app, which provides users with a gym-like experience and enables fitness trainers to develop their own following.",
+      "url": "http://fitblok.com",
+      "info": "https://info.fitblok.com/intro/",
+      "submitter": "Yuval-Purple",
+      "submissionDate": "2013-06-04",
+      "tags": [
+        "Production", "Productivity", "jQuery", "3rd Party Plugins Itegration"
+      ]
+    },
+    {
       "name": "Shortkeys for Chrome",
       "thumb": "shortkeys-chrome/thumb.png",
       "desc": "A Chrome extension for custom keyboard shortcuts. Angular powers the admin/options UI",
