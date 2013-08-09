@@ -3549,6 +3549,21 @@
         "Bootstrap",
         "Open Source"
       ]
+    },
+    {
+      "name": "Kinetoscope",
+      "thumb": "kinetoscope/thumb.png",
+      "desc": "Kinetoscope lets you discover all upcoming movies, know more information more about movies that you have already seen or just search for a good movie to see.",
+      "url": "https://apps.facebook.com/kinetoscope/",
+      "info": "https://www.facebook.com/appcenter/kinetoscope",
+      "submitter": "wlepinski",
+      "submissionDate": "2013-08-09",
+      "tags": [
+        "Production",
+        "Entertainment",
+        "Animations",
+        "jQuery"
+      ]
     }
 
   ]
