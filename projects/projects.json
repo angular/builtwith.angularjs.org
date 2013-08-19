@@ -3510,6 +3510,27 @@
         "Animation",
         "jQuery"
       ]
+    },
+    {
+      "name": "LookAround",
+      "thumb": "lookaround/thumb.png",
+      "desc": "AngularJS App for searching places (ATM,HOTEL..etc) using Google Maps + Google Places API",
+      "url": "http://lookaround.herokuapp.com",
+      "src": "https://github.com/shidhincr/lookAround",
+      "submitter": "shidhincr",
+      "submissionDate": "2013-08-19",
+      "tags": [
+        "Demo",
+        "Business",
+        "Entertainment",
+        "Productivity",
+        "Search",
+        "Animations",
+        "Google Maps",
+        "Google Places",
+        "No jQuery",
+        "Open Source"
+      ]
     }
 
   ]
