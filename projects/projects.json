@@ -3496,6 +3496,20 @@
         "Animations",
         "jQuery"
       ]
+    },
+    {
+      "name": "Nearbox",
+      "thumb": "nearbox/thumb.png",
+      "desc": "Nearbox is a fun and easy way to connect with new people & places. In Nearbox each place is a geolocated group that everyone can join and chat with other people.",
+      "url": "http://nearbox.pl",
+      "submitter": "Sigmapoint",
+      "submissionDate": "2013-08-20",
+      "tags": [
+        "Production",
+        "Communication",
+        "Animation",
+        "jQuery"
+      ]
     }
 
   ]
