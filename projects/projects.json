@@ -3463,6 +3463,26 @@
         "Open Source",
         "Tests Included"
       ]
+    },
+    {
+      "name": "Graphical Query Builder",
+      "thumb": "graphical-query-builder/thumb.png",
+      "desc": "Graphical Query Builder for trails, a purely functional graph traversal language.",
+      "url": "http://gqb.ebrun.ch/",
+      "src": "https://github.com/mat1/GQB",
+      "submitter": "mat1",
+      "submissionDate": "2013-08-26",
+      "tags": [
+        "Production",
+        "D3js",
+        "Bootstrap",
+        "AngularUI",
+        "Local Storage",
+        "jQuery",
+        "Grunt",
+        "Open Source",
+        "Tests Included"
+      ]
     }
 
   ]
