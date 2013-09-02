@@ -3445,6 +3445,24 @@
         "No Registration",
         "Node.js"
       ]
+    },
+    {
+      "name": "Spectator",
+      "thumb": "spectator/thumb.png",
+      "desc": "Express your BDD examples in a clear and concise view. Spectator converts them to Jasmine syntax automatically.",
+      "url": "http://vibhor86.github.io/spectator",
+      "info": "https://github.com/vibhor86/spectator/wiki",
+      "src": "https://github.com/vibhor86/spectator",
+      "submitter": "vibhor86",
+      "submissionDate": "2013-09-02",
+      "tags": [
+        "Production",
+        "Productivity",
+        "Planning",
+        "jQuery",
+        "Open Source",
+        "Tests Included"
+      ]
     }
 
   ]
