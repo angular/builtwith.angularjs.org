@@ -3429,6 +3429,22 @@
         "UI Bootstrap",
         "Open Source"
       ]
+    },
+    {
+      "name": "appear.in",
+      "thumb": "appear.in/thumb.png",
+      "desc": "Set up a video meeting using WebRTC in your browser with anyone - no downloads, no account registration.",
+      "url": "https://appear.in",
+      "submitter": "appear.in",
+      "submissionDate": "2013-09-03",
+      "tags": [
+        "WebRTC",
+        "Video Chat",
+        "Video Meeting",
+        "Video Conference",
+        "No Registration",
+        "Node.js"
+      ]
     }
 
   ]
