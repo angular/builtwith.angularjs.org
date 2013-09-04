@@ -3409,6 +3409,26 @@
         "Tools",
         "Employment"
       ]
+    },
+    {
+      "name": "Bootstrap 3 Grid Builder",
+      "thumb": "bootstrap-grid-builder/thumb.png",
+      "desc": "BootStrap is a single page web app to create new Boostrap 3 Layouts easily using previews on all devices to make responsive websites",
+      "url": "http://jaykanakiya.com/bootstrap-grid-builder/",
+      "info": "https://github.com/kanakiyajay/bootstrap-grid-builder",
+      "submitter": "Jay Kanakiya",
+      "submissionDate" : "2013-09-04",
+      "tags" : [
+        "Production",
+        "Productivity",
+        "jQuery",
+        "Bootstrap",
+        "Developer Tool",
+        "Local Storage",
+        "Responsive",
+        "UI Bootstrap",
+        "Open Source"
+      ]
     }
 
   ]
