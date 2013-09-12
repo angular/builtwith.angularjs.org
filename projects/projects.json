@@ -3394,6 +3394,21 @@
         "Free Music",
         "jQuery"
       ]
+    },
+    {
+      "name": "CVsIntellect",
+      "thumb": "cvsintellect/thumb.jpg",
+      "desc": "CVsIntellect is a LaTeX based free resume maker. It also allows users to configure their resume like fonts, margins, and colors. We also support varities of templates.",
+      "url": "https://www.cvsintellect.com/user/page/intro",
+      "submitter": "Maulik",
+      "submissionDate": "2013-09-12",
+      "tags": [
+        "Resume",
+        "CV",
+        "Latex",
+        "Tools",
+        "Employment"
+      ]
     }
 
   ]
