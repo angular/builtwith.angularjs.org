@@ -3360,6 +3360,22 @@
         "Bootstrap",
         "Mobile"
       ]
+    },
+    {
+      "name": "betrend",
+      "thumb": "betrend/thumb.png",
+      "desc": "A fashion portal with everything you need to knwo about fashion, daily updated. In Portuguese.",
+      "url": "http://betrend.pt/",
+      "info": "http:/betrend.pt/",
+      "submitter": "miguelcma",
+      "submissionDate": "2013-09-20",
+      "tags": [
+      "Django",
+      "Python",
+        "Production",
+        "Fashion",
+        "jQuery"
+      ]
     }
 
   ]
