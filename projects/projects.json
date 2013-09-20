@@ -3376,6 +3376,24 @@
         "Fashion",
         "jQuery"
       ]
+    },
+    {
+      "name": "PunchPlay",
+      "thumb": "punchplay/thumb.png",
+      "desc": "An audio platform with playlists created by music artists.",
+      "url": "http://punchplay.pt/",
+      "info": "http:/punchplay.pt/",
+      "submitter": "miguelcma",
+      "submissionDate": "2013-09-20",
+      "tags": [
+        "Django",
+        "Python",
+        "Production",
+        "Music",
+        "Radio",
+        "Free Music",
+        "jQuery"
+      ]
     }
 
   ]
