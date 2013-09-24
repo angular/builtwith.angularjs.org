@@ -3319,6 +3319,24 @@
         "Bootstrap",
         "Rails"
       ]
+    },
+    {
+      "name": "Jukenetbox",
+      "thumb": "jukenetbox/thumb.png",
+      "desc": "JUKENETBOX is the first global application designed for those who are passionate about music and who value the freedom to decide, listen to and share the music ambient in their favourite hangouts, bars, restaurants, clubs, hotels or other premises, just through a Smartphone.",
+      "url": "http://www.jukenetbox.com",
+      "info": "http://blog.jukenetbox.com",
+      "submitter": "tlmak0",
+      "submissionDate": "2013-09-24",
+      "tags": [
+        "Mobile",
+        "Production",
+        "Music",
+        "Entertainment",
+        "Local Storage",
+        "Google Maps",
+        "No jQuery"
+      ]
     }
 
   ]
