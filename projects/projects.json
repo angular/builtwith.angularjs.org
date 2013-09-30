@@ -3303,6 +3303,22 @@
         "Tools",
         "Bootstrap"
       ]
+    },
+    {
+      "name": "WatchMeLater.net",
+      "thumb": "watchmelater.net/thumb.png",
+      "desc": "Simplest Video Bookmarking service out there.",
+      "url": "http://watchmelater.net",
+      "submitter": "danielwanja",
+      "submissionDate": "2013-09-30",
+      "tags": [
+        "Production",
+        "Productivity",
+        "Video",
+        "Bookmarklet",
+        "Bootstrap",
+        "Rails"
+      ]
     }
 
   ]
