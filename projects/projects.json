@@ -3287,6 +3287,22 @@
         "RESTful",
         "Node.js"
       ]
+    },
+    {
+      "name": "FormCraft",
+      "thumb": "formcraft/thumb.png",
+      "desc": "FormCraft is a drag-and-drop builder for making responsive ajax forms. It also features an admin panel for managing forms, submissions and file uploads.",
+      "url": "http://codecanyon.net/item/formcraft-premium-wordpress-form-builder/5335056",
+      "submitter": "nCrafts",
+      "submissionDate": "2013-03-10",
+      "tags": [
+        "Production",
+        "Wordpress",
+        "Forms",
+        "HTML5",
+        "Tools",
+        "Bootstrap"
+      ]
     }
 
   ]
