@@ -3270,6 +3270,23 @@
         "Patient",
         "Health Care"
       ]
+    },
+    {
+      "name": "redbysfr.re",
+      "thumb": "redbysfr-re/thumb.png",
+      "desc": "redbysfr.re is a subscription and customer care web site for low cost mobile plans in Réunion Island - France",
+      "url": "http://redbysfr.re",
+      "info": "http://communaute.redbysfr.re",
+      "submissionDate": "2013-10-03",
+      "tags": [
+        "Production",
+        "E-Commerce",
+        "Angular UI",
+        "No jQuery",
+        "LESS",
+        "RESTful",
+        "Node.js"
+      ]
     }
 
   ]
