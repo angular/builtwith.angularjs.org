@@ -3255,6 +3255,21 @@
         "Ghosts",
         "Bootstrap"
       ]
+    },
+    {
+      "name": "RingMD",
+      "thumb": "ringmd/thumb.png",
+      "desc": "Make faster and confident decisions for better health",
+      "url": "http://ring.md",
+      "submitter": "lmduc",
+      "submissionDate": "2013-10-07",
+      "tags": [
+        "Health",
+        "Doctor",
+        "Medical",
+        "Patient",
+        "Health Care"
+      ]
     }
 
   ]
