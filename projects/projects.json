@@ -3237,6 +3237,24 @@
         "Social-Commerce",
         "Angular UI"
       ]
+    },
+    {
+      "name": "Click Or Treat",
+      "thumb": "clickortreat/thumb.png",
+      "desc": "Trick or Treat is a little halloween themed game built with AngularJS. Help the little ghost haunt everyone in the world. As you progress, swap some of your hauntings for upgrades that will help you haunt more quickly.",
+      "url": "http://clickortre.at",
+      "submitter": "poissonpie",
+      "submissionDate": "2013-10-13",
+      "tags": [
+        "Toy",
+        "Game",
+        "Animations",
+        "jQuery",
+        "Open Source",
+        "Halloween",
+        "Ghosts",
+        "Bootstrap"
+      ]
     }
 
   ]
