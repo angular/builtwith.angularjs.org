@@ -3337,6 +3337,29 @@
         "Google Maps",
         "No jQuery"
       ]
+    },
+    {
+      "name": "Coevery",
+      "thumb": "coevery/thumb.png",
+      "desc": "Coevery is a free, open source web framework for developing data-centric business applications without writing any code.",
+      "url": "http://coeverydemo.novasoftware.cn/",
+      "info": "http://coevery.codeplex.com/",
+      "src": "https://github.com/Coevery/Coevery",
+      "submitter": "nova-qiang",
+      "submissionDate": "2013-10-15",
+      "tags": [
+        "Production",
+        "Framework",
+        "CRM",
+        "CRUD",
+        "Free",
+        "Open Source",
+        "ASP.NET MVC",
+        "NHibernate",
+        "Orchard",
+        "Bootstrap",
+        "Mobile"
+      ]
     }
 
   ]
