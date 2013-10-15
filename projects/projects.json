@@ -3218,6 +3218,25 @@
         "Raphael",
         "SVG"
       ]
+    },
+    {
+      "name": "FrameFish",
+      "thumb": "framefish/thumb.png",
+      "desc": "Try glasses on your own face. Filter hundreds of styles to see what suits you best.",
+      "url": "http://www.framefish.com",
+      "info": "http://www.framefish.com/faqs",
+      "submitter": "peteanderson80",
+      "submissionDate": "2013-10-15",
+      "tags": [
+        "Production",
+        "Shopping",
+        "Facebook",
+        "RESTful",
+        "Bootstrap",
+        "jQuery",
+        "Social-Commerce",
+        "Angular UI"
+      ]
     }
 
   ]
