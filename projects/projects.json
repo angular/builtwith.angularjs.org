@@ -3202,6 +3202,22 @@
         "Planning Poker",
         "Agile"
       ]
+    },
+    {
+      "name": "Isabel the chatolic characters tree",
+      "thumb": "isabel/thumb.png",
+      "desc": "An interactive visualization for the spanish television series 'Isabel' based on the historical character Isabella I of Castile.",
+      "url": "http://lab.rtve.es/serie-isabel/personajes/",
+      "info": "https://davidruizlopez.es",
+      "submitter": "ruizfrontend",
+      "submissionDate": "2013-10-18",
+      "tags": [
+        "Production",
+        "Visualization",
+        "infographics",
+        "Raphael",
+        "SVG"
+      ]
     }
 
   ]
