@@ -3187,6 +3187,21 @@
         "Open Source",
         "Tests Included"
       ]
+    },
+    {
+      "name": "FirePoker.io",
+      "thumb": "firepoker/thumb.png",
+      "desc": "Agile planning poker app helps you estimating user stories in software development.",
+      "url": "http://firepoker.io/",
+      "info": "http://firepoker.io/",
+      "submitter": "evert0n",
+      "submissionDate": "2013-10-22",
+      "tags": [
+        "Productivity",
+        "Firebase",
+        "Planning Poker",
+        "Agile"
+      ]
     }
 
   ]
