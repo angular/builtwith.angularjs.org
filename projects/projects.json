@@ -3168,6 +3168,25 @@
         "Bitcoins",
         "Startup"
       ]
+    },
+    {
+      "name": "Cards for Humanity",
+      "thumb": "cardsforhumanity/thumb.png",
+      "desc": "Cards for Humanity is a fast-paced online version of the popular card game, Cards Against Humanity, that gives you the opportunity to donate to children in need - all while remaining as despicable and awkward as you naturally are.",
+      "url": "http://cfh.io",
+      "src": "https://github.com/cardsforhumanity/cardsforhumanity",
+      "submitter": "davegonzalez",
+      "submissionDate": "2013-10-22",
+      "tags": [
+        "Production",
+        "Game",
+        "Socket.io",
+        "Node",
+        "MongoDB",
+        "jQuery",
+        "Open Source",
+        "Tests Included"
+      ]
     }
 
   ]
