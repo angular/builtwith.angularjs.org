@@ -1835,6 +1835,21 @@
         "No jQuery",
         "Dating"
       ]
+    },
+    {
+      "name": "HTML5 Ninja",
+      "thumb": "html5-ninja/thumb.png",
+      "desc": "html5-ninja.com is a marketplace where authors & designers propose their creations (themes, scripts... ) for selling.",
+      "url": "http://html5-ninja.com",
+      "info": "http://html5-ninja.com/#about",
+      "submitter": "html5-ninja",
+      "submissionDate": "2013-10-23",
+      "tags": [
+        "Production",
+        "HTML5 marketplace", "freelancing", "web development",
+        "HTML5", "CSS3", "Bitcoin",
+        "No jQuery"
+      ]
     }
   ]
 }
