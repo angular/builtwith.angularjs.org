@@ -3150,6 +3150,24 @@
         "No jQuery",
         "Play! Framework"
       ]
+    },
+    {
+      "name": "Bit.gg",
+      "thumb": "bitgg/thumb.png",
+      "desc": "Service to bet Bitcoins on your favorite eSports events. Built with AngularJS, NodeJS and Socket.IO; using Bootstrap and CSS Transitions",
+      "url": "http://bit.gg",
+      "submitter": "bitgg",
+      "submissionDate": "2013-10-24",
+      "tags": [
+        "NodeJS",
+        "Socket.IO",
+        "HTML5",
+        "Bootstrap",
+        "Game",
+        "eSports",
+        "Bitcoins",
+        "Startup"
+      ]
     }
 
   ]
