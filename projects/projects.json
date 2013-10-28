@@ -3134,6 +3134,22 @@
         "Tools",
         "NodeJS"
       ]
+    },
+    {
+      "name": "Timelify",
+      "thumb": "timelify/thumb.png",
+      "desc": "Timelify lets parents create timelines for their children. I call it a memory book.",
+      "url": "https://timelify.com",
+      "info": "https://timelify.com",
+      "submitter": "durre",
+      "submissionDate": "2013-10-28",
+      "tags": [
+        "Production",
+        "CRUD",
+        "Local Storage",
+        "No jQuery",
+        "Play! Framework"
+      ]
     }
 
   ]
