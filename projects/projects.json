@@ -3116,6 +3116,24 @@
         "Compass",
         "jQuery"
       ]
+    },
+    {
+      "name": "Base64 Image",
+      "thumb": "base64-image/thumb.png",
+      "desc": "Encode image to base64 string",
+      "url": "http://base64-image.com",
+      "submitter": "chylvina",
+      "submissionDate": "2013-10-30",
+      "tags": [
+        "Production",
+        "Productivity",
+        "Animations",
+        "jQuery",
+        "Angular-Seed",
+        "Yeoman",
+        "Tools",
+        "NodeJS"
+      ]
     }
 
   ]
