@@ -3096,6 +3096,26 @@
         "Animations",
         "No jQuery"
       ]
+    },
+    {
+      "name": "Loggi",
+      "thumb": "loggi/thumb.png",
+      "desc": "Urban logistics",
+      "url": "https://www.loggi.com",
+      "info": "https://www.loggi.com",
+      "submitter": "ken210",
+      "submissionDate": "2013-10-30",
+      "tags": [
+        "Production",
+        "Logistics",
+        "Market Place",
+        "Animations",
+        "Local Storage",
+        "Geolocation",
+        "Bootstrap",
+        "Compass",
+        "jQuery"
+      ]
     }
 
   ]
