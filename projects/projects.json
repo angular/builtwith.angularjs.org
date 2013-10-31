@@ -3081,6 +3081,21 @@
         "Bootstrap",
         "CSS3"
       ]
+    },
+    {
+      "name": "Oregon Gridiron",
+      "thumb": "oregongridiron/thumb.png",
+      "desc": "An interactive experience showcasing all the University of Oregon has to offer prospective recruits.",
+      "url": "http://oregongridiron.com",
+      "info": "http://oregongridiron.com",
+      "submitter": "joshbatchelor",
+      "submissionDate": "2013-11-01",
+      "tags": [
+        "Production",
+        "Experience", "Sports",
+        "Animations",
+        "No jQuery"
+      ]
     }
 
   ]
