@@ -3028,6 +3028,26 @@
         "Bootstrap",
         "Angular UI"
       ]
+    },
+    {
+      "name": "Interalia.net",
+      "thumb": "interalia/thumb.png",
+      "desc": "Mexican Agency Online Advertising and Marketing, specializing in internet marketing campaigns.",
+      "url": "http://interalia.net",
+      "submitter": "jonykalavera",
+      "submissionDate": "2013-11-04",
+      "tags": [
+        "Production",
+        "Business",
+        "AppCache",
+        "SEO snapshots",
+        "jQuery",
+        "Python",
+        "Django",
+        "Tastypie",
+        "Phantomjs",
+        "Selenium"
+      ]
     }
 
   ]
