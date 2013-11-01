@@ -3048,6 +3048,23 @@
         "Phantomjs",
         "Selenium"
       ]
+    },
+    {
+      "name": "Hatch",
+      "thumb": "Hatch/thumb.png",
+      "desc": "Hatch was created to enable anyone to transform a product they like, whether jewelry, a piece of home decor, or a gift for a special someone, into a product they love. Custom e-commerce, done right.",
+      "url": "http://www.hatch.co",
+      "info": "http://www.hatch.co/about/",
+      "submitter": "NoahFisher",
+      "submissionDate": "2013-11-01",
+      "tags": [
+        "Production",
+        "E-Commerce",
+        "Shopping",
+        "Rails",
+        "Local Storage",
+        "jQuery"
+      ]
     }
 
   ]
