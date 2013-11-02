@@ -3012,6 +3012,22 @@
         "No jQuery",
         "Open Source"
       ]
+    },
+    {
+      "name": "Quofucius",
+      "thumb": "quofucius/thumb.png",
+      "desc": "Discover, manage and share your favorite quotations",
+      "url": "https://quofucius.com",
+      "submitter": "fzagarzazu",
+      "submissionDate": "2013-11-02",
+      "tags": [
+        "Toy",
+        "Entertainment",
+        "Responsive",
+        "Yeoman",
+        "Bootstrap",
+        "Angular UI"
+      ]
     }
 
   ]
