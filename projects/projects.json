@@ -2995,6 +2995,23 @@
         "No jQuery",
         "Open Source"
       ]
+    },
+    {
+      "name": "My Color Palettes",
+      "thumb": "mycolorpalettes/thumb.png",
+      "desc": "A simple template for saving and managing your color palettes. Under the hood this is a simple AngularJS app, but no knowledge of Angular is required - only some basic work with JSON.",
+      "url": "http://fourtonfish.com/my-color-palettes/app/",
+      "src": "https://github.com/fourtonfish/MyColorPalettes",
+      "submitter": "fourtonfish",
+      "submissionDate": "2013-11-04",
+      "tags": [
+        "Production",
+        "Productivity",
+        "Web Design",
+        "Web Development",
+        "No jQuery",
+        "Open Source"
+      ]
     }
 
   ]
