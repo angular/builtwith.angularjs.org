@@ -2977,6 +2977,24 @@
         "Utility",
         "Simulate"
       ]
+    },
+    {
+      "name": "Wanderlust",
+      "thumb": "wanderlust/thumb.png",
+      "desc": "Trip Planner",
+      "url": "http://mywanderlust.co",
+      "info": "http://mywanderlust.co/about",
+      "src": "https://github.com/danecjensen/mywanderlust",
+      "submitter": "danecjensen",
+      "submissionDate": "2013-11-05",
+      "tags": [
+        "Production",
+        "Productivity",
+        "Rails",
+        "UI-Bootstrap",
+        "No jQuery",
+        "Open Source"
+      ]
     }
 
   ]
