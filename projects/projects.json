@@ -2958,6 +2958,25 @@
         "Real Estate",
         "Home Improvement"
       ]
+    },
+    {
+      "name": "Advanced rest client for Android",
+      "thumb": "restclient/thumb.png",
+      "desc": "Advanced REST Client for Android is a development tool used to test RESTful web services.",
+      "url": "https://play.google.com/store/apps/details?id=com.snmba.restclient",
+      "info": "http://restforandroid.blogspot.in/",
+      "submitter": "sinukosh",
+      "submissionDate": "2013-11-09",
+      "tags": [
+        "Android",
+        "REST",
+        "Webservice",
+        "Tablet",
+        "Phone",
+        "Tool",
+        "Utility",
+        "Simulate"
+      ]
     }
 
   ]
