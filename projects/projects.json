@@ -2883,6 +2883,23 @@
         "Amazon API",
         "jQuery"
       ]
+    },
+    {
+      "name": "TaskTub",
+      "thumb": "tasktub/thumb.png",
+      "desc": "TaskTub is a kanban and agile project management tool for GitHub issues",
+      "url": "http://www.tasktub.com",
+      "info": "http://www.tasktub.com",
+      "submitter": "hatchstudio",
+      "submissionDate": "2013-11-14",
+      "tags": [
+        "Production",
+        "Productivity",
+        "jQuery",
+        "Grails",
+        "API",
+        "MongoDB"
+      ]
     }
 
   ]
