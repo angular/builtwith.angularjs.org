@@ -2939,6 +2939,25 @@
         "HTML5",
         "CSS3"
       ]
+    },
+    {
+      "name": "Renovat'd",
+      "thumb": "renovatd/thumb.png",
+      "desc": "Renovat'd helps homeowners find solutions, design ideas, and professionals for their home.",
+      "url": "http://www.renovatd.com",
+      "info": "http://www.renovatd.com/blog",
+      "submitter": "wlingke",
+      "submissionDate": "2013-11-15",
+      "tags": [
+        "Production",
+        "Python",
+        "Tornado",
+        "Bootstrap",
+        "jQuery",
+        "Productivity",
+        "Real Estate",
+        "Home Improvement"
+      ]
     }
 
   ]
