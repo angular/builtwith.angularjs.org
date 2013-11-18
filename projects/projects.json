@@ -2919,6 +2919,26 @@
         "jQuery",
         "Open Source"
       ]
+    },
+    {
+      "name": "seevl.fm",
+      "thumb": "seevl/thumb.png",
+      "desc": "Free and unlimited music discovery powered by the Open Web",
+      "url": "http://seevl.fm",
+      "info": "http://blog.seevl.fm/2013/10/26/unlimited-music-discovery/",
+      "submitter": "terraces",
+      "submissionDate": "2013-11-18",
+      "tags": [
+        "Production",
+        "Entertainment",
+        "jQuery",
+        "Music",
+        "Music discovery",
+        "YouTube",
+        "Deezer",
+        "HTML5",
+        "CSS3"
+      ]
     }
 
   ]
