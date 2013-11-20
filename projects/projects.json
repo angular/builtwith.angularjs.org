@@ -2900,6 +2900,25 @@
         "API",
         "MongoDB"
       ]
+    },
+    {
+      "name": "MyResumeJS",
+      "thumb": "myresumejs/thumb.png",
+      "desc": "Resume of Nicolas Huguet built with MyResumeJS Template.",
+      "url": "http://nicolas-huguet.com",
+      "submitter": "Nicolest",
+      "submissionDate": "2013-11-20",
+      "tags": [
+        "Production",
+        "Template",
+        "Resume",
+        "Bootstrap",
+        "AscensorJS",
+        "HTML5",
+        "CSS3",
+        "jQuery",
+        "Open Source"
+      ]
     }
 
   ]
