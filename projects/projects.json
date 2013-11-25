@@ -2866,6 +2866,23 @@
         "Web sockets",
         "jQuery"
       ]
+    },
+    {
+      "name": "TrendyCams",
+      "thumb": "trendycams/thumb.png",
+      "desc": "Compare digital cameras, view samples, get deals.",
+      "url": "http://www.trendycams.com",
+      "info": "http://www.trendycams.com/blog",
+      "submitter": "KetanJavia",
+      "submissionDate": "2013-11-24",
+      "tags": [
+        "Production",
+        "Shopping",
+        "Local Storage",
+        "Flickr API",
+        "Amazon API",
+        "jQuery"
+      ]
     }
 
   ]
