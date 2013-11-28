@@ -2824,6 +2824,26 @@
         "D3js",
         "Mobile"
       ]
+    },
+    {
+      "name": "Rodereisen",
+      "thumb": "rodereisen/thumb.png",
+      "desc": "Rodereisen is a travel agency. The company is using Google+ as their primary content management system, so the app shows their G+ timeline and tries to build a strong connection between visitors and the team members.",
+      "url": "http://www.rodereisen.de/",
+      "info": "http://www.rodereisen.de/",
+      "submitter": "bernhardrode",
+      "submissionDate": "2013-11-28",
+      "tags": [
+        "Production",
+        "Travel",
+        "jQuery",
+        "Google+",
+        "CSS3",
+        "Bootstrap",
+        "Booking",
+        "Responsive",
+        "HTML5"
+      ]
     }
 
   ]
