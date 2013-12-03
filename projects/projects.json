@@ -2781,6 +2781,28 @@
         "greensock",
         "No jQuery"
       ]
+    },
+    {
+      "name": "illico.tv",
+      "thumb": "illico_tv/thumb.png",
+      "desc": "Experience the best of Online TV and watch movies, series, TV channels and more on illico.tv, the web TV with the widest variety of content.",
+      "url": "http://illico.tv",
+      "info": "http://illicoweb.videotron.com/about-us",
+      "submitter": "Javabien",
+      "submissionDate": "2013-12-03",
+      "tags": [
+        "Production",
+        "Entertainment",
+        "video",
+        "music",
+        "movies",
+        "TV",
+        "Local Storage",
+        "CSS3",
+        "HTML5",
+        "jQuery",
+        "Videotron"
+      ]
     }
 
   ]
