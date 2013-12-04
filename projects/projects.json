@@ -2759,6 +2759,28 @@
         "UI Router",
         "Phonegap"
       ]
+    },
+    {
+      "name": "Sky Store",
+      "thumb": "skystore/thumb.png",
+      "desc": "A TVOD web site, the site is built top to bottom with Angular and RequireJS",
+      "url": "http://store.sky.com",
+      "info": "http://store.sky.com",
+      "submitter": "ahmednuaman",
+      "submissionDate": "2013-12-04",
+      "tags": [
+        "tvod",
+        "sky",
+        "video",
+        "vod",
+        "on demand",
+        "Entertainment",
+        "Animations",
+        "tweenmax",
+        "tweenlite",
+        "greensock",
+        "No jQuery"
+      ]
     }
 
   ]
