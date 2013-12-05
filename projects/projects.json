@@ -2738,6 +2738,27 @@
         "jQuery",
         "Bootstrap"
       ]
+    },
+    {
+      "name": "Mallzee",
+      "thumb": "mallzee/thumb.png",
+      "desc": "Welcome to Mallzee, the personal shopper in your pocket. Searching over 2 million products from 200 big name fashion retailers, Mallzee finds clothes suited just to you. Shop ASOS, Urban Outfitters, Forever 21 and more, sharing your fashion finds with friends before you buy!",
+      "url": "http://mallzee.com",
+      "info": "http://blog.mallzee.com",
+      "src": "https://github.com/mallzee",
+      "submitter": "wedgybo",
+      "submissionDate": "2013-12-05",
+      "tags": [
+        "Production",
+        "Lifestyle",
+        "Shopping",
+        "Animations",
+        "Local Storage",
+        "Touch",
+        "Restangular",
+        "UI Router",
+        "Phonegap"
+      ]
     }
 
   ]
