@@ -2721,6 +2721,23 @@
         "Bootstrap",
         "AngularJS"
       ]
+    },
+    {
+      "name": "Taverdon.com",
+      "thumb": "taverdon/thumb.png",
+      "desc": "Taverdon.com is a small One-Page App used to introduce myself to the world",
+      "url": "http://www.taverdon.com",
+      "info": "http://www.taverdon.com",
+      "submitter": "Viandoks",
+      "submissionDate": "2013-12-05",
+      "tags": [
+        "Production",
+        "Experiences",
+        "ngAnimate",
+        "Google Maps",
+        "jQuery",
+        "Bootstrap"
+      ]
     }
 
   ]
