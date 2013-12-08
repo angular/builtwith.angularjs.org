@@ -1992,6 +1992,26 @@
         "Tests Included",
         "Python", "Google App Engine"
       ]
+    },
+    {
+      "name": "Neobazaar",
+      "thumb": "neobazaar/thumb.png",
+      "desc": "Neobazaar free classifieds",
+      "url": "http://www.neobazaar.com",
+      "info": "http://www.sergiorinaudo.com",
+      "src": "https://github.com/kaiohken1982/Neobazaar",
+      "submitter": "kaiohken1982",
+      "submissionDate": "2013-12-08",
+      "tags": [
+        "Production",
+        "CRUD",
+        "Productivity",
+        "Free classifieds",
+        "MySql",
+        "jQuery",
+        "Open Source",
+        "italian"
+      ]
     }
 
   ]
