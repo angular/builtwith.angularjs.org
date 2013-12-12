@@ -2683,6 +2683,27 @@
         "No jQuery",
         "Open Source"
       ]
+    },
+    {
+      "name": "AngularJS + Cloud Endpoint",
+      "thumb": "angular-appengine-seed/thumb.png",
+      "desc": "Sample application for using AngularJS backed with a Cloud Endpoint on the Google App Engine.",
+      "url": "https://angular-seed.appspot.com",
+      "info": "https://angular-seed.appspot.com/#/about",
+      "src": "https://github.com/luketokheim/angular-appengine-seed",
+      "submitter": "luketokheim",
+      "submissionDate": "2013-12-12",
+      "tags": [
+        "Demo",
+        "CRUD",
+        "RESTful",
+        "Google App Engine",
+        "AngularUI",
+        "Bootstrap",
+        "No jQuery",
+        "Open Source",
+        "Tests Included"
+      ]
     }
 
   ]
