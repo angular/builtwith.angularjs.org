@@ -2704,6 +2704,23 @@
         "Open Source",
         "Tests Included"
       ]
+    },
+    {
+      "name": "Cloudtub",
+      "thumb": "Cloudtub/thumb.png",
+      "desc": "Cloud storage web app built on Laravel, MongoDB and AngularJS. Try it with username demo@cloudtub.com and password demouser",
+      "url": "http://www.cloudtub.com",
+      "info": "http://www.cloudtub.com",
+      "submitter": "Abhishek gahlot",
+      "submissionDate": "2013-12-14",
+      "tags": [
+        "Productivity",
+        "Laravel",
+        "Cloud Storage",
+        "MongoDB",
+        "Bootstrap",
+        "AngularJS"
+      ]
     }
 
   ]
