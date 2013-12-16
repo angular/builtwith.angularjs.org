@@ -2,6 +2,23 @@
   "featured": "YouTube on PS3",
   "projects": [
     {
+      "name": "Redbeacon Experts",
+      "thumb": "redbeacon-experts/thumb.png",
+      "desc": "A Q&A site for home improvement questions. Get free home advice from Redbeacon experts within 24 hours.",
+      "url": "https://www.redbeacon.com/experts",
+      "submitter": "clark-duvall",
+      "submissionDate": "2013-12-16",
+      "tags": [
+        "Production",
+        "Responsive",
+        "Bootstrap",
+        "SASS",
+        "jQuery",
+        "Home Improvement",
+        "Django"
+      ]
+    },
+    {
       "name": "Fitblok",
       "thumb": "fitblok/thumb.png",
       "desc": "Fitblok is a One-Page Web app, which provides users with a gym-like experience and enables fitness trainers to develop their own following.",
