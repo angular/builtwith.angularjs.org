@@ -2622,6 +2622,29 @@
         "No jQuery",
         "Open Source"
       ]
+    },
+    {
+      "name": "Angular Music Database",
+      "thumb": "music-db/thumb.png",
+      "desc": "Angular Music Database is a demo showcasing CRUD.Create,update and delete artists,albums,and tracks.",
+      "url": "http://rest.kabasakalis.tk/music_db/",
+      "src": "https://github.com/drumaddict/angular-music-db",
+      "submitter": "drumaddict",
+      "submissionDate": "2013-12-20",
+      "tags": [
+        "Demo",
+        "CRUD",
+        "Typescript",
+        "Yii",
+        "PHP",
+        "MySql",
+        "Animations",
+        "Restangular",
+        "REST",
+        "jQuery",
+        "Open Source",
+        "Tests Included"
+      ]
     }
 
   ]
