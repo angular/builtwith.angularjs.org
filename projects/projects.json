@@ -2666,6 +2666,23 @@
         "jQuery",
         "Open Source"
       ]
+    },
+    {
+      "name": "Thoughtcast Snippet Manager",
+      "thumb": "thoughtcast-snippet-manager/thumb.png",
+      "desc": "Thoughtcast Snippet Manager is a web app for easily managing your code snippets and get instant access to them across the web anywhere,anytime. Register for FREE",
+      "url": "http://icanbeacoder.com/codes",
+      "info": "http://icanbeacoder.com/codes",
+      "submitter": "harshi5",
+      "submissionDate": "2013-12-20",
+      "tags": [
+        "Code Snippets",
+        "CRUD",
+        "Productivity",
+        "Yii",
+        "No jQuery",
+        "Open Source"
+      ]
     }
 
   ]
