@@ -2645,6 +2645,27 @@
         "Open Source",
         "Tests Included"
       ]
+    },
+    {
+      "name": "Gallery Manager",
+      "thumb": "gallery/thumb.png",
+      "desc": "Gallery Manager is a demo showcasing CRUD.Create,update and delete pictures and collections.",
+      "url": "http://kabasakalis.tk/ng-yii/#/",
+      "src": "https://github.com/drumaddict/angular-yii",
+      "submitter": "drumaddict",
+      "submissionDate": "2013-12-20",
+      "tags": [
+        "Demo",
+        "CRUD",
+        "Yii",
+        "PHP",
+        "MySql",
+        "Animations",
+        "REST",
+        "file API",
+        "jQuery",
+        "Open Source"
+      ]
     }
 
   ]
