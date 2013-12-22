@@ -2607,6 +2607,21 @@
         "Tests Included",
         "Bootstrap"
       ]
+    },
+    {
+      "name": "rot13.io",
+      "thumb": "rot13.io/thumb.png",
+      "desc": "Apply the rot13 letter substitution cipher (\"Caesar cipher\") to some text.",
+      "url": "http://rot13.io",
+      "info": "https://en.wikipedia.org/wiki/ROT13",
+      "src": "https://github.com/r0t13/rot13.io",
+      "submitter": "r0t13",
+      "submissionDate": "2013-12-22",
+      "tags": [
+        "Productivity",
+        "No jQuery",
+        "Open Source"
+      ]
     }
 
   ]
