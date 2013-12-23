@@ -2586,6 +2586,27 @@
         "Bootstrap",
         "Node.js"
       ]
+    },
+    {
+      "name": "Australia Post mobile website",
+      "thumb": "australia-post/thumb.png",
+      "desc": "Mobile version of the Australia Post website. Example of integrating web applications, forms and content with a CMS using AngularJS",
+      "url": "https://m.auspost.com.au",
+      "submitter": "uglow",
+      "submissionDate": "2012-12-23",
+      "tags": [
+        "Production",
+        "Productivity",
+        "Mobile",
+        "Animations",
+        "Local Storage",
+        "CMS integration",
+        "Large website",
+        "Large AngularJS app",
+        "No jQuery",
+        "Tests Included",
+        "Bootstrap"
+      ]
     }
 
   ]
