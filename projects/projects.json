@@ -2543,6 +2543,25 @@
         "EaselJS",
         "jQuery"
       ]
+    },
+    {
+      "name": "PieChopper",
+      "thumb": "piechopper/thumb.png",
+      "desc": "PieChopper assists startup teams to divide their founders' pie fairly.",
+      "url": "http://piechopper.com",
+      "src": "https://github.com/jojanaho/piechopper",
+      "submitter": "jojanaho",
+      "submissionDate": "2013-12-31",
+      "tags": [
+        "Production",
+        "CRUD",
+        "Productivity",
+        "Animations",
+        "Local Storage",
+        "jQuery",
+        "Open Source",
+        "Tests Included"
+      ]
     }
 
   ]
