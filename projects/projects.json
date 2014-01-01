@@ -2528,6 +2528,21 @@
         "No jQuery",
         "Node"
       ]
+    },
+    {
+      "name": "PSO Trieste Maps",
+      "thumb": "pso-trieste/thumb.png",
+      "desc": "Urban regeneration project in Trieste (Italy)",
+      "url": "http://www.pso-trieste.eu",
+      "info": "http://www.youtube.com/watch?v=7jTbsN1G82w",
+      "submitter": "fabiobiondi",
+      "submissionDate": "2014-01-01",
+      "tags": [
+        "Production",
+        "Google Maps",
+        "EaselJS",
+        "jQuery"
+      ]
     }
 
   ]
