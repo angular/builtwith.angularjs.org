@@ -2508,6 +2508,26 @@
         "PHP",
         "Responsive"
       ]
+    },
+    {
+      "name": "Gameclipse",
+      "thumb": "gameclipse/thumb.png",
+      "desc": "Gameclipse is a platform for you to save your favorite gaming videos into playlists and share them with friends. YouTube content creators can promote their gaming videos and receive support from their fans.",
+      "url": "http://gameclipse.com",
+      "info": "http:/gameclipse.com/about",
+      "submitter": "Kyle",
+      "submissionDate": "2014-01-07",
+      "tags": [
+        "Production",
+        "Entertainment",
+        "YouTube API",
+        "Gaming",
+        "Video Games",
+        "Stripe API",
+        "Content Monetization",
+        "No jQuery",
+        "Node"
+      ]
     }
 
   ]
