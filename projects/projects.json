@@ -2491,6 +2491,23 @@
         "Open Source",
         "Web Sockets"
       ]
+    },
+    {
+      "name": "Doz",
+      "thumb": "doz/thumb.png",
+      "desc": "DOZ platform provides unique content marketing with the best webmarketing experts.",
+      "url": "https://app.doz.com",
+      "submitter": "faouzi",
+      "submissionDate": "2014-01-08",
+      "tags": [
+        "Crowdsourcing",
+        "SEO",
+        "Marketing",
+        "SMO",
+        "API",
+        "PHP",
+        "Responsive"
+      ]
     }
 
   ]
