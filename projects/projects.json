@@ -19,6 +19,18 @@
       ]
     },
     {
+      "name": "VEVO",
+      "thumb": "vevo/thumb.png",
+      "desc": "VEVO is the world’s leading all-premium music video and entertainment platform with over 5 billion monthly views globally.",
+      "url": "http://vevo.com",
+      "submitter": "michaelfillier",
+      "submissionDate": "2014-01-08",
+      "tags": [
+        "Production",
+        "Entertainment"
+      ]
+    },
+    {
       "name": "Fitblok",
       "thumb": "fitblok/thumb.png",
       "desc": "Fitblok is a One-Page Web app, which provides users with a gym-like experience and enables fitness trainers to develop their own following.",
