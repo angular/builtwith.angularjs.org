@@ -2476,6 +2476,21 @@
         "Utilities",
         "jQuery"
       ]
+    },
+    {
+      "name": "hike.io",
+      "thumb": "hikeio/thumb.png",
+      "desc": "The best place to find beautiful hikes online. Hike.io is free, open source, and anyone can make an edit.",
+      "url": "http://hike.io",
+      "submitter": "zaknelson",
+      "submissionDate": "2013-01-15",
+      "tags": [
+        "Hiking",
+        "Production",
+        "Angular UI",
+        "Open Source",
+        "Web Sockets"
+      ]
     }
 
   ]
