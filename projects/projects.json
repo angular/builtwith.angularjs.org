@@ -2462,6 +2462,20 @@
         "Ruby on Rails",
         "jQuery"
       ]
+    },
+    {
+      "name": "FileKeeper",
+      "thumb": "filekeeper/thumb.png",
+      "desc": "FileKeeper is a cheap, no-nonsense cloud backup system.",
+      "url": "http://filekeeper.co",
+      "info": "http://filekeeper.co/blog",
+      "submitter": "simon-watiau",
+      "submissionDate": "2014-01-17",
+      "tags": [
+        "Production",
+        "Utilities",
+        "jQuery"
+      ]
     }
 
   ]
