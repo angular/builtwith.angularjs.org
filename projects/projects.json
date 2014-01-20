@@ -1609,6 +1609,24 @@
         "online radio",
         "internet radio"
       ]
+    },
+    {
+      "name": "Sendmachine",
+      "thumb": "sendmachine/thumb.png",
+      "desc": "Sendmachine is an email marketing tool that enables clients to send high-volume email campaigns and transactional emails. The admin interface is built with AngularJS.",
+      "url": "http://www.sendmachine.com/",
+      "submitter": "wooptoo",
+      "submissionDate": "2013-04-17",
+      "tags": [
+        "Production",
+        "Productivity",
+        "CRUD",
+        "Local Storage",
+        "Localization",
+        "Highcharts",
+        "Bootstrap",
+        "jQuery"
+      ]
     }
   ]
 }
