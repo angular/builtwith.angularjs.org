@@ -1659,6 +1659,23 @@
       "jQuery",
       "Open Source"
       ]
+    },
+    {
+      "name": "VerticalChange",
+      "thumb": "verticalchange/thumb.png",
+      "desc": "Modern Case Management Software (SurveyMonkey meets Highrise for Case Managers)",
+      "url": "https://verticalchange.com",
+      "info": "https://verticalchange.com",
+      "submitter": "dylanz",
+      "submissionDate": "2013-04-25",
+      "tags": [
+        "Production",
+        "Productivity",
+        "Surveys",
+        "Assessments",
+        "CRM",
+        "jQuery"
+      ]
     }
   ]
 }
