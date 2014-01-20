@@ -1627,6 +1627,21 @@
         "Bootstrap",
         "jQuery"
       ]
+    },
+    {
+      "name": "OpenDataSoft Explore",
+      "thumb": "opendatasoft/thumb.png",
+      "desc": "Explore a catalog of Open Data datasets and visualize them interactively in context.",
+      "url": "http://datastore.opendatasoft.com/public/explore/",
+      "info": "http://www.opendatasoft.com",
+      "submitter": "richterb",
+      "submissionDate": "2013-04-23",
+      "tags": [
+        "Production",
+        "Datavisualization", "Open Data",
+        "CSS3",
+        "jQuery"
+      ]
     }
   ]
 }
