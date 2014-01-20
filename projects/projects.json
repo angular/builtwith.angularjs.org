@@ -1650,8 +1650,8 @@
       "url": "http://net.lo2k.net", 
       "info": "http://weblog.lo2k.net/2013/04/node-tetrinet-released/", 
       "src": "https://github.com/xblaster/NodeTetrinet", 
-      "submitter": "X-Blaster", // your github username
-      "submissionDate": "2013-04-24", // current date in ISO format
+      "submitter": "X-Blaster",
+      "submissionDate": "2013-04-24",
       "tags": [
       "Demo", 
       "Game", 
