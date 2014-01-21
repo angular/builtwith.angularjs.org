@@ -2207,6 +2207,23 @@
         "Websockets",
         "No jQuery"
       ]
+    },
+    {
+      "name": "DiscoverWiki",
+      "thumb": "discoverwiki/thumb.png",
+      "desc": "Site to help bring the wealth of information on Wikipedia to users by abstracting small snippets, making it easier to identify and share interesting content.",
+      "url": "http://discoverwiki.com/",
+      "info": "https://github.com/JayHuang/DiscoverWiki",
+      "src": "https://github.com/JayHuang/DiscoverWiki",
+      "submitter": "JayHuang",
+      "submissionDate": "2014-01-25",
+      "tags": [
+        "Production",
+        "Education",
+        "Animations",
+        "jQuery",
+        "Open Source"
+      ]
     }
 
   ]
