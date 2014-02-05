@@ -1693,6 +1693,22 @@
         "CRM",
         "jQuery"
       ]
+    },
+    {
+      "name": "NewlyWish",
+      "thumb": "newlywish/thumb.png",
+      "desc": "NewlyWish is a simple and managed registry experience for the modern couple.",
+      "url": "https://www.newlywish.com",
+      "info": "http://www.newlywish.com/about",
+      "submitter": "ienders",
+      "submissionDate": "2014-02-04",
+      "tags": [
+        "Production",
+        "Ecommerce",
+        "Bootstrap",
+        "Rails",
+        "jQuery"
+      ]
     }
   ]
 }
