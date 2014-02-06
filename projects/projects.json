@@ -2427,6 +2427,22 @@
         "No jQuery",
         "Open Source"
       ]
+    },
+    {
+      "name": "directiveMaker",
+      "thumb": "directiveMaker/thumb.png",
+      "desc": "angularJs directive templates maker. Aimed for learning and jump starting directive development with templates",
+      "url": "http://directiveMaker.info",
+      "info": "http://directiveMaker.info",
+      "submitter": "zivpug",
+      "submissionDate": "2014-02-06",
+      "tags": [
+        "Demo",
+        "Education",
+        "Productivity",
+        "Developers",
+        "No jQuery"
+      ]
     }
 
   ]
