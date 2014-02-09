@@ -1709,6 +1709,25 @@
         "Rails",
         "jQuery"
       ]
+    },
+    {
+      "name": "Smoothie",
+      "thumb": "smoothie/thumb.png",
+      "desc": "Play music as your mood goes",
+      "url": "http://sonnylab.com/smoothie/public",
+      "src": "http://sonnylab.com/smoothie/public",
+      "submitter": "sonnylazuardi",
+      "submissionDate": "2014-02-09",
+      "tags": [
+        "Player",
+        "Sound",
+        "Mood",
+        "Music",
+        "Stereomood",
+        "HTML5",
+        "CSS3",
+        "Bootstrap"
+      ]
     }
   ]
 }
