@@ -1728,6 +1728,21 @@
         "CSS3",
         "Bootstrap"
       ]
+    },
+    {
+      "name": "WorkHourGlass",
+      "thumb": "workhourglass/thumb.png",
+      "desc": "A productivity tool to see how many work hours are left for you to be productive today, this week, month and year.",
+      "url": "http://www.workhourglass.com/",
+      "submitter": "Toodledo",
+      "submissionDate": "2014-02-12",
+      "tags": [
+        "Production",
+        "Productivity",
+        "Bootstrap", "Local Storage",
+        "jQuery",
+        "Time Management","Planning"
+      ]
     }
   ]
 }
