@@ -2409,6 +2409,24 @@
         "jQuery",
         "Paper Airplanes","Origami"
       ]
+    },
+    {
+      "name": "Flat TODO App",
+      "thumb": "flat-todo-app/thumb.png",
+      "desc": "A simple TODO List application with a beautiful flat design.",
+      "url": "http://rubensdev.com/todo-app",
+      "submitter": "RubensDEV",
+      "submissionDate": "2014-02-15",
+      "src": "https://github.com/rubensdev/todo-app",
+      "tags": [
+        "Production",
+        "Productivity",
+        "Local Storage",
+        "Flat Design",
+        "Animations",
+        "No jQuery",
+        "Open Source"
+      ]
     }
 
   ]
