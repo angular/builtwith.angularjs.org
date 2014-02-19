@@ -1820,6 +1820,21 @@
         "Geolocation API",
         "Tests Included"
       ]
+    },
+    {
+      "name": "Wamba Dating Service",
+      "thumb": "m.wamba.com/thumb.png",
+      "desc": "Mobile-oriented version of big dating service.",
+      "url": "http://m.wamba.com/",
+      "submitter": "bullgare",
+      "submissionDate": "2014-02-19",
+      "tags": [
+        "Production",
+        "CRUD", "Entertainment",
+        "Animations", "Local Storage", "AppCache", "Mobile",
+        "No jQuery",
+        "Dating"
+      ]
     }
   ]
 }
