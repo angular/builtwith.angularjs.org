@@ -2394,6 +2394,21 @@
         "School Management",
         "Planning"
       ]
+    },
+    {
+      "name": "FoldNFly",
+      "thumb": "foldnfly/thumb.png",
+      "desc": "A database of paper airplanes with easy to follow folding instructions.",
+      "url": "http://www.foldnfly.com/",
+      "submitter": "Toodledo",
+      "submissionDate": "2014-02-20",
+      "tags": [
+        "Production",
+        "Instructional", "Fun",
+        "Bootstrap", "Local Storage",
+        "jQuery",
+        "Paper Airplanes","Origami"
+      ]
     }
 
   ]
