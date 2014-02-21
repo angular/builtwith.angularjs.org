@@ -1755,6 +1755,48 @@
         "jQuery",
         "Time Management","Planning"
       ]
+    },
+    {
+      "name": "Confr",
+      "thumb": "confr/thumb.png",
+      "desc": "The world's most simple and easy to use conference tool. Sign up and invite to your first conference within seconds.",
+      "url": "https://confr.com/",
+      "info": "http://blog.confr.com/",
+      "submitter": "grEvenX",
+      "submissionDate": "2014-02-21",
+      "tags": [
+        "Mobile",
+        "Responsive",
+        "Meetings",
+        "Phone",
+        "Conferencing",
+        "Productivity",
+        "Production",
+        "Startups",
+        "Local Storage",
+        "RESTful"
+      ]
+    },
+    {
+      "name": "Mealshaker",
+      "thumb": "mealshaker/thumb.png",
+      "desc": "The app you can shake to find a place to eat. Shake your device and get the place where you should go.",
+      "url": "http://mealshaker.com/",
+      "info": "http://facebook.com/mealshaker",
+      "submitter": "grEvenX",
+      "submissionDate": "2014-02-21",
+      "tags": [
+        "Production",
+        "Food",
+        "Animations",
+        "No jQuery",
+        "Mobile",
+        "Cordova",
+        "Responsive",
+        "iOS",
+        "Geolocation API",
+        "Tests Included"
+      ]
     }
   ]
 }
