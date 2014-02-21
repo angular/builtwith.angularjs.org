@@ -2378,6 +2378,22 @@
         "Leaftlet",
         "CSS3"
       ]
+    },
+    {
+      "name": "Educando",
+      "thumb": "educando/thumb.png",
+      "desc": "Educando is an online school management platform that allows you to simplify everyday tasks and easily share information between students, teachers and parents.",
+      "url": "http://tryme.educando.pt/Home/DemoLogin?idUser=1&idLanguage=2",
+      "submitter": "xjpmauricio",
+      "submissionDate": "2014-02-21",
+      "tags": [
+        "Production",
+        "Productivity",
+        "Bootstrap",
+        "jQuery",
+        "School Management",
+        "Planning"
+      ]
     }
 
   ]
