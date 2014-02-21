@@ -2361,6 +2361,23 @@
         "Website Downtime Monitoring",
         "Downtime Notification Android App"
       ]
+    },
+    {
+      "name": "Room 77",
+      "thumb": "room77/thumb.png",
+      "desc": "Hotel deal finder for 200k+ hotels built with a responsive design for mobile, tablet and desktop.",
+      "url": "https://www.room77.com",
+      "submitter": "jelinson",
+      "submissionDate": "2014-02-25",
+      "tags": [
+        "Travel",
+        "Search",
+        "Startups",
+        "Mobile",
+        "Map",
+        "Leaftlet",
+        "CSS3"
+      ]
     }
 
   ]
