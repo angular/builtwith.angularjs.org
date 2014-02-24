@@ -2346,6 +2346,21 @@
         "Regular Expressions",
         "Regex"
       ]
+    },
+    {
+      "name": "Dynofy",
+      "thumb": "dynofy/thumb.png",
+      "desc": "Website and Server Monitoring App. Also present on Play Store. Login with email demo@dynofy.com and password dynofy",
+      "url": "http://dynofy.com/",
+      "info": "http://facebook.com/dynofy",
+      "submitter": "shubhamoy",
+      "submissionDate": "2014-02-24",
+      "tags": [
+        "Monitor Server",
+        "Monitor Website",
+        "Website Downtime Monitoring",
+        "Downtime Notification Android App"
+      ]
     }
 
   ]
