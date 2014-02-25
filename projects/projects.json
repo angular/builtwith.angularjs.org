@@ -1,6 +1,29 @@
 {
   "featured": "YouTube on PS3",
   "projects": [
+  {
+    "name": "hya.io",
+    "thumb": "hya.io/thumb.png",
+    "desc": "Plugin-based, HTML5 Digital Workstation for the web, with MIDI and public patches.",
+    "url": "http://hya.io",
+    "info": "http://blog.hya.io",
+    "submitter": "janesconference",
+    "submissionDate": "2014-02-25",
+    "tags": [
+      "Production",
+      "DAW",
+      "Audio",
+      "Music",
+      "Local Storage",
+      "Audio Api",
+      "Web Audio API",
+      "jspm",
+      "Web MIDI Api",
+      "jQuery",
+      "Bootstrap",
+      "jsPlumb"
+     ]
+    },
     {
       "name": "Redbeacon Experts",
       "thumb": "redbeacon-experts/thumb.png",
