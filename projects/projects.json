@@ -1850,6 +1850,26 @@
         "HTML5", "CSS3", "Bitcoin",
         "No jQuery"
       ]
+    },
+    {
+      "name": "AffableBean",
+      "thumb": "affablebean/thumb.png",
+      "desc": "E-commerce sample application based on 'The NetBeans E-commerce Tutorial'",
+      "src": "https://github.com/osmanpub/affablebean.git",
+      "url": "https://sylvan-cycle-510.appspot.com/index2.html",
+      "submitter": "osmanpub",
+      "submissionDate": "2014-03-08",
+      "tags": [
+        "CRUD",
+        "E-commerce",
+        "Open Source",
+        "Bootstrap",
+        "Java",
+        "MySQL",
+        "jQuery",
+        "HTML5",
+        "CSS3"
+      ]
     }
   ]
 }
