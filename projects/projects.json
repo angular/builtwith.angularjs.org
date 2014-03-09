@@ -1870,6 +1870,25 @@
         "HTML5",
         "CSS3"
       ]
+    },
+    {
+      "name": "OverTask",
+      "thumb": "overtask/thumb.png",
+      "desc": "OverTask is a Chrome New Tab Page extension that automatically organizes your online information based on the task you are working on.",
+      "url": "https://chrome.google.com/webstore/detail/overtask/oeiijfgmbaopeehamdhiiepidbpfkcda",
+      "info": "http://chrome.overtask.me",
+      "submitter": "TheAncientGoat",
+      "submissionDate": "2014-03-09",
+      "tags": [
+	"Production",
+        "Productivity",
+	"Local Storage","IndexDB",
+	"No jQuery",
+        "Chrome",
+        "Extension",
+        "To-Do"
+      ]
     }
+
   ]
 }
