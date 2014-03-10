@@ -2,6 +2,23 @@
   "featured": "YouTube on PS3",
   "projects": [
   {
+    "name": "DBFreebies",
+    "thumb": "dbfreebies/thumb.png",
+    "desc": "A place to download the best freebies design resources from Dribbble and Behance.",
+    "url": "http://dbfreebies.co",
+    "submitter": "winstef",
+    "submissionDate": "2014-03-10",
+    "tags": [
+      "Production",
+      "Listing",
+      "Bootstrap",
+      "Local Storage",
+      "jQuery",
+      "JSON",
+      "API"
+    ]
+  },
+  {
     "name": "hya.io",
     "thumb": "hya.io/thumb.png",
     "desc": "Plugin-based, HTML5 Digital Workstation for the web, with MIDI and public patches.",
