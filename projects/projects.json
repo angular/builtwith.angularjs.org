@@ -1905,6 +1905,22 @@
         "Extension",
         "To-Do"
       ]
+    },
+    {
+      "name": "Configure your own MINI.",
+      "thumb": "mini-configurator/thumb.png",
+      "desc": "Design and customise a MINI to make it your own. Choose from the entire MINI range.",
+      "url": "http://www.mini.co.uk/design-your-mini",
+      "submitter": "luakri",
+      "submissionDate": "2014-03-11",
+      "tags": [
+        "Production",
+        "HTML5",
+        "CSS3",
+        "Animations",
+        "AngularJS",
+        "SASS"
+      ]
     }
 
   ]
