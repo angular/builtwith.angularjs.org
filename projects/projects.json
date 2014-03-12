@@ -2327,6 +2327,25 @@
         "jQuery",
         "Open Source"
       ]
+    },
+    {
+      "name": "RegexWorks",
+      "thumb": "regexworks/thumb.png",
+      "desc": "A regular expression testing sandbox. Get live feedback running any number of matching or replacing regexes on custom lines of input.",
+      "url": "http://regexworks.itsagoldenage.com/#demo2",
+      "info": "http://webronomicon.blogspot.com/2014/03/regexworks.html",
+      "src": "https://github.com/pbaumstarck/RegexWorks#regexworks",
+      "submitter": "pbaumstarck",
+      "submissionDate": "2014-03-12",
+      "tags": [
+        "Production",
+        "Productivity",
+        "Debugging", "Visualization",
+        "No jQuery",
+        "Open Source",
+        "Regular Expressions",
+        "Regex"
+      ]
     }
 
   ]
