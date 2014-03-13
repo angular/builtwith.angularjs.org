@@ -2309,6 +2309,24 @@
         "jQuery",
         "Open Source"
       ]
+    },
+    {
+      "name": "Dematerializer",
+      "thumb": "dematerializer/thumb.png",
+      "desc": "Dematerializer provides a blogging platform for developers.",
+      "url": "http://dematerializer.zolmeister.com/",
+      "info": "http://www.zolmeister.com/2014/02/dematerializer-blogging-for-developers.html",
+      "src": "https://github.com/Zolmeister/dematerializer",
+      "submitter": "Zolmeister",
+      "submissionDate": "2014-03-13",
+      "tags": [
+        "Demo",
+        "Productivity",
+        "Animations",
+        "Local Storage",
+        "jQuery",
+        "Open Source"
+      ]
     }
 
   ]
