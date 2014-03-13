@@ -2290,6 +2290,25 @@
         "Local Storage",
         "jQuery"
       ]
+    },
+    {
+      "name": "Zoggle",
+      "thumb": "zoggle/thumb.png",
+      "desc": "Zoggle, the ultimate word game!",
+      "url": "http://zoggle.zolmeister.com/",
+      "info": "http://www.zolmeister.com/2014/01/zoggle-rewritten-using-angularjs.html",
+      "src": "https://github.com/Zolmeister/Zoggle",
+      "submitter": "Zolmeister",
+      "submissionDate": "2014-03-13",
+      "tags": [
+        "Production",
+        "Game",
+        "Entertainment",
+        "Animations",
+        "AppCache",
+        "jQuery",
+        "Open Source"
+      ]
     }
 
   ]
