@@ -2257,6 +2257,23 @@
         "Animations",
         "jQuery"
       ]
+    },
+    {
+      "name": "Deadbolt Password Generator",
+      "thumb": "deadbolt-password-generator/thumb.png",
+      "desc": "A chrome extension that generates strong passwords based on memorable phrases. No secure information is ever transmitted or stored.",
+      "url": "https://chrome.google.com/webstore/detail/deadbolt-password-generat/gmipahielflpaijgdkfailgmiloecolh",
+      "info": "https://github.com/bittenbytailfly/deadbolt-password-generator-chrome-extension/blob/master/README.md",
+      "src": "https://github.com/bittenbytailfly/deadbolt-password-generator-chrome-extension",
+      "submitter": "bittenbytailfly",
+      "submissionDate": "2014-03-13",
+      "tags": [
+        "Productivity",
+        "Security",
+        "Bootstrap",
+        "No jQuery",
+        "Open Source"
+      ]
     }
 
   ]
