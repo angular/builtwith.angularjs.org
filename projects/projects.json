@@ -2274,6 +2274,22 @@
         "No jQuery",
         "Open Source"
       ]
+    },
+    {
+      "name": "Reme.IO",
+      "thumb": "remeio/thumb.png",
+      "desc": "Create email reminders in seconds",
+      "url": "http://reme.io",
+      "submitter": "tamaspap",
+      "submissionDate": "2014-03-13",
+      "tags": [
+        "Production",
+        "Productivity",
+        "HTML5",
+        "CSS3",
+        "Local Storage",
+        "jQuery"
+      ]
     }
 
   ]
