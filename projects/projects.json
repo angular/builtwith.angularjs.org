@@ -2240,6 +2240,23 @@
         "Productivity",
         "jQuery"
       ]
+    },
+    {
+      "name": "CardForest",
+      "thumb": "cardforest/thumb.png",
+      "desc": "Explore, play and define card games",
+      "url": "http://www.cardforest.com",
+      "info": "http://www.cardforest.com",
+      "src": "https://github.com/CardForest",
+      "submitter": "amitport",
+      "submissionDate": "2014-04-14",
+      "tags": [
+        "Demo",
+        "Game",
+        "Education",
+        "Animations",
+        "jQuery"
+      ]
     }
 
   ]
