@@ -1969,6 +1969,27 @@
       "tags": [
         "News", "TV", "Video"
       ]
+    },
+    {
+      "name": "Oppia",
+      "thumb": "oppia/thumb.png",
+      "desc": "Create interactive educational activities that allow others to learn by doing.",
+      "url": "https://www.oppia.org",
+      "info": "http://google-opensource.blogspot.com/2014/02/oppia-tool-for-interactive-learning.html",
+      "src": "https://code.google.com/p/oppia",
+      "submitter": "s-lip",
+      "submissionDate": "2014-03-16",
+      "tags": [
+        "Production",
+        "Education",
+        "HTML5",
+        "CSS3",
+        "AngularJS",
+        "jQuery",
+        "Open Source",
+        "Tests Included",
+        "Python", "Google App Engine"
+      ]
     }
 
   ]
