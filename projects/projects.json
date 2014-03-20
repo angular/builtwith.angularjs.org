@@ -1904,6 +1904,25 @@
         "AngularJS",
         "SASS"
       ]
+    },
+    {
+      "name": "Crunchinator",
+      "thumb": "crunchinator/thumb.png",
+      "desc": "Interactively slice, filter and research Crunchbase data.",
+      "url": "http://crunchinator.com",
+      "info": "http://cloudspace.com/blog/2014/03/19/announcing-the-crunchinator/",
+      "src": "https://github.com/cloudspace/angular.crunchinator.com",
+      "submitter": "cloudspace",
+      "submissionDate": "2014-03-20",
+      "tags": [
+        "Production",
+        "Productivity",
+        "Open Source",
+        "D3.js",
+        "Crossfilter",
+        "Startups",
+        "Investors"
+      ]
     }
 
   ]
