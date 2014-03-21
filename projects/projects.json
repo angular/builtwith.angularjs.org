@@ -1923,6 +1923,25 @@
         "Startups",
         "Investors"
       ]
+    },
+    {
+      "name": "TripInView",
+      "thumb": "tripinview/thumb.png",
+      "desc": "Tripinview is a next generation platform for visually discovering authentic destinations and unique traveling ideas.",
+      "url": "http://tripinview.com",
+      "info": "http://tripinview.com/#/about_us",
+      "submitter": "belonious",
+      "submissionDate": "2014-03-21",
+      "tags": [
+        "AngularJS",
+        "Production",
+        "Bootstrap",
+        "jQuery",
+        "CSS3",
+        "Tourism",
+        "Travel",
+        "Booking"
+      ]
     }
 
   ]
