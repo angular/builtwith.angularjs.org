@@ -2224,6 +2224,22 @@
         "jQuery",
         "Open Source"
       ]
+    },
+    {
+      "name": "widelinky.com",
+      "thumb": "widelinky.com/thumb.png",
+      "desc": "New Generation of Personal Startpage and Online Link Management. You can visit any site by one click. WYSIWYG edit and theme",
+      "url": "http://widelinky.com/whatif",
+      "info": "http://widelinky.com",
+      "submitter": "whatifif",
+      "submissionDate": "2014-03-23",
+      "tags": [
+        "Production",
+        "CRUD",
+        "Entertainment",
+        "Productivity",
+        "jQuery"
+      ]
     }
 
   ]
