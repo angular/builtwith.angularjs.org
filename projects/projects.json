@@ -19,6 +19,21 @@
     ]
   },
   {
+    "name": "buzzlike",
+    "thumb": "buzzlike/thumb.png", 
+    "desc": "Digital content interaction tool",
+    "url": "http://buzzlike.pro",
+    "info": "http://buzzlike.pro/#/about/project",
+    "submitter": "buzzlike",
+    "submissionDate": "2014-03-25",
+    "tags": [
+      "Production",
+      "Social media", "Delayed posting", "Content management", "Community management", "Content interaction",
+      "CSS3D", "Local Storage", "CSS Filters", "File Api", "Coffeescript", "Jade", "Stylus"
+      "jQuery"
+    ]
+  },
+  {
     "name": "hya.io",
     "thumb": "hya.io/thumb.png",
     "desc": "Plugin-based, HTML5 Digital Workstation for the web, with MIDI and public patches.",
