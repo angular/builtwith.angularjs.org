@@ -2190,6 +2190,23 @@
         "jQuery",
         "Bootstrap"
       ]
+    },
+    {
+      "name": "Angular Music Player",
+      "thumb": "angular-audio-player/thumb.png",
+      "desc": "Websocket synchronized audio player hooked up to SoundCloud, and any optional personal music servers",
+      "url": "http://angular-audio-player.herokuapp.com/",
+      "src": "https://github.com/stuartnelson3/d3-audio-vis",
+      "submitter": "stuartnelson3",
+      "submissionDate": "2014-3-31",
+      "tags": [
+        "Experiment",
+        "Entertainment",
+        "Web Audio API",
+        "D3js",
+        "Websockets",
+        "No jQuery"
+      ]
     }
 
   ]
