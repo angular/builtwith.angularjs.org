@@ -1957,6 +1957,18 @@
         "Travel",
         "Booking"
       ]
+    },
+    {
+      "name": "MSNBC.com",
+      "thumb": "msnbc/thumb.png",
+      "desc": "The shows you love, issues that matter: Rachel Maddow, Lawrence O&#039;Donnell, Chris Hayes, Chris Matthews, Al Sharpton, Ed Schultz, Joe Scarborough.",
+      "url": "http://www.msnbc.com",
+      "info": "http://www.msnbc.com",
+      "submitter": "bradoyler",
+      "submissionDate": "2014-03-31",
+      "tags": [
+        "News", "TV", "Video"
+      ]
     }
 
   ]
