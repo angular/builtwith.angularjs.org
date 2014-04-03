@@ -2174,6 +2174,22 @@
         "Moodle",
         "jQuery"
       ]
+    },
+    {
+      "name": "SSC Geomarker Tool",
+      "thumb": "ssc/thumb.png",
+      "desc": "Interactive helper tool for generating list of geo coordinate and naming the place for easy copy to your data input.",
+      "url": "http://examples.spreadsheetconverter.com/maptool/",
+      "submitter": "nuguja",
+      "submissionDate": "2014-04-03",
+      "tags": [
+        "Production",
+        "Productivity",
+        "Google Maps",
+        "Geolocation API",
+        "jQuery",
+        "Bootstrap"
+      ]
     }
 
   ]
