@@ -2159,6 +2159,21 @@
         "Messaging",
         "Demo"
       ]
+    },
+    {
+      "name": "EddyTools - Assessment System",
+      "thumb": "eddytools-assessment-system/thumb.png",
+      "desc": "Offline Assessment system for mobile and web application",
+      "url": "http://www.eddytools.com/assessment-system-demo/",
+      "info": "http://www.eddytools.com/assessment-system-demo/",
+      "submitter": "aknamdeo",
+      "submissionDate": "2014-04-03",
+      "tags": [
+        "eLearning",
+        "Mobile",
+        "Moodle",
+        "jQuery"
+      ]
     }
 
   ]
