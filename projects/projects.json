@@ -2141,6 +2141,24 @@
         "Bootstrap",
         "jQuery"
       ]
+    },
+    {
+      "name": "Symple Video Chat",
+      "thumb": "sourcey/thumb.png",
+      "desc": "Symple video chat is an open source live video chat and real-time messaging demonstration using AngularJS, WebRTC and Symple.",
+      "url": "http://symple.sourcey.com",
+      "info": "http://sourcey.com/symple-webrtc-video-chat-demo/",
+      "submitter": "auscaster",
+      "submissionDate": "2014-04-05",
+      "tags": [
+        "Symple",
+        "WebRTC",
+        "Video",
+        "Chat",
+        "Real-Time",
+        "Messaging",
+        "Demo"
+      ]
     }
 
   ]
