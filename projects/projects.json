@@ -2125,6 +2125,22 @@
         "E-Commerce",
         "Moible"
       ]
+    },
+    {
+      "name": "Octopus Deploy",
+      "thumb": "octopusdeploy/thumb.png",
+      "desc": "Octopus Deploy is a friendly deployment automation system for .NET developers.",
+      "url": "https://demo.octopusdeploy.com",
+      "info": "http://octopusdeploy.com",
+      "submitter": "paulstovell",
+      "submissionDate": "2014-04-08",
+      "tags": [
+        "Production",
+        "Automation",
+        "SlickGrid",
+        "Bootstrap",
+        "jQuery"
+      ]
     }
 
   ]
