@@ -2104,6 +2104,27 @@
         "CSS3",
         "No jQuery"
       ]
+    },
+    {
+      "name": "Boticca",
+      "thumb": "boticca/thumb.png",
+      "desc": "Explore a personalised kaleidoscope of unique designs from around the world.",
+      "url": "http://boticca.com/explore/",
+      "info": "http://boticca.com",
+      "submitter": "sangallimarco",
+      "submissionDate": "2014-04-09",
+      "tags": [
+        "Production",
+        "Fashion",
+        "Local Storage",
+        "MySql",
+        "Bootstrap",
+        "HTML5",
+        "JSON",
+        "No jQuery",
+        "E-Commerce",
+        "Moible"
+      ]
     }
 
   ]
