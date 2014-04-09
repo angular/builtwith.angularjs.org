@@ -2088,6 +2088,22 @@
         "HTML5",
         "World Information"
       ]
+    },
+    {
+      "name": "Lamborghini Huracán",
+      "thumb": "huracan/thumb.jpg",
+      "desc": "The new Lamborghini Huracán's minisite allows you to live the car online through an original web series, a sound experience and a rich media gallery.",
+      "url": "http://huracan.lamborghini.com",
+      "info": "http://wot.motortrend.com/1311_next_lamborghini_teased_with_microsite_engine_sound.html",
+      "submitter": "jurito",
+      "submissionDate": "2014-04-09",
+      "tags": [
+        "Production",
+        "Automotive",
+        "HTML5",
+        "CSS3",
+        "No jQuery"
+      ]
     }
 
   ]
