@@ -2070,6 +2070,24 @@
         "jQuery",
         "Open Source"
       ]
+    },
+    {
+      "name": "Cities in motion 2014",
+      "thumb": "cities-in-motion/cim.jpg",
+      "desc": "World Map with a comparative about quality life in 135 different cities. It also shows two type of fancy graphs. This project belongs to IESE.",
+      "url": "http://citiesinmotion.iese.edu/",
+      "info": "http://antonio.sejas.es",
+      "submitter": "antoniosejas",
+      "submissionDate": "2014-04-14",
+      "tags": [
+        "Production",
+        "Animations",
+        "CSS3",
+        "Graphics",
+        "jQuery",
+        "HTML5",
+        "World Information"
+      ]
     }
 
   ]
