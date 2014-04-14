@@ -2049,6 +2049,27 @@
           "Responsive",
           "iOS"
       ]
+    },
+    {
+      "name": "Matigeni",
+      "thumb": "matigeni/thumb.png",
+      "desc": "A simple game to guess the name of a specific location on earth. This was developed for NASA SpaceApps Challenge 2014",
+      "url": "http://matigeni.azurewebsites.net",
+      "info": "http://matigeni.azurewebsites.net/app/#/about",
+      "src": "https://github.com/antonrifco/matigeni",
+      "submitter": "antonrifco",
+      "submissionDate": "2014-04-14",
+      "tags": [
+        "NASA",
+        "SpaceApps",
+        "Game",
+        "Entertainment",
+        "AngularJS",
+        "Bootstrap",
+        "Firebase",
+        "jQuery",
+        "Open Source"
+      ]
     }
 
   ]
