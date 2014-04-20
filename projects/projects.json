@@ -2,6 +2,26 @@
   "featured": "YouTube on PS3",
   "projects": [
   {
+    "name": "APWGL",
+    "thumb": "apwgl/thumb.png",
+    "desc": "Fan made ARTPOP WebGL App. Renders WebGL to Gif.",
+    "url": "http://wonglok.github.io/ARTPOP/index.html#/3DMix",
+    "submitter": "wonglok",
+    "submissionDate": "2014-04-20",
+    "tags": [
+      "ARTPOP",
+      "WebGL",
+      "CustomShader",
+      "MFAnimatedGif",
+      "perfmatters",
+      "$templateCache",
+      "Inline Web Worker",
+      "Dat.GUI",
+      "NProgress",
+      "DI"
+    ]
+  },
+  {
     "name": "DBFreebies",
     "thumb": "dbfreebies/thumb.png",
     "desc": "A place to download the best freebies design resources from Dribbble and Behance.",
