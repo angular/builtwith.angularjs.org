@@ -3580,6 +3580,28 @@
         "No jQuery",
         "Bootstrap"
       ]
+    },
+    {
+      "name": "The Weather Channel",
+      "thumb": "weather.com/thumb.png",
+      "desc": "The Weather Channel and weather.com provide a national and local weather forecast for cities, as well as weather radar, report and hurricane coverage.",
+      "url": "http://www.weather.com/",
+      "submitter": "ksankaran",
+      "submissionDate": "2014-11-20",
+      "tags": [
+        "weather",
+        "weather forecast",
+        "weather radar",
+        "weather report",
+        "hurricane",
+        "weather.com",
+        "The Weather Channel",
+        "Current Conditions",
+        "national weather",
+        "national weather forecast",
+        "local weather",
+        "local weather forecast"
+      ]
     }
 
   ]
