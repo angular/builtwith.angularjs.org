@@ -3602,6 +3602,29 @@
         "local weather",
         "local weather forecast"
       ]
+    },
+    {
+      "name": "BeaverCoin Wheel",
+      "thumb": "beavercoin-wheel/thumb.png",
+      "desc": "In the BeaverCoin Wheel each user has the opportunity to win a few BeaverCoins. The spinning is completely free, and can be done once per visitor per hour.",
+      "url": "http://wheel.beavercoin.org",
+      "info": "https://bitcointalk.org/index.php?topic=761269.0",
+      "submitter": "nodecode",
+      "submissionDate": "2015-01-07",
+      "tags": [
+        "Production",
+        "Game",
+        "Animations",
+        "jQuery",
+        "Audio",
+        "Bitcoin",
+        "Bootstrap",
+        "CSS3",
+        "Node",
+        "Security",
+        "Socket.io",
+        "Jade"
+      ]
     }
 
   ]
