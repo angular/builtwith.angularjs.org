@@ -3625,6 +3625,28 @@
         "Socket.io",
         "Jade"
       ]
+    },
+    {
+      "name": "Cricket World Cup 2015 Schedule",
+      "thumb": "worldcup2015/thumb.png",
+      "desc": "An interactive cricket world cup 2015 schedule viewer that works well on desktop, tablets and smartphones.",
+      "url": "http://www.itinora.com/worldcup2015",
+      "info": "https://www.reddit.com/r/Cricket/comments/2srzj8/interactive_icc_world_cup_2015_cricket_world_cup/",
+      "src": "https://github.com/itinora/worldcup2015",
+      "submitter": "itinora",
+      "submissionDate": "2015-01-19",
+      "tags": [
+        "Production",
+        "Interactive",
+        "Sports",
+        "Cricket",
+        "UI Design",
+        "No jQuery",
+        "Open Source",
+        "CSS3",
+        "Static",
+        "Responsive"
+      ]
     }
 
   ]
