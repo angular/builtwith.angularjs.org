@@ -3647,6 +3647,27 @@
         "Static",
         "Responsive"
       ]
+    },
+    {
+      "name": "DealMarket",
+      "thumb": "dealmarket/thumb.png",
+      "desc": "DealMarket is a global online platform enabling investors, fundraisers and advisors to maximize opportunities around the world. Our offering includes: 1.) DealMarket Marketplace, an unfiltered view of the global deal market, 2.) DealMarket Intelligence, an affordable access to third party data, research and services – customised to your needs, for immediate download, 3.) Deal Flow Management Tool, unique in its kind, with a comprehensive set of features allowing for secure collaboration, fast communication, and streamlined data processes.",
+      "url": "https://www.dealmarket.com",
+      "info": "http://tyba.com/company/dealmarket/about/",
+      "submitter": "ptanov",
+      "submissionDate": "2015-03-16",
+      "tags": [
+        "Production",
+        "Large website",
+        "Large AngularJS app",
+        "jQuery",
+        "CRUD",
+        "Productivity",
+        "Bootstrap",
+        "Mobile",
+        "Responsive",
+        "RESTful"
+      ]
     }
 
   ]
