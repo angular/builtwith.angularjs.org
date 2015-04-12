@@ -162,3 +162,6 @@ img.cache {
   text-align: left;
 }
 
+.pagination a {
+  padding: 0 12px;
+}
