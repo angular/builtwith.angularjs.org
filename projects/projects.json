@@ -3668,6 +3668,26 @@
         "Responsive",
         "RESTful"
       ]
+    },
+    {
+      "name": "Jamstreams.net",
+      "thumb": "jamstreams/thumb.png",
+      "desc": "Jamstreams.net is a collection of live recordings from the best jambands.",
+      "url": "http://www.jamstreams.net/",
+      "info": "http://www.jamstreams.net/about",
+      "submitter": "BrettStatman",
+      "submissionDate": "2015-04-21",
+      "tags": [
+        "Music",
+        "Streaming",
+        "NodeJS",
+        "LESS",
+        "REST",
+        "API",
+        "MongoDB",
+        "Responsive",
+        "Cloud"
+      ]
     }
 
   ]
