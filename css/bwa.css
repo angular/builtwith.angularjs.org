@@ -37,7 +37,7 @@
 }
 
 .bwa-featured {
-  padding-top: 60px;
+
 }
 
 .bwa-featured img {
@@ -47,6 +47,7 @@
 
 .bwa-main-container {
   min-height: 1400px;
+  padding-top: 60px;
 }
 
 .bwa-featured .bwa-project-well {
@@ -133,4 +134,14 @@ img.AngularJS-large {
 }
 .modal-backdrop.fade.in {
   display: block;
+}
+
+
+.deprecation {
+  font-size: 30px;
+  line-height: 45px;
+  text-align: center;
+  border: solid 5px red;
+  background: 50px no-repeat url(../img/closed.png);
+  padding-left: 300px;
 }
